@@ -6,8 +6,8 @@ module.exports = {
       name: `sam heckle`,
       summary: `class of itp 2022. doing shit.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `http://blog.samheckle.com`,
+    description: `sam heckle's project blog.`,
+    siteUrl: `http://samheckle.com/projects`,
     social: {
       twitter: `samheckle`,
     },
