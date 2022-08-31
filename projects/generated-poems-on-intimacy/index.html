@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/blog/styles.fdaca80c1f1905857403.css" id="gatsby-global-css">article h1{-webkit-transform:none;transform:none}h1{-webkit-transform:rotate(-7deg);transform:rotate(-7deg);margin-bottom:1.5;margin-top:0;color:#000;font-family:Times New Roman,Times,serif}h1 a{box-shadow:2px 4px 3px grey;font-size:10;padding:3px 20px;border:1px solid #000}h1 a,header h3{color:#000;font-family:Times New Roman,Times,serif;text-decoration:none}header h3{margin-top:2em;-webkit-transform:rotate(2deg);transform:rotate(2deg);font-weight:400}article h3{margin-top:.2em;-webkit-transform:rotate(-2deg);transform:rotate(-2deg);color:#000;font-family:Times New Roman,Times,serif;font-weight:400;text-decoration:none}.blog{padding-left:.5em;padding-right:.5em}small{color:#a9a9a9}.gatsby-resp-image-link{border-style:none;box-shadow:none}figcaption{font-style:italic;text-align:center}a{box-shadow:2px 4px 3px grey;color:#000;font-family:Times New Roman,Times,serif;font-size:10;text-decoration:none;padding:3px 20px;border:1px solid #000;margin:1em .5em;display:inline-block}footer{text-align:right}code{width:100%;display:inline-block;overflow:scroll}</style><meta name="generator" content="Gatsby 2.32.13"/><link rel="alternate" type="application/rss+xml" href="/blog/rss.xml"/><link rel="icon" href="/blog/favicon-32x32.png?v=ccc867e94c0d297ba2da964ff14b189b" type="image/png"/><link rel="manifest" href="/blog/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/blog/icons/icon-48x48.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="72x72" href="/blog/icons/icon-72x72.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="96x96" href="/blog/icons/icon-96x96.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="144x144" href="/blog/icons/icon-144x144.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="192x192" href="/blog/icons/icon-192x192.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="256x256" href="/blog/icons/icon-256x256.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="384x384" href="/blog/icons/icon-384x384.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="512x512" href="/blog/icons/icon-512x512.png?v=ccc867e94c0d297ba2da964ff14b189b"/><title data-react-helmet="true">markov chains | fridge notes</title><meta data-react-helmet="true" name="description" content="thoughts on intimacy and technology"/><meta data-react-helmet="true" property="og:title" content="markov chains"/><meta data-react-helmet="true" property="og:description" content="thoughts on intimacy and technology"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="samheckle"/><meta data-react-helmet="true" name="twitter:title" content="markov chains"/><meta data-react-helmet="true" name="twitter:description" content="thoughts on intimacy and technology"/><link as="script" rel="preload" href="/blog/webpack-runtime-d229948c5c9eedd36cc6.js"/><link as="script" rel="preload" href="/blog/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/blog/app-22e8d967b4d0a2ad740f.js"/><link as="script" rel="preload" href="/blog/styles-e9d24b1846c7d6eb9685.js"/><link as="script" rel="preload" href="/blog/commons-b8c95257fc58db9d1d01.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-f63130200fa67a8a732c.js"/><link as="fetch" rel="preload" href="/blog/page-data/projects/generated-poems-on-intimacy/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/sq/d/3257411868.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/blog/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:60%;padding:1.5 0.75"><header><h3><a href="/blog/">fridge notes</a></h3></header><main><article><header><h1 style="margin-top:1px;margin-bottom:0">markov chains</h1><p style="display:block;margin-bottom:1px">April 11, 2022</p></header><section><h2>inspiration</h2>
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/styles.889d99d8cddde43785c1.css" id="gatsby-global-css">article h1{-webkit-transform:none;transform:none}h1{-webkit-transform:rotate(-7deg);transform:rotate(-7deg);margin-bottom:1.5;margin-top:0;color:#000;font-family:Times New Roman,Times,serif}h1 a{box-shadow:2px 4px 3px grey;font-size:10;padding:3px 20px;border:1px solid #000}h1 a,header h3{color:#000;font-family:Times New Roman,Times,serif;text-decoration:none}header h3{margin-top:2em;-webkit-transform:rotate(-1deg);transform:rotate(-1deg);font-weight:400}article h3{margin-top:.2em;-webkit-transform:rotate(-2deg);transform:rotate(-2deg);color:#000;font-family:Times New Roman,Times,serif;font-weight:400;text-decoration:none}.blog{padding-left:.5em;padding-right:.5em}small{color:#a9a9a9}.gatsby-resp-image-link{border-style:none;box-shadow:none}figcaption{font-style:italic;text-align:center}a{box-shadow:2px 4px 3px grey;color:#000;font-family:Times New Roman,Times,serif;font-size:10;text-decoration:none;padding:3px 20px;border:1px solid #000;margin:1em .5em;display:inline-block}footer{text-align:right}code{width:100%;display:inline-block;overflow:scroll}</style><meta name="generator" content="Gatsby 2.32.13"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=ccc867e94c0d297ba2da964ff14b189b" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=ccc867e94c0d297ba2da964ff14b189b"/><title data-react-helmet="true">markov chains | fridge notes</title><meta data-react-helmet="true" name="description" content="thoughts on intimacy and technology"/><meta data-react-helmet="true" property="og:title" content="markov chains"/><meta data-react-helmet="true" property="og:description" content="thoughts on intimacy and technology"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="samheckle"/><meta data-react-helmet="true" name="twitter:title" content="markov chains"/><meta data-react-helmet="true" name="twitter:description" content="thoughts on intimacy and technology"/><link as="script" rel="preload" href="/webpack-runtime-1a7b3956ffbbad105808.js"/><link as="script" rel="preload" href="/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/app-9cb0c4c9dc53ad2f7954.js"/><link as="script" rel="preload" href="/styles-e9d24b1846c7d6eb9685.js"/><link as="script" rel="preload" href="/commons-09dc2b72b57d87aa6b68.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-f63130200fa67a8a732c.js"/><link as="fetch" rel="preload" href="/page-data/projects/generated-poems-on-intimacy/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3257411868.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:60%;padding:1.5 0.75"><header><h3><a href="/">fridge notes</a></h3></header><main><article><header><h1 style="margin-top:1px;margin-bottom:0">markov chains</h1><p style="display:block;margin-bottom:1px">April 11, 2022</p></header><section><h2>inspiration</h2>
 <p>my original idea for this project was to work on making a phonetic breakdown of words generated from a sentence. given that we are working on that this upcoming week, i am preparing my corpus for what i want to break down in the next week. the corpus itself is something that is relevant to my thesis — drawing from readings about intimacy and technology. </p>
 <p>a few big questions i want to answer here: how can we be intimate with technology? or is technology only another medium to be intimate with other people? what drives intimacy?</p>
 <h2>process</h2>
@@ -18,7 +18,7 @@
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png"
+    href="/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -31,13 +31,13 @@
         class="gatsby-resp-image-image"
         alt="a first sample of getting text working"
         title="a first sample of getting text working"
-        src="/blog/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png"
-        srcset="/blog/static/ee08754801c01129ef3cd5fdcb31ed96/12f09/first.png 148w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/e4a3f/first.png 295w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png 590w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/efc66/first.png 885w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/c83ae/first.png 1180w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png 1920w"
+        src="/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png"
+        srcset="/static/ee08754801c01129ef3cd5fdcb31ed96/12f09/first.png 148w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/e4a3f/first.png 295w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png 590w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/efc66/first.png 885w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/c83ae/first.png 1180w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png 1920w"
         sizes="(max-width: 590px) 100vw, 590px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -53,7 +53,7 @@
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png"
+    href="/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -66,13 +66,13 @@
         class="gatsby-resp-image-image"
         alt="testing with character input rather than n-gram by words"
         title="testing with character input rather than n-gram by words"
-        src="/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png"
-        srcset="/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/12f09/second.png 148w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/e4a3f/second.png 295w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png 590w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/efc66/second.png 885w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/c83ae/second.png 1180w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png 1920w"
+        src="/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png"
+        srcset="/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/12f09/second.png 148w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/e4a3f/second.png 295w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png 590w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/efc66/second.png 885w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/c83ae/second.png 1180w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png 1920w"
         sizes="(max-width: 590px) 100vw, 590px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -88,7 +88,7 @@
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png"
+    href="/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -101,13 +101,13 @@
         class="gatsby-resp-image-image"
         alt="now testing the structure of the poem"
         title="now testing the structure of the poem"
-        src="/blog/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png"
-        srcset="/blog/static/2afb961e44d003e33ce8bac3370cf99b/12f09/third.png 148w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/e4a3f/third.png 295w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png 590w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/efc66/third.png 885w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/c83ae/third.png 1180w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png 1920w"
+        src="/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png"
+        srcset="/static/2afb961e44d003e33ce8bac3370cf99b/12f09/third.png 148w,
+/static/2afb961e44d003e33ce8bac3370cf99b/e4a3f/third.png 295w,
+/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png 590w,
+/static/2afb961e44d003e33ce8bac3370cf99b/efc66/third.png 885w,
+/static/2afb961e44d003e33ce8bac3370cf99b/c83ae/third.png 1180w,
+/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png 1920w"
         sizes="(max-width: 590px) 100vw, 590px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -124,7 +124,7 @@
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png"
+    href="/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -137,13 +137,13 @@
         class="gatsby-resp-image-image"
         alt="the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain."
         title="the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain."
-        src="/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png"
-        srcset="/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/12f09/tragic.png 148w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/e4a3f/tragic.png 295w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png 590w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/efc66/tragic.png 885w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/c83ae/tragic.png 1180w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png 1920w"
+        src="/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png"
+        srcset="/static/fe4585669f22f56fb4a0d8621bf29fa1/12f09/tragic.png 148w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/e4a3f/tragic.png 295w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png 590w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/efc66/tragic.png 885w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/c83ae/tragic.png 1180w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png 1920w"
         sizes="(max-width: 590px) 100vw, 590px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -159,7 +159,7 @@
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png"
+    href="/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -172,13 +172,13 @@
         class="gatsby-resp-image-image"
         alt="using characters still but changing the order to be higher (previously it was at 1 and changed to 7)"
         title="using characters still but changing the order to be higher (previously it was at 1 and changed to 7)"
-        src="/blog/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png"
-        srcset="/blog/static/c0c848a521fca120c5a3355617f740e0/12f09/fifth.png 148w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/e4a3f/fifth.png 295w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png 590w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/efc66/fifth.png 885w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/c83ae/fifth.png 1180w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png 1920w"
+        src="/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png"
+        srcset="/static/c0c848a521fca120c5a3355617f740e0/12f09/fifth.png 148w,
+/static/c0c848a521fca120c5a3355617f740e0/e4a3f/fifth.png 295w,
+/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png 590w,
+/static/c0c848a521fca120c5a3355617f740e0/efc66/fifth.png 885w,
+/static/c0c848a521fca120c5a3355617f740e0/c83ae/fifth.png 1180w,
+/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png 1920w"
         sizes="(max-width: 590px) 100vw, 590px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -194,7 +194,7 @@
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png"
+    href="/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png"
     style="display: block"
     target="_blank"
     rel="noopener"
@@ -207,13 +207,13 @@
         class="gatsby-resp-image-image"
         alt="using characters but a lower order (using 1)"
         title="using characters but a lower order (using 1)"
-        src="/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png"
-        srcset="/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/12f09/sixth.png 148w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/e4a3f/sixth.png 295w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png 590w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/efc66/sixth.png 885w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/c83ae/sixth.png 1180w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png 1920w"
+        src="/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png"
+        srcset="/static/08bf5cf4b3ac819f3185b8da00aa038d/12f09/sixth.png 148w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/e4a3f/sixth.png 295w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png 590w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/efc66/sixth.png 885w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/c83ae/sixth.png 1180w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png 1920w"
         sizes="(max-width: 590px) 100vw, 590px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
@@ -225,4 +225,4 @@
 <!-- ## final -->
 <hr>
 <h1>resources</h1>
-<p><a href="https://github.com/samheckle/rwet/blob/master/assignment-5/assignment-5.ipynb">code</a> <a href="https://github.com/aparrish/predictive-text-and-text-generation/blob/master/predictive-text-and-text-generation.ipynb">in-class tutorial</a></p></section><hr style="margin-bottom:1px"/><div style="display:flex;margin-bottom:2.5px"><p>a blog by <strong>sam heckle</strong> <!-- -->class of itp 2022. doing shit.<!-- --> <a href="https://twitter.com/samheckle">twitter.</a></p></div></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/linear-story/">← <!-- -->a linear story</a></li><li><a rel="next" href="/blog/projects/blackout-beatrice-potter/">beatrice potter poetry blackout<!-- --> →</a></li></ul></nav></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/projects/generated-poems-on-intimacy/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-22e8d967b4d0a2ad740f.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c6dd88492b94f90cf31b.js"],"component---src-pages-index-js":["/component---src-pages-index-js-883066ed84fdd5e0c1d0.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-f63130200fa67a8a732c.js"]};/*]]>*/</script><script src="/blog/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/blog/component---src-templates-blog-post-js-f63130200fa67a8a732c.js" async=""></script><script src="/blog/commons-b8c95257fc58db9d1d01.js" async=""></script><script src="/blog/styles-e9d24b1846c7d6eb9685.js" async=""></script><script src="/blog/app-22e8d967b4d0a2ad740f.js" async=""></script><script src="/blog/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/blog/webpack-runtime-d229948c5c9eedd36cc6.js" async=""></script></body></html>
+<p><a href="https://github.com/samheckle/rwet/blob/master/assignment-5/assignment-5.ipynb">code</a> <a href="https://github.com/aparrish/predictive-text-and-text-generation/blob/master/predictive-text-and-text-generation.ipynb">in-class tutorial</a></p></section><hr style="margin-bottom:1px"/><div style="display:flex;margin-bottom:2.5px"><p>a blog by <strong>sam heckle</strong> <!-- -->class of itp 2022. doing shit.<!-- --> <a href="https://twitter.com/samheckle">twitter.</a></p></div></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/linear-story/">← <!-- -->a linear story</a></li><li><a rel="next" href="/projects/blackout-beatrice-potter/">beatrice potter poetry blackout<!-- --> →</a></li></ul></nav></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/projects/generated-poems-on-intimacy/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-9cb0c4c9dc53ad2f7954.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c6dd88492b94f90cf31b.js"],"component---src-pages-index-js":["/component---src-pages-index-js-883066ed84fdd5e0c1d0.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-f63130200fa67a8a732c.js"]};/*]]>*/</script><script src="/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-f63130200fa67a8a732c.js" async=""></script><script src="/commons-09dc2b72b57d87aa6b68.js" async=""></script><script src="/styles-e9d24b1846c7d6eb9685.js" async=""></script><script src="/app-9cb0c4c9dc53ad2f7954.js" async=""></script><script src="/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/webpack-runtime-1a7b3956ffbbad105808.js" async=""></script></body></html>

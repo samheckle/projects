@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[sam heckle's project blog.]]></description><link>http://samheckle.com/projects</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 22 Aug 2022 18:11:48 GMT</lastBuildDate><item><title><![CDATA[dont look for the love of god]]></title><description><![CDATA[this page is a work in progress! but you can check out the itp thesis archive here: https://itp.nyu.edu/thesis2022/?sam-heckle you can also…]]></description><link>http://samheckle.com/projects/projects/itp-thesis-2022/</link><guid isPermaLink="false">http://samheckle.com/projects/projects/itp-thesis-2022/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;this page is a work in progress!&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[sam heckle's project blog.]]></description><link>http://samheckle.com/projects</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 Aug 2022 20:07:59 GMT</lastBuildDate><item><title><![CDATA[dont look for the love of god]]></title><description><![CDATA[this page is a work in progress! but you can check out the itp thesis archive here: https://itp.nyu.edu/thesis2022/?sam-heckle you can also…]]></description><link>http://samheckle.com/projects/projects/itp-thesis-2022/</link><guid isPermaLink="false">http://samheckle.com/projects/projects/itp-thesis-2022/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;this page is a work in progress!&lt;/h1&gt;
 &lt;p&gt;but you can check out the itp thesis archive here:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://itp.nyu.edu/thesis2022/?sam-heckle&quot;&gt;https://itp.nyu.edu/thesis2022/?sam-heckle&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;you can also check out the final thesis presentation below!&lt;/p&gt;
@@ -42,7 +42,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c09b725b899320dfc5be270246c3d4bc/29114/example.png&quot;
+    href=&quot;/static/c09b725b899320dfc5be270246c3d4bc/29114/example.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -55,13 +55,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;example&quot;
         title=&quot;example&quot;
-        src=&quot;/blog/static/c09b725b899320dfc5be270246c3d4bc/fcda8/example.png&quot;
-        srcset=&quot;/blog/static/c09b725b899320dfc5be270246c3d4bc/12f09/example.png 148w,
-/blog/static/c09b725b899320dfc5be270246c3d4bc/e4a3f/example.png 295w,
-/blog/static/c09b725b899320dfc5be270246c3d4bc/fcda8/example.png 590w,
-/blog/static/c09b725b899320dfc5be270246c3d4bc/efc66/example.png 885w,
-/blog/static/c09b725b899320dfc5be270246c3d4bc/c83ae/example.png 1180w,
-/blog/static/c09b725b899320dfc5be270246c3d4bc/29114/example.png 1920w&quot;
+        src=&quot;/static/c09b725b899320dfc5be270246c3d4bc/fcda8/example.png&quot;
+        srcset=&quot;/static/c09b725b899320dfc5be270246c3d4bc/12f09/example.png 148w,
+/static/c09b725b899320dfc5be270246c3d4bc/e4a3f/example.png 295w,
+/static/c09b725b899320dfc5be270246c3d4bc/fcda8/example.png 590w,
+/static/c09b725b899320dfc5be270246c3d4bc/efc66/example.png 885w,
+/static/c09b725b899320dfc5be270246c3d4bc/c83ae/example.png 1180w,
+/static/c09b725b899320dfc5be270246c3d4bc/29114/example.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -96,7 +96,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png&quot;
+    href=&quot;/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -109,13 +109,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;a first sample of getting text working&quot;
         title=&quot;a first sample of getting text working&quot;
-        src=&quot;/blog/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png&quot;
-        srcset=&quot;/blog/static/ee08754801c01129ef3cd5fdcb31ed96/12f09/first.png 148w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/e4a3f/first.png 295w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png 590w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/efc66/first.png 885w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/c83ae/first.png 1180w,
-/blog/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png 1920w&quot;
+        src=&quot;/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png&quot;
+        srcset=&quot;/static/ee08754801c01129ef3cd5fdcb31ed96/12f09/first.png 148w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/e4a3f/first.png 295w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/fcda8/first.png 590w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/efc66/first.png 885w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/c83ae/first.png 1180w,
+/static/ee08754801c01129ef3cd5fdcb31ed96/29114/first.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -131,7 +131,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png&quot;
+    href=&quot;/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -144,13 +144,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;testing with character input rather than n-gram by words&quot;
         title=&quot;testing with character input rather than n-gram by words&quot;
-        src=&quot;/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png&quot;
-        srcset=&quot;/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/12f09/second.png 148w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/e4a3f/second.png 295w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png 590w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/efc66/second.png 885w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/c83ae/second.png 1180w,
-/blog/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png 1920w&quot;
+        src=&quot;/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png&quot;
+        srcset=&quot;/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/12f09/second.png 148w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/e4a3f/second.png 295w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/fcda8/second.png 590w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/efc66/second.png 885w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/c83ae/second.png 1180w,
+/static/031ddbb3bcdc0f2c2dac02b717f3ca6e/29114/second.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -166,7 +166,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png&quot;
+    href=&quot;/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -179,13 +179,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;now testing the structure of the poem&quot;
         title=&quot;now testing the structure of the poem&quot;
-        src=&quot;/blog/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png&quot;
-        srcset=&quot;/blog/static/2afb961e44d003e33ce8bac3370cf99b/12f09/third.png 148w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/e4a3f/third.png 295w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png 590w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/efc66/third.png 885w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/c83ae/third.png 1180w,
-/blog/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png 1920w&quot;
+        src=&quot;/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png&quot;
+        srcset=&quot;/static/2afb961e44d003e33ce8bac3370cf99b/12f09/third.png 148w,
+/static/2afb961e44d003e33ce8bac3370cf99b/e4a3f/third.png 295w,
+/static/2afb961e44d003e33ce8bac3370cf99b/fcda8/third.png 590w,
+/static/2afb961e44d003e33ce8bac3370cf99b/efc66/third.png 885w,
+/static/2afb961e44d003e33ce8bac3370cf99b/c83ae/third.png 1180w,
+/static/2afb961e44d003e33ce8bac3370cf99b/29114/third.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -202,7 +202,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png&quot;
+    href=&quot;/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -215,13 +215,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain.&quot;
         title=&quot;the first test after creating a corpus file from the output of the first layer of markov. this is a markov on a markov chain.&quot;
-        src=&quot;/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png&quot;
-        srcset=&quot;/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/12f09/tragic.png 148w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/e4a3f/tragic.png 295w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png 590w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/efc66/tragic.png 885w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/c83ae/tragic.png 1180w,
-/blog/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png 1920w&quot;
+        src=&quot;/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png&quot;
+        srcset=&quot;/static/fe4585669f22f56fb4a0d8621bf29fa1/12f09/tragic.png 148w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/e4a3f/tragic.png 295w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/fcda8/tragic.png 590w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/efc66/tragic.png 885w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/c83ae/tragic.png 1180w,
+/static/fe4585669f22f56fb4a0d8621bf29fa1/29114/tragic.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -237,7 +237,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png&quot;
+    href=&quot;/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -250,13 +250,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;using characters still but changing the order to be higher (previously it was at 1 and changed to 7)&quot;
         title=&quot;using characters still but changing the order to be higher (previously it was at 1 and changed to 7)&quot;
-        src=&quot;/blog/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png&quot;
-        srcset=&quot;/blog/static/c0c848a521fca120c5a3355617f740e0/12f09/fifth.png 148w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/e4a3f/fifth.png 295w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png 590w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/efc66/fifth.png 885w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/c83ae/fifth.png 1180w,
-/blog/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png 1920w&quot;
+        src=&quot;/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png&quot;
+        srcset=&quot;/static/c0c848a521fca120c5a3355617f740e0/12f09/fifth.png 148w,
+/static/c0c848a521fca120c5a3355617f740e0/e4a3f/fifth.png 295w,
+/static/c0c848a521fca120c5a3355617f740e0/fcda8/fifth.png 590w,
+/static/c0c848a521fca120c5a3355617f740e0/efc66/fifth.png 885w,
+/static/c0c848a521fca120c5a3355617f740e0/c83ae/fifth.png 1180w,
+/static/c0c848a521fca120c5a3355617f740e0/29114/fifth.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -272,7 +272,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png&quot;
+    href=&quot;/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -285,13 +285,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;using characters but a lower order (using 1)&quot;
         title=&quot;using characters but a lower order (using 1)&quot;
-        src=&quot;/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png&quot;
-        srcset=&quot;/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/12f09/sixth.png 148w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/e4a3f/sixth.png 295w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png 590w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/efc66/sixth.png 885w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/c83ae/sixth.png 1180w,
-/blog/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png 1920w&quot;
+        src=&quot;/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png&quot;
+        srcset=&quot;/static/08bf5cf4b3ac819f3185b8da00aa038d/12f09/sixth.png 148w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/e4a3f/sixth.png 295w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/fcda8/sixth.png 590w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/efc66/sixth.png 885w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/c83ae/sixth.png 1180w,
+/static/08bf5cf4b3ac819f3185b8da00aa038d/29114/sixth.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -313,7 +313,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png&quot;
+    href=&quot;/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -326,13 +326,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;quotes&quot;
         title=&quot;quotes&quot;
-        src=&quot;/blog/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png&quot;
-        srcset=&quot;/blog/static/c70fd35d9cce394d83f18043ff542093/12f09/quotes.png 148w,
-/blog/static/c70fd35d9cce394d83f18043ff542093/e4a3f/quotes.png 295w,
-/blog/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png 590w,
-/blog/static/c70fd35d9cce394d83f18043ff542093/efc66/quotes.png 885w,
-/blog/static/c70fd35d9cce394d83f18043ff542093/c83ae/quotes.png 1180w,
-/blog/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png 1920w&quot;
+        src=&quot;/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png&quot;
+        srcset=&quot;/static/c70fd35d9cce394d83f18043ff542093/12f09/quotes.png 148w,
+/static/c70fd35d9cce394d83f18043ff542093/e4a3f/quotes.png 295w,
+/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png 590w,
+/static/c70fd35d9cce394d83f18043ff542093/efc66/quotes.png 885w,
+/static/c70fd35d9cce394d83f18043ff542093/c83ae/quotes.png 1180w,
+/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -347,7 +347,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png&quot;
+    href=&quot;/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -360,13 +360,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;map&quot;
         title=&quot;map&quot;
-        src=&quot;/blog/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png&quot;
-        srcset=&quot;/blog/static/f873a0c1e4836a4264728dcd721721d6/12f09/map.png 148w,
-/blog/static/f873a0c1e4836a4264728dcd721721d6/e4a3f/map.png 295w,
-/blog/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png 590w,
-/blog/static/f873a0c1e4836a4264728dcd721721d6/efc66/map.png 885w,
-/blog/static/f873a0c1e4836a4264728dcd721721d6/c83ae/map.png 1180w,
-/blog/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png 1920w&quot;
+        src=&quot;/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png&quot;
+        srcset=&quot;/static/f873a0c1e4836a4264728dcd721721d6/12f09/map.png 148w,
+/static/f873a0c1e4836a4264728dcd721721d6/e4a3f/map.png 295w,
+/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png 590w,
+/static/f873a0c1e4836a4264728dcd721721d6/efc66/map.png 885w,
+/static/f873a0c1e4836a4264728dcd721721d6/c83ae/map.png 1180w,
+/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -381,7 +381,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f216aaa984b789efb1524705db3e5706/29114/after.png&quot;
+    href=&quot;/static/f216aaa984b789efb1524705db3e5706/29114/after.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -394,13 +394,13 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;after&quot;
         title=&quot;after&quot;
-        src=&quot;/blog/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png&quot;
-        srcset=&quot;/blog/static/f216aaa984b789efb1524705db3e5706/12f09/after.png 148w,
-/blog/static/f216aaa984b789efb1524705db3e5706/e4a3f/after.png 295w,
-/blog/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png 590w,
-/blog/static/f216aaa984b789efb1524705db3e5706/efc66/after.png 885w,
-/blog/static/f216aaa984b789efb1524705db3e5706/c83ae/after.png 1180w,
-/blog/static/f216aaa984b789efb1524705db3e5706/29114/after.png 1920w&quot;
+        src=&quot;/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png&quot;
+        srcset=&quot;/static/f216aaa984b789efb1524705db3e5706/12f09/after.png 148w,
+/static/f216aaa984b789efb1524705db3e5706/e4a3f/after.png 295w,
+/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png 590w,
+/static/f216aaa984b789efb1524705db3e5706/efc66/after.png 885w,
+/static/f216aaa984b789efb1524705db3e5706/c83ae/after.png 1180w,
+/static/f216aaa984b789efb1524705db3e5706/29114/after.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -435,7 +435,7 @@ Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/29114/attempt.png&quot;
+    href=&quot;/static/eacb9e1979f15d68f06ab3c53d8b19d9/29114/attempt.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -448,13 +448,13 @@ Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;an attempt to get actual blackouts working&quot;
         title=&quot;an attempt to get actual blackouts working&quot;
-        src=&quot;/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/fcda8/attempt.png&quot;
-        srcset=&quot;/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/12f09/attempt.png 148w,
-/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/e4a3f/attempt.png 295w,
-/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/fcda8/attempt.png 590w,
-/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/efc66/attempt.png 885w,
-/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/c83ae/attempt.png 1180w,
-/blog/static/eacb9e1979f15d68f06ab3c53d8b19d9/29114/attempt.png 1920w&quot;
+        src=&quot;/static/eacb9e1979f15d68f06ab3c53d8b19d9/fcda8/attempt.png&quot;
+        srcset=&quot;/static/eacb9e1979f15d68f06ab3c53d8b19d9/12f09/attempt.png 148w,
+/static/eacb9e1979f15d68f06ab3c53d8b19d9/e4a3f/attempt.png 295w,
+/static/eacb9e1979f15d68f06ab3c53d8b19d9/fcda8/attempt.png 590w,
+/static/eacb9e1979f15d68f06ab3c53d8b19d9/efc66/attempt.png 885w,
+/static/eacb9e1979f15d68f06ab3c53d8b19d9/c83ae/attempt.png 1180w,
+/static/eacb9e1979f15d68f06ab3c53d8b19d9/29114/attempt.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -478,13 +478,13 @@ Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;orig&quot;
         title=&quot;orig&quot;
-        src=&quot;/blog/static/7ad502a2f3ed75ac82026125de15b0d7/fcda8/orig.png&quot;
-        srcset=&quot;/blog/static/7ad502a2f3ed75ac82026125de15b0d7/12f09/orig.png 148w,
-/blog/static/7ad502a2f3ed75ac82026125de15b0d7/e4a3f/orig.png 295w,
-/blog/static/7ad502a2f3ed75ac82026125de15b0d7/fcda8/orig.png 590w,
-/blog/static/7ad502a2f3ed75ac82026125de15b0d7/efc66/orig.png 885w,
-/blog/static/7ad502a2f3ed75ac82026125de15b0d7/c83ae/orig.png 1180w,
-/blog/static/7ad502a2f3ed75ac82026125de15b0d7/29114/orig.png 1920w&quot;
+        src=&quot;/static/7ad502a2f3ed75ac82026125de15b0d7/fcda8/orig.png&quot;
+        srcset=&quot;/static/7ad502a2f3ed75ac82026125de15b0d7/12f09/orig.png 148w,
+/static/7ad502a2f3ed75ac82026125de15b0d7/e4a3f/orig.png 295w,
+/static/7ad502a2f3ed75ac82026125de15b0d7/fcda8/orig.png 590w,
+/static/7ad502a2f3ed75ac82026125de15b0d7/efc66/orig.png 885w,
+/static/7ad502a2f3ed75ac82026125de15b0d7/c83ae/orig.png 1180w,
+/static/7ad502a2f3ed75ac82026125de15b0d7/29114/orig.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -497,7 +497,7 @@ Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/31ec65838c8e9829f2da072cf0f441fa/29114/exp.png&quot;
+    href=&quot;/static/31ec65838c8e9829f2da072cf0f441fa/29114/exp.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -510,13 +510,13 @@ Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl ,,,,,,
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;exp&quot;
         title=&quot;exp&quot;
-        src=&quot;/blog/static/31ec65838c8e9829f2da072cf0f441fa/fcda8/exp.png&quot;
-        srcset=&quot;/blog/static/31ec65838c8e9829f2da072cf0f441fa/12f09/exp.png 148w,
-/blog/static/31ec65838c8e9829f2da072cf0f441fa/e4a3f/exp.png 295w,
-/blog/static/31ec65838c8e9829f2da072cf0f441fa/fcda8/exp.png 590w,
-/blog/static/31ec65838c8e9829f2da072cf0f441fa/efc66/exp.png 885w,
-/blog/static/31ec65838c8e9829f2da072cf0f441fa/c83ae/exp.png 1180w,
-/blog/static/31ec65838c8e9829f2da072cf0f441fa/29114/exp.png 1920w&quot;
+        src=&quot;/static/31ec65838c8e9829f2da072cf0f441fa/fcda8/exp.png&quot;
+        srcset=&quot;/static/31ec65838c8e9829f2da072cf0f441fa/12f09/exp.png 148w,
+/static/31ec65838c8e9829f2da072cf0f441fa/e4a3f/exp.png 295w,
+/static/31ec65838c8e9829f2da072cf0f441fa/fcda8/exp.png 590w,
+/static/31ec65838c8e9829f2da072cf0f441fa/efc66/exp.png 885w,
+/static/31ec65838c8e9829f2da072cf0f441fa/c83ae/exp.png 1180w,
+/static/31ec65838c8e9829f2da072cf0f441fa/29114/exp.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -541,7 +541,7 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/0a83a53be6d1119dd8944355770e5967/29114/sketch.png&quot;
+    href=&quot;/static/0a83a53be6d1119dd8944355770e5967/29114/sketch.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -554,13 +554,13 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;sketch&quot;
         title=&quot;sketch&quot;
-        src=&quot;/blog/static/0a83a53be6d1119dd8944355770e5967/fcda8/sketch.png&quot;
-        srcset=&quot;/blog/static/0a83a53be6d1119dd8944355770e5967/12f09/sketch.png 148w,
-/blog/static/0a83a53be6d1119dd8944355770e5967/e4a3f/sketch.png 295w,
-/blog/static/0a83a53be6d1119dd8944355770e5967/fcda8/sketch.png 590w,
-/blog/static/0a83a53be6d1119dd8944355770e5967/efc66/sketch.png 885w,
-/blog/static/0a83a53be6d1119dd8944355770e5967/c83ae/sketch.png 1180w,
-/blog/static/0a83a53be6d1119dd8944355770e5967/29114/sketch.png 1920w&quot;
+        src=&quot;/static/0a83a53be6d1119dd8944355770e5967/fcda8/sketch.png&quot;
+        srcset=&quot;/static/0a83a53be6d1119dd8944355770e5967/12f09/sketch.png 148w,
+/static/0a83a53be6d1119dd8944355770e5967/e4a3f/sketch.png 295w,
+/static/0a83a53be6d1119dd8944355770e5967/fcda8/sketch.png 590w,
+/static/0a83a53be6d1119dd8944355770e5967/efc66/sketch.png 885w,
+/static/0a83a53be6d1119dd8944355770e5967/c83ae/sketch.png 1180w,
+/static/0a83a53be6d1119dd8944355770e5967/29114/sketch.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -606,13 +606,13 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;example of final output&quot;
         title=&quot;example of final output&quot;
-        src=&quot;/blog/static/6b5a52c77ad606270ad096031a650aef/fcda8/beautiful.png&quot;
-        srcset=&quot;/blog/static/6b5a52c77ad606270ad096031a650aef/12f09/beautiful.png 148w,
-/blog/static/6b5a52c77ad606270ad096031a650aef/e4a3f/beautiful.png 295w,
-/blog/static/6b5a52c77ad606270ad096031a650aef/fcda8/beautiful.png 590w,
-/blog/static/6b5a52c77ad606270ad096031a650aef/efc66/beautiful.png 885w,
-/blog/static/6b5a52c77ad606270ad096031a650aef/c83ae/beautiful.png 1180w,
-/blog/static/6b5a52c77ad606270ad096031a650aef/29114/beautiful.png 1920w&quot;
+        src=&quot;/static/6b5a52c77ad606270ad096031a650aef/fcda8/beautiful.png&quot;
+        srcset=&quot;/static/6b5a52c77ad606270ad096031a650aef/12f09/beautiful.png 148w,
+/static/6b5a52c77ad606270ad096031a650aef/e4a3f/beautiful.png 295w,
+/static/6b5a52c77ad606270ad096031a650aef/fcda8/beautiful.png 590w,
+/static/6b5a52c77ad606270ad096031a650aef/efc66/beautiful.png 885w,
+/static/6b5a52c77ad606270ad096031a650aef/c83ae/beautiful.png 1180w,
+/static/6b5a52c77ad606270ad096031a650aef/29114/beautiful.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -654,7 +654,7 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/13a911a195c89cbaa3706421f248d093/29114/blunt.png&quot;
+    href=&quot;/static/13a911a195c89cbaa3706421f248d093/29114/blunt.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -667,13 +667,13 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;blunt&quot;
         title=&quot;blunt&quot;
-        src=&quot;/blog/static/13a911a195c89cbaa3706421f248d093/fcda8/blunt.png&quot;
-        srcset=&quot;/blog/static/13a911a195c89cbaa3706421f248d093/12f09/blunt.png 148w,
-/blog/static/13a911a195c89cbaa3706421f248d093/e4a3f/blunt.png 295w,
-/blog/static/13a911a195c89cbaa3706421f248d093/fcda8/blunt.png 590w,
-/blog/static/13a911a195c89cbaa3706421f248d093/efc66/blunt.png 885w,
-/blog/static/13a911a195c89cbaa3706421f248d093/c83ae/blunt.png 1180w,
-/blog/static/13a911a195c89cbaa3706421f248d093/29114/blunt.png 1920w&quot;
+        src=&quot;/static/13a911a195c89cbaa3706421f248d093/fcda8/blunt.png&quot;
+        srcset=&quot;/static/13a911a195c89cbaa3706421f248d093/12f09/blunt.png 148w,
+/static/13a911a195c89cbaa3706421f248d093/e4a3f/blunt.png 295w,
+/static/13a911a195c89cbaa3706421f248d093/fcda8/blunt.png 590w,
+/static/13a911a195c89cbaa3706421f248d093/efc66/blunt.png 885w,
+/static/13a911a195c89cbaa3706421f248d093/c83ae/blunt.png 1180w,
+/static/13a911a195c89cbaa3706421f248d093/29114/blunt.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -686,7 +686,7 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/8e5e19397f9749813d0938f54176181e/29114/indep.png&quot;
+    href=&quot;/static/8e5e19397f9749813d0938f54176181e/29114/indep.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -699,13 +699,13 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;indep&quot;
         title=&quot;indep&quot;
-        src=&quot;/blog/static/8e5e19397f9749813d0938f54176181e/fcda8/indep.png&quot;
-        srcset=&quot;/blog/static/8e5e19397f9749813d0938f54176181e/12f09/indep.png 148w,
-/blog/static/8e5e19397f9749813d0938f54176181e/e4a3f/indep.png 295w,
-/blog/static/8e5e19397f9749813d0938f54176181e/fcda8/indep.png 590w,
-/blog/static/8e5e19397f9749813d0938f54176181e/efc66/indep.png 885w,
-/blog/static/8e5e19397f9749813d0938f54176181e/c83ae/indep.png 1180w,
-/blog/static/8e5e19397f9749813d0938f54176181e/29114/indep.png 1920w&quot;
+        src=&quot;/static/8e5e19397f9749813d0938f54176181e/fcda8/indep.png&quot;
+        srcset=&quot;/static/8e5e19397f9749813d0938f54176181e/12f09/indep.png 148w,
+/static/8e5e19397f9749813d0938f54176181e/e4a3f/indep.png 295w,
+/static/8e5e19397f9749813d0938f54176181e/fcda8/indep.png 590w,
+/static/8e5e19397f9749813d0938f54176181e/efc66/indep.png 885w,
+/static/8e5e19397f9749813d0938f54176181e/c83ae/indep.png 1180w,
+/static/8e5e19397f9749813d0938f54176181e/29114/indep.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -718,7 +718,7 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ac095045363531a8d83b34585a4bd441/29114/vuln.png&quot;
+    href=&quot;/static/ac095045363531a8d83b34585a4bd441/29114/vuln.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -731,13 +731,13 @@ nnp_shades = [item.text for item in shades if item.tag_ == &apos;NNP&apos;]&lt;/
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;vuln&quot;
         title=&quot;vuln&quot;
-        src=&quot;/blog/static/ac095045363531a8d83b34585a4bd441/fcda8/vuln.png&quot;
-        srcset=&quot;/blog/static/ac095045363531a8d83b34585a4bd441/12f09/vuln.png 148w,
-/blog/static/ac095045363531a8d83b34585a4bd441/e4a3f/vuln.png 295w,
-/blog/static/ac095045363531a8d83b34585a4bd441/fcda8/vuln.png 590w,
-/blog/static/ac095045363531a8d83b34585a4bd441/efc66/vuln.png 885w,
-/blog/static/ac095045363531a8d83b34585a4bd441/c83ae/vuln.png 1180w,
-/blog/static/ac095045363531a8d83b34585a4bd441/29114/vuln.png 1920w&quot;
+        src=&quot;/static/ac095045363531a8d83b34585a4bd441/fcda8/vuln.png&quot;
+        srcset=&quot;/static/ac095045363531a8d83b34585a4bd441/12f09/vuln.png 148w,
+/static/ac095045363531a8d83b34585a4bd441/e4a3f/vuln.png 295w,
+/static/ac095045363531a8d83b34585a4bd441/fcda8/vuln.png 590w,
+/static/ac095045363531a8d83b34585a4bd441/efc66/vuln.png 885w,
+/static/ac095045363531a8d83b34585a4bd441/c83ae/vuln.png 1180w,
+/static/ac095045363531a8d83b34585a4bd441/29114/vuln.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -790,13 +790,13 @@ display(button)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;final ruleset&quot;
         title=&quot;final ruleset&quot;
-        src=&quot;/blog/static/b4f7c820edeabdbb580c55f2a211b538/fcda8/rules.png&quot;
-        srcset=&quot;/blog/static/b4f7c820edeabdbb580c55f2a211b538/12f09/rules.png 148w,
-/blog/static/b4f7c820edeabdbb580c55f2a211b538/e4a3f/rules.png 295w,
-/blog/static/b4f7c820edeabdbb580c55f2a211b538/fcda8/rules.png 590w,
-/blog/static/b4f7c820edeabdbb580c55f2a211b538/efc66/rules.png 885w,
-/blog/static/b4f7c820edeabdbb580c55f2a211b538/c83ae/rules.png 1180w,
-/blog/static/b4f7c820edeabdbb580c55f2a211b538/29114/rules.png 1920w&quot;
+        src=&quot;/static/b4f7c820edeabdbb580c55f2a211b538/fcda8/rules.png&quot;
+        srcset=&quot;/static/b4f7c820edeabdbb580c55f2a211b538/12f09/rules.png 148w,
+/static/b4f7c820edeabdbb580c55f2a211b538/e4a3f/rules.png 295w,
+/static/b4f7c820edeabdbb580c55f2a211b538/fcda8/rules.png 590w,
+/static/b4f7c820edeabdbb580c55f2a211b538/efc66/rules.png 885w,
+/static/b4f7c820edeabdbb580c55f2a211b538/c83ae/rules.png 1180w,
+/static/b4f7c820edeabdbb580c55f2a211b538/29114/rules.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -817,13 +817,13 @@ display(button)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;another final output&quot;
         title=&quot;another final output&quot;
-        src=&quot;/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/fcda8/uncoop.png&quot;
-        srcset=&quot;/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/12f09/uncoop.png 148w,
-/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/e4a3f/uncoop.png 295w,
-/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/fcda8/uncoop.png 590w,
-/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/efc66/uncoop.png 885w,
-/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/c83ae/uncoop.png 1180w,
-/blog/static/9c06f31c6b2bdd836772eeeb5ad69bab/29114/uncoop.png 1920w&quot;
+        src=&quot;/static/9c06f31c6b2bdd836772eeeb5ad69bab/fcda8/uncoop.png&quot;
+        srcset=&quot;/static/9c06f31c6b2bdd836772eeeb5ad69bab/12f09/uncoop.png 148w,
+/static/9c06f31c6b2bdd836772eeeb5ad69bab/e4a3f/uncoop.png 295w,
+/static/9c06f31c6b2bdd836772eeeb5ad69bab/fcda8/uncoop.png 590w,
+/static/9c06f31c6b2bdd836772eeeb5ad69bab/efc66/uncoop.png 885w,
+/static/9c06f31c6b2bdd836772eeeb5ad69bab/c83ae/uncoop.png 1180w,
+/static/9c06f31c6b2bdd836772eeeb5ad69bab/29114/uncoop.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -851,7 +851,7 @@ display(button)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;system updates&lt;/h2&gt;
 &lt;p&gt;i’m thinking more about how to execute the project — i am thinking about building a custom os similar to &lt;a href=&quot;http://www.jackies.world/&quot;&gt;JackieOS&lt;/a&gt;. this is web based, but if i wanted it to be on a raspberry pi, it would need to be able to run on minimal browser windows. or, i can create a custom linux distro and put that on a pi instead. this will definitely require further experimentation, but as of my last prototype i don’t think that would be able to be achievable on a pi.&lt;/p&gt;
 &lt;h2&gt;putting this prototype out there&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/blog/9ef021421c6cfb9d3a7a941bfa095c4b/browser-prototype.gif&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[week 6]]></title><description><![CDATA[Final Presentation slides]]></description><link>http://samheckle.com/projects/thesis/blog6/</link><guid isPermaLink="false">http://samheckle.com/projects/thesis/blog6/</guid><pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Final Presentation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/9ef021421c6cfb9d3a7a941bfa095c4b/browser-prototype.gif&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[week 6]]></title><description><![CDATA[Final Presentation slides]]></description><link>http://samheckle.com/projects/thesis/blog6/</link><guid isPermaLink="false">http://samheckle.com/projects/thesis/blog6/</guid><pubDate>Tue, 14 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Final Presentation&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1mlPRlX5U6rlcvvCfX2Ckk6Wgtqazt46u0OjNQjMv388/edit?usp=sharing&quot;&gt;slides&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[prototype]]></title><description><![CDATA[https://docs.google.com/presentation/d/1QzNVkf2NNCHX9ErTLJzdu6vJ1qzVdWJZyYhAx_ZjRfI/edit?usp=sharing Audre Lorde, Uses of the Erotic
 https…]]></description><link>http://samheckle.com/projects/thesis/prototype/</link><guid isPermaLink="false">http://samheckle.com/projects/thesis/prototype/</guid><pubDate>Tue, 07 Dec 2021 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1QzNVkf2NNCHX9ErTLJzdu6vJ1qzVdWJZyYhAx_ZjRfI/edit?usp=sharing&quot;&gt;https://docs.google.com/presentation/d/1QzNVkf2NNCHX9ErTLJzdu6vJ1qzVdWJZyYhAx_ZjRfI/edit?usp=sharing&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Audre Lorde, Uses of the Erotic
@@ -876,7 +876,7 @@ https…]]></description><link>http://samheckle.com/projects/thesis/prototype/</
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/d38a08bb9bbb2820c4d89015201032f1/29114/notes.png&quot;
+    href=&quot;/static/d38a08bb9bbb2820c4d89015201032f1/29114/notes.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -889,13 +889,13 @@ https…]]></description><link>http://samheckle.com/projects/thesis/prototype/</
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;notes&quot;
         title=&quot;notes&quot;
-        src=&quot;/blog/static/d38a08bb9bbb2820c4d89015201032f1/fcda8/notes.png&quot;
-        srcset=&quot;/blog/static/d38a08bb9bbb2820c4d89015201032f1/12f09/notes.png 148w,
-/blog/static/d38a08bb9bbb2820c4d89015201032f1/e4a3f/notes.png 295w,
-/blog/static/d38a08bb9bbb2820c4d89015201032f1/fcda8/notes.png 590w,
-/blog/static/d38a08bb9bbb2820c4d89015201032f1/efc66/notes.png 885w,
-/blog/static/d38a08bb9bbb2820c4d89015201032f1/c83ae/notes.png 1180w,
-/blog/static/d38a08bb9bbb2820c4d89015201032f1/29114/notes.png 1920w&quot;
+        src=&quot;/static/d38a08bb9bbb2820c4d89015201032f1/fcda8/notes.png&quot;
+        srcset=&quot;/static/d38a08bb9bbb2820c4d89015201032f1/12f09/notes.png 148w,
+/static/d38a08bb9bbb2820c4d89015201032f1/e4a3f/notes.png 295w,
+/static/d38a08bb9bbb2820c4d89015201032f1/fcda8/notes.png 590w,
+/static/d38a08bb9bbb2820c4d89015201032f1/efc66/notes.png 885w,
+/static/d38a08bb9bbb2820c4d89015201032f1/c83ae/notes.png 1180w,
+/static/d38a08bb9bbb2820c4d89015201032f1/29114/notes.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -930,7 +930,7 @@ https…]]></description><link>http://samheckle.com/projects/thesis/prototype/</
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ab869cf5aa41dd36be6e099fce385ebc/29114/notes.png&quot;
+    href=&quot;/static/ab869cf5aa41dd36be6e099fce385ebc/29114/notes.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -943,13 +943,13 @@ https…]]></description><link>http://samheckle.com/projects/thesis/prototype/</
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;shorter notes for this week&quot;
         title=&quot;shorter notes for this week&quot;
-        src=&quot;/blog/static/ab869cf5aa41dd36be6e099fce385ebc/fcda8/notes.png&quot;
-        srcset=&quot;/blog/static/ab869cf5aa41dd36be6e099fce385ebc/12f09/notes.png 148w,
-/blog/static/ab869cf5aa41dd36be6e099fce385ebc/e4a3f/notes.png 295w,
-/blog/static/ab869cf5aa41dd36be6e099fce385ebc/fcda8/notes.png 590w,
-/blog/static/ab869cf5aa41dd36be6e099fce385ebc/efc66/notes.png 885w,
-/blog/static/ab869cf5aa41dd36be6e099fce385ebc/c83ae/notes.png 1180w,
-/blog/static/ab869cf5aa41dd36be6e099fce385ebc/29114/notes.png 1920w&quot;
+        src=&quot;/static/ab869cf5aa41dd36be6e099fce385ebc/fcda8/notes.png&quot;
+        srcset=&quot;/static/ab869cf5aa41dd36be6e099fce385ebc/12f09/notes.png 148w,
+/static/ab869cf5aa41dd36be6e099fce385ebc/e4a3f/notes.png 295w,
+/static/ab869cf5aa41dd36be6e099fce385ebc/fcda8/notes.png 590w,
+/static/ab869cf5aa41dd36be6e099fce385ebc/efc66/notes.png 885w,
+/static/ab869cf5aa41dd36be6e099fce385ebc/c83ae/notes.png 1180w,
+/static/ab869cf5aa41dd36be6e099fce385ebc/29114/notes.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -990,7 +990,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/cff19227be29ccd09ca984dc784c711a/5ed3f/thinkg.jpg&quot;
+    href=&quot;/static/cff19227be29ccd09ca984dc784c711a/5ed3f/thinkg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1003,11 +1003,11 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;thinkg&quot;
         title=&quot;thinkg&quot;
-        src=&quot;/blog/static/cff19227be29ccd09ca984dc784c711a/1c72d/thinkg.jpg&quot;
-        srcset=&quot;/blog/static/cff19227be29ccd09ca984dc784c711a/a80bd/thinkg.jpg 148w,
-/blog/static/cff19227be29ccd09ca984dc784c711a/1c91a/thinkg.jpg 295w,
-/blog/static/cff19227be29ccd09ca984dc784c711a/1c72d/thinkg.jpg 590w,
-/blog/static/cff19227be29ccd09ca984dc784c711a/5ed3f/thinkg.jpg 601w&quot;
+        src=&quot;/static/cff19227be29ccd09ca984dc784c711a/1c72d/thinkg.jpg&quot;
+        srcset=&quot;/static/cff19227be29ccd09ca984dc784c711a/a80bd/thinkg.jpg 148w,
+/static/cff19227be29ccd09ca984dc784c711a/1c91a/thinkg.jpg 295w,
+/static/cff19227be29ccd09ca984dc784c711a/1c72d/thinkg.jpg 590w,
+/static/cff19227be29ccd09ca984dc784c711a/5ed3f/thinkg.jpg 601w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1021,7 +1021,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/cae283b01076994c2a6f11c1bf904323/75a80/concept.png&quot;
+    href=&quot;/static/cae283b01076994c2a6f11c1bf904323/75a80/concept.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1034,12 +1034,12 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;concept&quot;
         title=&quot;concept&quot;
-        src=&quot;/blog/static/cae283b01076994c2a6f11c1bf904323/fcda8/concept.png&quot;
-        srcset=&quot;/blog/static/cae283b01076994c2a6f11c1bf904323/12f09/concept.png 148w,
-/blog/static/cae283b01076994c2a6f11c1bf904323/e4a3f/concept.png 295w,
-/blog/static/cae283b01076994c2a6f11c1bf904323/fcda8/concept.png 590w,
-/blog/static/cae283b01076994c2a6f11c1bf904323/efc66/concept.png 885w,
-/blog/static/cae283b01076994c2a6f11c1bf904323/75a80/concept.png 1134w&quot;
+        src=&quot;/static/cae283b01076994c2a6f11c1bf904323/fcda8/concept.png&quot;
+        srcset=&quot;/static/cae283b01076994c2a6f11c1bf904323/12f09/concept.png 148w,
+/static/cae283b01076994c2a6f11c1bf904323/e4a3f/concept.png 295w,
+/static/cae283b01076994c2a6f11c1bf904323/fcda8/concept.png 590w,
+/static/cae283b01076994c2a6f11c1bf904323/efc66/concept.png 885w,
+/static/cae283b01076994c2a6f11c1bf904323/75a80/concept.png 1134w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1054,7 +1054,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/3caca0ba63d1bb2da847ec0b5596930d/29114/img3.png&quot;
+    href=&quot;/static/3caca0ba63d1bb2da847ec0b5596930d/29114/img3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1067,13 +1067,13 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;img3&quot;
         title=&quot;img3&quot;
-        src=&quot;/blog/static/3caca0ba63d1bb2da847ec0b5596930d/fcda8/img3.png&quot;
-        srcset=&quot;/blog/static/3caca0ba63d1bb2da847ec0b5596930d/12f09/img3.png 148w,
-/blog/static/3caca0ba63d1bb2da847ec0b5596930d/e4a3f/img3.png 295w,
-/blog/static/3caca0ba63d1bb2da847ec0b5596930d/fcda8/img3.png 590w,
-/blog/static/3caca0ba63d1bb2da847ec0b5596930d/efc66/img3.png 885w,
-/blog/static/3caca0ba63d1bb2da847ec0b5596930d/c83ae/img3.png 1180w,
-/blog/static/3caca0ba63d1bb2da847ec0b5596930d/29114/img3.png 1920w&quot;
+        src=&quot;/static/3caca0ba63d1bb2da847ec0b5596930d/fcda8/img3.png&quot;
+        srcset=&quot;/static/3caca0ba63d1bb2da847ec0b5596930d/12f09/img3.png 148w,
+/static/3caca0ba63d1bb2da847ec0b5596930d/e4a3f/img3.png 295w,
+/static/3caca0ba63d1bb2da847ec0b5596930d/fcda8/img3.png 590w,
+/static/3caca0ba63d1bb2da847ec0b5596930d/efc66/img3.png 885w,
+/static/3caca0ba63d1bb2da847ec0b5596930d/c83ae/img3.png 1180w,
+/static/3caca0ba63d1bb2da847ec0b5596930d/29114/img3.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1093,7 +1093,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/5457fae2aec0e67ea0706b7af6d8991d/6aca1/popup.jpg&quot;
+    href=&quot;/static/5457fae2aec0e67ea0706b7af6d8991d/6aca1/popup.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1106,11 +1106,11 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;popup&quot;
         title=&quot;popup&quot;
-        src=&quot;/blog/static/5457fae2aec0e67ea0706b7af6d8991d/1c72d/popup.jpg&quot;
-        srcset=&quot;/blog/static/5457fae2aec0e67ea0706b7af6d8991d/a80bd/popup.jpg 148w,
-/blog/static/5457fae2aec0e67ea0706b7af6d8991d/1c91a/popup.jpg 295w,
-/blog/static/5457fae2aec0e67ea0706b7af6d8991d/1c72d/popup.jpg 590w,
-/blog/static/5457fae2aec0e67ea0706b7af6d8991d/6aca1/popup.jpg 650w&quot;
+        src=&quot;/static/5457fae2aec0e67ea0706b7af6d8991d/1c72d/popup.jpg&quot;
+        srcset=&quot;/static/5457fae2aec0e67ea0706b7af6d8991d/a80bd/popup.jpg 148w,
+/static/5457fae2aec0e67ea0706b7af6d8991d/1c91a/popup.jpg 295w,
+/static/5457fae2aec0e67ea0706b7af6d8991d/1c72d/popup.jpg 590w,
+/static/5457fae2aec0e67ea0706b7af6d8991d/6aca1/popup.jpg 650w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1125,7 +1125,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/dd571af2287295333dc775f454281903/f21e7/found.png&quot;
+    href=&quot;/static/dd571af2287295333dc775f454281903/f21e7/found.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1138,10 +1138,10 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;some graffiti I found on my way to working on this post&quot;
         title=&quot;some graffiti I found on my way to working on this post&quot;
-        src=&quot;/blog/static/dd571af2287295333dc775f454281903/f21e7/found.png&quot;
-        srcset=&quot;/blog/static/dd571af2287295333dc775f454281903/12f09/found.png 148w,
-/blog/static/dd571af2287295333dc775f454281903/e4a3f/found.png 295w,
-/blog/static/dd571af2287295333dc775f454281903/f21e7/found.png 360w&quot;
+        src=&quot;/static/dd571af2287295333dc775f454281903/f21e7/found.png&quot;
+        srcset=&quot;/static/dd571af2287295333dc775f454281903/12f09/found.png 148w,
+/static/dd571af2287295333dc775f454281903/e4a3f/found.png 295w,
+/static/dd571af2287295333dc775f454281903/f21e7/found.png 360w&quot;
         sizes=&quot;(max-width: 360px) 100vw, 360px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1158,7 +1158,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/95e73884af058d8bc306cfaf5f330e7f/063bf/fortune.webp&quot;
+    href=&quot;/static/95e73884af058d8bc306cfaf5f330e7f/063bf/fortune.webp&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1171,13 +1171,13 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;fortune&quot;
         title=&quot;fortune&quot;
-        src=&quot;/blog/static/95e73884af058d8bc306cfaf5f330e7f/5ca24/fortune.webp&quot;
-        srcset=&quot;/blog/static/95e73884af058d8bc306cfaf5f330e7f/cbe2e/fortune.webp 148w,
-/blog/static/95e73884af058d8bc306cfaf5f330e7f/3084c/fortune.webp 295w,
-/blog/static/95e73884af058d8bc306cfaf5f330e7f/5ca24/fortune.webp 590w,
-/blog/static/95e73884af058d8bc306cfaf5f330e7f/dad35/fortune.webp 885w,
-/blog/static/95e73884af058d8bc306cfaf5f330e7f/2baf0/fortune.webp 1180w,
-/blog/static/95e73884af058d8bc306cfaf5f330e7f/063bf/fortune.webp 1300w&quot;
+        src=&quot;/static/95e73884af058d8bc306cfaf5f330e7f/5ca24/fortune.webp&quot;
+        srcset=&quot;/static/95e73884af058d8bc306cfaf5f330e7f/cbe2e/fortune.webp 148w,
+/static/95e73884af058d8bc306cfaf5f330e7f/3084c/fortune.webp 295w,
+/static/95e73884af058d8bc306cfaf5f330e7f/5ca24/fortune.webp 590w,
+/static/95e73884af058d8bc306cfaf5f330e7f/dad35/fortune.webp 885w,
+/static/95e73884af058d8bc306cfaf5f330e7f/2baf0/fortune.webp 1180w,
+/static/95e73884af058d8bc306cfaf5f330e7f/063bf/fortune.webp 1300w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1199,7 +1199,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/b69f99ad19a850dd88998a5821c82156/29114/housing.png&quot;
+    href=&quot;/static/b69f99ad19a850dd88998a5821c82156/29114/housing.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1212,13 +1212,13 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;this is my initial idea for the shape, but I don&amp;#39;t necessarily think it is explicitly what will be the final form&quot;
         title=&quot;this is my initial idea for the shape, but I don&amp;#39;t necessarily think it is explicitly what will be the final form&quot;
-        src=&quot;/blog/static/b69f99ad19a850dd88998a5821c82156/fcda8/housing.png&quot;
-        srcset=&quot;/blog/static/b69f99ad19a850dd88998a5821c82156/12f09/housing.png 148w,
-/blog/static/b69f99ad19a850dd88998a5821c82156/e4a3f/housing.png 295w,
-/blog/static/b69f99ad19a850dd88998a5821c82156/fcda8/housing.png 590w,
-/blog/static/b69f99ad19a850dd88998a5821c82156/efc66/housing.png 885w,
-/blog/static/b69f99ad19a850dd88998a5821c82156/c83ae/housing.png 1180w,
-/blog/static/b69f99ad19a850dd88998a5821c82156/29114/housing.png 1920w&quot;
+        src=&quot;/static/b69f99ad19a850dd88998a5821c82156/fcda8/housing.png&quot;
+        srcset=&quot;/static/b69f99ad19a850dd88998a5821c82156/12f09/housing.png 148w,
+/static/b69f99ad19a850dd88998a5821c82156/e4a3f/housing.png 295w,
+/static/b69f99ad19a850dd88998a5821c82156/fcda8/housing.png 590w,
+/static/b69f99ad19a850dd88998a5821c82156/efc66/housing.png 885w,
+/static/b69f99ad19a850dd88998a5821c82156/c83ae/housing.png 1180w,
+/static/b69f99ad19a850dd88998a5821c82156/29114/housing.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1241,7 +1241,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c260634535e026fdbb89f3f43a614e38/81e52/3Quater.png&quot;
+    href=&quot;/static/c260634535e026fdbb89f3f43a614e38/81e52/3Quater.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1254,13 +1254,13 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;our final product, an adult nightlight that tells you generated bedtime stories so that you don&amp;#39;t have to go to a bar yourself&quot;
         title=&quot;our final product, an adult nightlight that tells you generated bedtime stories so that you don&amp;#39;t have to go to a bar yourself&quot;
-        src=&quot;/blog/static/c260634535e026fdbb89f3f43a614e38/fcda8/3Quater.png&quot;
-        srcset=&quot;/blog/static/c260634535e026fdbb89f3f43a614e38/12f09/3Quater.png 148w,
-/blog/static/c260634535e026fdbb89f3f43a614e38/e4a3f/3Quater.png 295w,
-/blog/static/c260634535e026fdbb89f3f43a614e38/fcda8/3Quater.png 590w,
-/blog/static/c260634535e026fdbb89f3f43a614e38/efc66/3Quater.png 885w,
-/blog/static/c260634535e026fdbb89f3f43a614e38/c83ae/3Quater.png 1180w,
-/blog/static/c260634535e026fdbb89f3f43a614e38/81e52/3Quater.png 4075w&quot;
+        src=&quot;/static/c260634535e026fdbb89f3f43a614e38/fcda8/3Quater.png&quot;
+        srcset=&quot;/static/c260634535e026fdbb89f3f43a614e38/12f09/3Quater.png 148w,
+/static/c260634535e026fdbb89f3f43a614e38/e4a3f/3Quater.png 295w,
+/static/c260634535e026fdbb89f3f43a614e38/fcda8/3Quater.png 590w,
+/static/c260634535e026fdbb89f3f43a614e38/efc66/3Quater.png 885w,
+/static/c260634535e026fdbb89f3f43a614e38/c83ae/3Quater.png 1180w,
+/static/c260634535e026fdbb89f3f43a614e38/81e52/3Quater.png 4075w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1279,7 +1279,7 @@ RANDOMNESS IS GOD
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/590892fbb557f5cbfaf0801a201a6885/29114/proto.png&quot;
+    href=&quot;/static/590892fbb557f5cbfaf0801a201a6885/29114/proto.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1292,13 +1292,13 @@ RANDOMNESS IS GOD
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;here are our original prototypes, contrasting with another prototype we are somewhat basing our project on&quot;
         title=&quot;here are our original prototypes, contrasting with another prototype we are somewhat basing our project on&quot;
-        src=&quot;/blog/static/590892fbb557f5cbfaf0801a201a6885/fcda8/proto.png&quot;
-        srcset=&quot;/blog/static/590892fbb557f5cbfaf0801a201a6885/12f09/proto.png 148w,
-/blog/static/590892fbb557f5cbfaf0801a201a6885/e4a3f/proto.png 295w,
-/blog/static/590892fbb557f5cbfaf0801a201a6885/fcda8/proto.png 590w,
-/blog/static/590892fbb557f5cbfaf0801a201a6885/efc66/proto.png 885w,
-/blog/static/590892fbb557f5cbfaf0801a201a6885/c83ae/proto.png 1180w,
-/blog/static/590892fbb557f5cbfaf0801a201a6885/29114/proto.png 1920w&quot;
+        src=&quot;/static/590892fbb557f5cbfaf0801a201a6885/fcda8/proto.png&quot;
+        srcset=&quot;/static/590892fbb557f5cbfaf0801a201a6885/12f09/proto.png 148w,
+/static/590892fbb557f5cbfaf0801a201a6885/e4a3f/proto.png 295w,
+/static/590892fbb557f5cbfaf0801a201a6885/fcda8/proto.png 590w,
+/static/590892fbb557f5cbfaf0801a201a6885/efc66/proto.png 885w,
+/static/590892fbb557f5cbfaf0801a201a6885/c83ae/proto.png 1180w,
+/static/590892fbb557f5cbfaf0801a201a6885/29114/proto.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1317,7 +1317,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/d6049d815658eb4d73127fd3ac9ecb21/29114/sketch.png&quot;
+    href=&quot;/static/d6049d815658eb4d73127fd3ac9ecb21/29114/sketch.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1330,13 +1330,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;here is our ideation process&quot;
         title=&quot;here is our ideation process&quot;
-        src=&quot;/blog/static/d6049d815658eb4d73127fd3ac9ecb21/fcda8/sketch.png&quot;
-        srcset=&quot;/blog/static/d6049d815658eb4d73127fd3ac9ecb21/12f09/sketch.png 148w,
-/blog/static/d6049d815658eb4d73127fd3ac9ecb21/e4a3f/sketch.png 295w,
-/blog/static/d6049d815658eb4d73127fd3ac9ecb21/fcda8/sketch.png 590w,
-/blog/static/d6049d815658eb4d73127fd3ac9ecb21/efc66/sketch.png 885w,
-/blog/static/d6049d815658eb4d73127fd3ac9ecb21/c83ae/sketch.png 1180w,
-/blog/static/d6049d815658eb4d73127fd3ac9ecb21/29114/sketch.png 1920w&quot;
+        src=&quot;/static/d6049d815658eb4d73127fd3ac9ecb21/fcda8/sketch.png&quot;
+        srcset=&quot;/static/d6049d815658eb4d73127fd3ac9ecb21/12f09/sketch.png 148w,
+/static/d6049d815658eb4d73127fd3ac9ecb21/e4a3f/sketch.png 295w,
+/static/d6049d815658eb4d73127fd3ac9ecb21/fcda8/sketch.png 590w,
+/static/d6049d815658eb4d73127fd3ac9ecb21/efc66/sketch.png 885w,
+/static/d6049d815658eb4d73127fd3ac9ecb21/c83ae/sketch.png 1180w,
+/static/d6049d815658eb4d73127fd3ac9ecb21/29114/sketch.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1354,7 +1354,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/29114/basic.png&quot;
+    href=&quot;/static/5ea1f06554710a1dbf9a3e8e86f75c5e/29114/basic.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1367,13 +1367,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;a basic breakdown of the core CMF for the design of the night light&quot;
         title=&quot;a basic breakdown of the core CMF for the design of the night light&quot;
-        src=&quot;/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/fcda8/basic.png&quot;
-        srcset=&quot;/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/12f09/basic.png 148w,
-/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/e4a3f/basic.png 295w,
-/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/fcda8/basic.png 590w,
-/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/efc66/basic.png 885w,
-/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/c83ae/basic.png 1180w,
-/blog/static/5ea1f06554710a1dbf9a3e8e86f75c5e/29114/basic.png 1920w&quot;
+        src=&quot;/static/5ea1f06554710a1dbf9a3e8e86f75c5e/fcda8/basic.png&quot;
+        srcset=&quot;/static/5ea1f06554710a1dbf9a3e8e86f75c5e/12f09/basic.png 148w,
+/static/5ea1f06554710a1dbf9a3e8e86f75c5e/e4a3f/basic.png 295w,
+/static/5ea1f06554710a1dbf9a3e8e86f75c5e/fcda8/basic.png 590w,
+/static/5ea1f06554710a1dbf9a3e8e86f75c5e/efc66/basic.png 885w,
+/static/5ea1f06554710a1dbf9a3e8e86f75c5e/c83ae/basic.png 1180w,
+/static/5ea1f06554710a1dbf9a3e8e86f75c5e/29114/basic.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1389,7 +1389,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/29114/break_parts.png&quot;
+    href=&quot;/static/c09ab5aeb607d7b4309d6d5bf70a3611/29114/break_parts.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1402,13 +1402,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;break parts sketch&quot;
         title=&quot;break parts sketch&quot;
-        src=&quot;/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/fcda8/break_parts.png&quot;
-        srcset=&quot;/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/12f09/break_parts.png 148w,
-/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/e4a3f/break_parts.png 295w,
-/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/fcda8/break_parts.png 590w,
-/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/efc66/break_parts.png 885w,
-/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/c83ae/break_parts.png 1180w,
-/blog/static/c09ab5aeb607d7b4309d6d5bf70a3611/29114/break_parts.png 1920w&quot;
+        src=&quot;/static/c09ab5aeb607d7b4309d6d5bf70a3611/fcda8/break_parts.png&quot;
+        srcset=&quot;/static/c09ab5aeb607d7b4309d6d5bf70a3611/12f09/break_parts.png 148w,
+/static/c09ab5aeb607d7b4309d6d5bf70a3611/e4a3f/break_parts.png 295w,
+/static/c09ab5aeb607d7b4309d6d5bf70a3611/fcda8/break_parts.png 590w,
+/static/c09ab5aeb607d7b4309d6d5bf70a3611/efc66/break_parts.png 885w,
+/static/c09ab5aeb607d7b4309d6d5bf70a3611/c83ae/break_parts.png 1180w,
+/static/c09ab5aeb607d7b4309d6d5bf70a3611/29114/break_parts.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1433,7 +1433,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e6fb14e432e119b5bba45e3e82c71b64/df3a3/Ortho.png&quot;
+    href=&quot;/static/e6fb14e432e119b5bba45e3e82c71b64/df3a3/Ortho.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1446,13 +1446,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Ortho&quot;
         title=&quot;Ortho&quot;
-        src=&quot;/blog/static/e6fb14e432e119b5bba45e3e82c71b64/fcda8/Ortho.png&quot;
-        srcset=&quot;/blog/static/e6fb14e432e119b5bba45e3e82c71b64/12f09/Ortho.png 148w,
-/blog/static/e6fb14e432e119b5bba45e3e82c71b64/e4a3f/Ortho.png 295w,
-/blog/static/e6fb14e432e119b5bba45e3e82c71b64/fcda8/Ortho.png 590w,
-/blog/static/e6fb14e432e119b5bba45e3e82c71b64/efc66/Ortho.png 885w,
-/blog/static/e6fb14e432e119b5bba45e3e82c71b64/c83ae/Ortho.png 1180w,
-/blog/static/e6fb14e432e119b5bba45e3e82c71b64/df3a3/Ortho.png 4792w&quot;
+        src=&quot;/static/e6fb14e432e119b5bba45e3e82c71b64/fcda8/Ortho.png&quot;
+        srcset=&quot;/static/e6fb14e432e119b5bba45e3e82c71b64/12f09/Ortho.png 148w,
+/static/e6fb14e432e119b5bba45e3e82c71b64/e4a3f/Ortho.png 295w,
+/static/e6fb14e432e119b5bba45e3e82c71b64/fcda8/Ortho.png 590w,
+/static/e6fb14e432e119b5bba45e3e82c71b64/efc66/Ortho.png 885w,
+/static/e6fb14e432e119b5bba45e3e82c71b64/c83ae/Ortho.png 1180w,
+/static/e6fb14e432e119b5bba45e3e82c71b64/df3a3/Ortho.png 4792w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1465,7 +1465,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/007b1/Side.png&quot;
+    href=&quot;/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/007b1/Side.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1478,13 +1478,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Side&quot;
         title=&quot;Side&quot;
-        src=&quot;/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/fcda8/Side.png&quot;
-        srcset=&quot;/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/12f09/Side.png 148w,
-/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/e4a3f/Side.png 295w,
-/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/fcda8/Side.png 590w,
-/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/efc66/Side.png 885w,
-/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/c83ae/Side.png 1180w,
-/blog/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/007b1/Side.png 4878w&quot;
+        src=&quot;/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/fcda8/Side.png&quot;
+        srcset=&quot;/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/12f09/Side.png 148w,
+/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/e4a3f/Side.png 295w,
+/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/fcda8/Side.png 590w,
+/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/efc66/Side.png 885w,
+/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/c83ae/Side.png 1180w,
+/static/a66bbe1c9fce2dfff26f2f4eba0e91f6/007b1/Side.png 4878w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1497,7 +1497,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/91306/Front.png&quot;
+    href=&quot;/static/dd740ab759a9cca7bbc64eb4a6296df1/91306/Front.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1510,13 +1510,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Front&quot;
         title=&quot;Front&quot;
-        src=&quot;/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/fcda8/Front.png&quot;
-        srcset=&quot;/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/12f09/Front.png 148w,
-/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/e4a3f/Front.png 295w,
-/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/fcda8/Front.png 590w,
-/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/efc66/Front.png 885w,
-/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/c83ae/Front.png 1180w,
-/blog/static/dd740ab759a9cca7bbc64eb4a6296df1/91306/Front.png 3120w&quot;
+        src=&quot;/static/dd740ab759a9cca7bbc64eb4a6296df1/fcda8/Front.png&quot;
+        srcset=&quot;/static/dd740ab759a9cca7bbc64eb4a6296df1/12f09/Front.png 148w,
+/static/dd740ab759a9cca7bbc64eb4a6296df1/e4a3f/Front.png 295w,
+/static/dd740ab759a9cca7bbc64eb4a6296df1/fcda8/Front.png 590w,
+/static/dd740ab759a9cca7bbc64eb4a6296df1/efc66/Front.png 885w,
+/static/dd740ab759a9cca7bbc64eb4a6296df1/c83ae/Front.png 1180w,
+/static/dd740ab759a9cca7bbc64eb4a6296df1/91306/Front.png 3120w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1580,7 +1580,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/32960faa2b92e08ff92f9a8070e67fc5/29114/amplif.png&quot;
+    href=&quot;/static/32960faa2b92e08ff92f9a8070e67fc5/29114/amplif.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1593,13 +1593,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;apparently the load cell amplifier is the real component&quot;
         title=&quot;apparently the load cell amplifier is the real component&quot;
-        src=&quot;/blog/static/32960faa2b92e08ff92f9a8070e67fc5/fcda8/amplif.png&quot;
-        srcset=&quot;/blog/static/32960faa2b92e08ff92f9a8070e67fc5/12f09/amplif.png 148w,
-/blog/static/32960faa2b92e08ff92f9a8070e67fc5/e4a3f/amplif.png 295w,
-/blog/static/32960faa2b92e08ff92f9a8070e67fc5/fcda8/amplif.png 590w,
-/blog/static/32960faa2b92e08ff92f9a8070e67fc5/efc66/amplif.png 885w,
-/blog/static/32960faa2b92e08ff92f9a8070e67fc5/c83ae/amplif.png 1180w,
-/blog/static/32960faa2b92e08ff92f9a8070e67fc5/29114/amplif.png 1920w&quot;
+        src=&quot;/static/32960faa2b92e08ff92f9a8070e67fc5/fcda8/amplif.png&quot;
+        srcset=&quot;/static/32960faa2b92e08ff92f9a8070e67fc5/12f09/amplif.png 148w,
+/static/32960faa2b92e08ff92f9a8070e67fc5/e4a3f/amplif.png 295w,
+/static/32960faa2b92e08ff92f9a8070e67fc5/fcda8/amplif.png 590w,
+/static/32960faa2b92e08ff92f9a8070e67fc5/efc66/amplif.png 885w,
+/static/32960faa2b92e08ff92f9a8070e67fc5/c83ae/amplif.png 1180w,
+/static/32960faa2b92e08ff92f9a8070e67fc5/29114/amplif.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1617,7 +1617,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/0b92c61e2f24f38a52718a56adc263cc/29114/solder.png&quot;
+    href=&quot;/static/0b92c61e2f24f38a52718a56adc263cc/29114/solder.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1630,13 +1630,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;on the left is our first team solder and the right is the finished look&quot;
         title=&quot;on the left is our first team solder and the right is the finished look&quot;
-        src=&quot;/blog/static/0b92c61e2f24f38a52718a56adc263cc/fcda8/solder.png&quot;
-        srcset=&quot;/blog/static/0b92c61e2f24f38a52718a56adc263cc/12f09/solder.png 148w,
-/blog/static/0b92c61e2f24f38a52718a56adc263cc/e4a3f/solder.png 295w,
-/blog/static/0b92c61e2f24f38a52718a56adc263cc/fcda8/solder.png 590w,
-/blog/static/0b92c61e2f24f38a52718a56adc263cc/efc66/solder.png 885w,
-/blog/static/0b92c61e2f24f38a52718a56adc263cc/c83ae/solder.png 1180w,
-/blog/static/0b92c61e2f24f38a52718a56adc263cc/29114/solder.png 1920w&quot;
+        src=&quot;/static/0b92c61e2f24f38a52718a56adc263cc/fcda8/solder.png&quot;
+        srcset=&quot;/static/0b92c61e2f24f38a52718a56adc263cc/12f09/solder.png 148w,
+/static/0b92c61e2f24f38a52718a56adc263cc/e4a3f/solder.png 295w,
+/static/0b92c61e2f24f38a52718a56adc263cc/fcda8/solder.png 590w,
+/static/0b92c61e2f24f38a52718a56adc263cc/efc66/solder.png 885w,
+/static/0b92c61e2f24f38a52718a56adc263cc/c83ae/solder.png 1180w,
+/static/0b92c61e2f24f38a52718a56adc263cc/29114/solder.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1654,7 +1654,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/cf063db8afa420467eb47295fc091e3d/29114/sketch.png&quot;
+    href=&quot;/static/cf063db8afa420467eb47295fc091e3d/29114/sketch.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1667,13 +1667,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;sketch&quot;
         title=&quot;sketch&quot;
-        src=&quot;/blog/static/cf063db8afa420467eb47295fc091e3d/fcda8/sketch.png&quot;
-        srcset=&quot;/blog/static/cf063db8afa420467eb47295fc091e3d/12f09/sketch.png 148w,
-/blog/static/cf063db8afa420467eb47295fc091e3d/e4a3f/sketch.png 295w,
-/blog/static/cf063db8afa420467eb47295fc091e3d/fcda8/sketch.png 590w,
-/blog/static/cf063db8afa420467eb47295fc091e3d/efc66/sketch.png 885w,
-/blog/static/cf063db8afa420467eb47295fc091e3d/c83ae/sketch.png 1180w,
-/blog/static/cf063db8afa420467eb47295fc091e3d/29114/sketch.png 1920w&quot;
+        src=&quot;/static/cf063db8afa420467eb47295fc091e3d/fcda8/sketch.png&quot;
+        srcset=&quot;/static/cf063db8afa420467eb47295fc091e3d/12f09/sketch.png 148w,
+/static/cf063db8afa420467eb47295fc091e3d/e4a3f/sketch.png 295w,
+/static/cf063db8afa420467eb47295fc091e3d/fcda8/sketch.png 590w,
+/static/cf063db8afa420467eb47295fc091e3d/efc66/sketch.png 885w,
+/static/cf063db8afa420467eb47295fc091e3d/c83ae/sketch.png 1180w,
+/static/cf063db8afa420467eb47295fc091e3d/29114/sketch.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1690,7 +1690,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c01038404f86acf4a06305c04d54177e/29114/firstCardboard.png&quot;
+    href=&quot;/static/c01038404f86acf4a06305c04d54177e/29114/firstCardboard.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1703,13 +1703,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;realizing we had not changed the dimensions of the sheet to be 12x12&quot;
         title=&quot;realizing we had not changed the dimensions of the sheet to be 12x12&quot;
-        src=&quot;/blog/static/c01038404f86acf4a06305c04d54177e/fcda8/firstCardboard.png&quot;
-        srcset=&quot;/blog/static/c01038404f86acf4a06305c04d54177e/12f09/firstCardboard.png 148w,
-/blog/static/c01038404f86acf4a06305c04d54177e/e4a3f/firstCardboard.png 295w,
-/blog/static/c01038404f86acf4a06305c04d54177e/fcda8/firstCardboard.png 590w,
-/blog/static/c01038404f86acf4a06305c04d54177e/efc66/firstCardboard.png 885w,
-/blog/static/c01038404f86acf4a06305c04d54177e/c83ae/firstCardboard.png 1180w,
-/blog/static/c01038404f86acf4a06305c04d54177e/29114/firstCardboard.png 1920w&quot;
+        src=&quot;/static/c01038404f86acf4a06305c04d54177e/fcda8/firstCardboard.png&quot;
+        srcset=&quot;/static/c01038404f86acf4a06305c04d54177e/12f09/firstCardboard.png 148w,
+/static/c01038404f86acf4a06305c04d54177e/e4a3f/firstCardboard.png 295w,
+/static/c01038404f86acf4a06305c04d54177e/fcda8/firstCardboard.png 590w,
+/static/c01038404f86acf4a06305c04d54177e/efc66/firstCardboard.png 885w,
+/static/c01038404f86acf4a06305c04d54177e/c83ae/firstCardboard.png 1180w,
+/static/c01038404f86acf4a06305c04d54177e/29114/firstCardboard.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1726,7 +1726,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/bee1021fe8c65dd9309af598cae6e8a6/29114/proto.png&quot;
+    href=&quot;/static/bee1021fe8c65dd9309af598cae6e8a6/29114/proto.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1739,13 +1739,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;first assembled and glued prototype&quot;
         title=&quot;first assembled and glued prototype&quot;
-        src=&quot;/blog/static/bee1021fe8c65dd9309af598cae6e8a6/fcda8/proto.png&quot;
-        srcset=&quot;/blog/static/bee1021fe8c65dd9309af598cae6e8a6/12f09/proto.png 148w,
-/blog/static/bee1021fe8c65dd9309af598cae6e8a6/e4a3f/proto.png 295w,
-/blog/static/bee1021fe8c65dd9309af598cae6e8a6/fcda8/proto.png 590w,
-/blog/static/bee1021fe8c65dd9309af598cae6e8a6/efc66/proto.png 885w,
-/blog/static/bee1021fe8c65dd9309af598cae6e8a6/c83ae/proto.png 1180w,
-/blog/static/bee1021fe8c65dd9309af598cae6e8a6/29114/proto.png 1920w&quot;
+        src=&quot;/static/bee1021fe8c65dd9309af598cae6e8a6/fcda8/proto.png&quot;
+        srcset=&quot;/static/bee1021fe8c65dd9309af598cae6e8a6/12f09/proto.png 148w,
+/static/bee1021fe8c65dd9309af598cae6e8a6/e4a3f/proto.png 295w,
+/static/bee1021fe8c65dd9309af598cae6e8a6/fcda8/proto.png 590w,
+/static/bee1021fe8c65dd9309af598cae6e8a6/efc66/proto.png 885w,
+/static/bee1021fe8c65dd9309af598cae6e8a6/c83ae/proto.png 1180w,
+/static/bee1021fe8c65dd9309af598cae6e8a6/29114/proto.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1767,7 +1767,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/29114/firstLcd.png&quot;
+    href=&quot;/static/ed665e2f35d8faa876a4dfb2b2c7798b/29114/firstLcd.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1780,13 +1780,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;firstLcd&quot;
         title=&quot;firstLcd&quot;
-        src=&quot;/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/fcda8/firstLcd.png&quot;
-        srcset=&quot;/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/12f09/firstLcd.png 148w,
-/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/e4a3f/firstLcd.png 295w,
-/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/fcda8/firstLcd.png 590w,
-/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/efc66/firstLcd.png 885w,
-/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/c83ae/firstLcd.png 1180w,
-/blog/static/ed665e2f35d8faa876a4dfb2b2c7798b/29114/firstLcd.png 1920w&quot;
+        src=&quot;/static/ed665e2f35d8faa876a4dfb2b2c7798b/fcda8/firstLcd.png&quot;
+        srcset=&quot;/static/ed665e2f35d8faa876a4dfb2b2c7798b/12f09/firstLcd.png 148w,
+/static/ed665e2f35d8faa876a4dfb2b2c7798b/e4a3f/firstLcd.png 295w,
+/static/ed665e2f35d8faa876a4dfb2b2c7798b/fcda8/firstLcd.png 590w,
+/static/ed665e2f35d8faa876a4dfb2b2c7798b/efc66/firstLcd.png 885w,
+/static/ed665e2f35d8faa876a4dfb2b2c7798b/c83ae/firstLcd.png 1180w,
+/static/ed665e2f35d8faa876a4dfb2b2c7798b/29114/firstLcd.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1804,7 +1804,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/29114/diagram.png&quot;
+    href=&quot;/static/ece419d71fcc148b37d7b4bc1a3e8205/29114/diagram.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1817,13 +1817,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;diagram&quot;
         title=&quot;diagram&quot;
-        src=&quot;/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/fcda8/diagram.png&quot;
-        srcset=&quot;/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/12f09/diagram.png 148w,
-/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/e4a3f/diagram.png 295w,
-/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/fcda8/diagram.png 590w,
-/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/efc66/diagram.png 885w,
-/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/c83ae/diagram.png 1180w,
-/blog/static/ece419d71fcc148b37d7b4bc1a3e8205/29114/diagram.png 1920w&quot;
+        src=&quot;/static/ece419d71fcc148b37d7b4bc1a3e8205/fcda8/diagram.png&quot;
+        srcset=&quot;/static/ece419d71fcc148b37d7b4bc1a3e8205/12f09/diagram.png 148w,
+/static/ece419d71fcc148b37d7b4bc1a3e8205/e4a3f/diagram.png 295w,
+/static/ece419d71fcc148b37d7b4bc1a3e8205/fcda8/diagram.png 590w,
+/static/ece419d71fcc148b37d7b4bc1a3e8205/efc66/diagram.png 885w,
+/static/ece419d71fcc148b37d7b4bc1a3e8205/c83ae/diagram.png 1180w,
+/static/ece419d71fcc148b37d7b4bc1a3e8205/29114/diagram.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1841,7 +1841,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/928d9cb79607c923514dae13cd23d787/29114/1.png&quot;
+    href=&quot;/static/928d9cb79607c923514dae13cd23d787/29114/1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1854,13 +1854,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;1&quot;
         title=&quot;1&quot;
-        src=&quot;/blog/static/928d9cb79607c923514dae13cd23d787/fcda8/1.png&quot;
-        srcset=&quot;/blog/static/928d9cb79607c923514dae13cd23d787/12f09/1.png 148w,
-/blog/static/928d9cb79607c923514dae13cd23d787/e4a3f/1.png 295w,
-/blog/static/928d9cb79607c923514dae13cd23d787/fcda8/1.png 590w,
-/blog/static/928d9cb79607c923514dae13cd23d787/efc66/1.png 885w,
-/blog/static/928d9cb79607c923514dae13cd23d787/c83ae/1.png 1180w,
-/blog/static/928d9cb79607c923514dae13cd23d787/29114/1.png 1920w&quot;
+        src=&quot;/static/928d9cb79607c923514dae13cd23d787/fcda8/1.png&quot;
+        srcset=&quot;/static/928d9cb79607c923514dae13cd23d787/12f09/1.png 148w,
+/static/928d9cb79607c923514dae13cd23d787/e4a3f/1.png 295w,
+/static/928d9cb79607c923514dae13cd23d787/fcda8/1.png 590w,
+/static/928d9cb79607c923514dae13cd23d787/efc66/1.png 885w,
+/static/928d9cb79607c923514dae13cd23d787/c83ae/1.png 1180w,
+/static/928d9cb79607c923514dae13cd23d787/29114/1.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1873,7 +1873,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/16dfcfab1787536842a8546803dc0bc8/29114/2.png&quot;
+    href=&quot;/static/16dfcfab1787536842a8546803dc0bc8/29114/2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1886,13 +1886,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;2&quot;
         title=&quot;2&quot;
-        src=&quot;/blog/static/16dfcfab1787536842a8546803dc0bc8/fcda8/2.png&quot;
-        srcset=&quot;/blog/static/16dfcfab1787536842a8546803dc0bc8/12f09/2.png 148w,
-/blog/static/16dfcfab1787536842a8546803dc0bc8/e4a3f/2.png 295w,
-/blog/static/16dfcfab1787536842a8546803dc0bc8/fcda8/2.png 590w,
-/blog/static/16dfcfab1787536842a8546803dc0bc8/efc66/2.png 885w,
-/blog/static/16dfcfab1787536842a8546803dc0bc8/c83ae/2.png 1180w,
-/blog/static/16dfcfab1787536842a8546803dc0bc8/29114/2.png 1920w&quot;
+        src=&quot;/static/16dfcfab1787536842a8546803dc0bc8/fcda8/2.png&quot;
+        srcset=&quot;/static/16dfcfab1787536842a8546803dc0bc8/12f09/2.png 148w,
+/static/16dfcfab1787536842a8546803dc0bc8/e4a3f/2.png 295w,
+/static/16dfcfab1787536842a8546803dc0bc8/fcda8/2.png 590w,
+/static/16dfcfab1787536842a8546803dc0bc8/efc66/2.png 885w,
+/static/16dfcfab1787536842a8546803dc0bc8/c83ae/2.png 1180w,
+/static/16dfcfab1787536842a8546803dc0bc8/29114/2.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1905,7 +1905,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/0121db7a399dfba1ad85f6fead54256a/29114/3.png&quot;
+    href=&quot;/static/0121db7a399dfba1ad85f6fead54256a/29114/3.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1918,13 +1918,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;3&quot;
         title=&quot;3&quot;
-        src=&quot;/blog/static/0121db7a399dfba1ad85f6fead54256a/fcda8/3.png&quot;
-        srcset=&quot;/blog/static/0121db7a399dfba1ad85f6fead54256a/12f09/3.png 148w,
-/blog/static/0121db7a399dfba1ad85f6fead54256a/e4a3f/3.png 295w,
-/blog/static/0121db7a399dfba1ad85f6fead54256a/fcda8/3.png 590w,
-/blog/static/0121db7a399dfba1ad85f6fead54256a/efc66/3.png 885w,
-/blog/static/0121db7a399dfba1ad85f6fead54256a/c83ae/3.png 1180w,
-/blog/static/0121db7a399dfba1ad85f6fead54256a/29114/3.png 1920w&quot;
+        src=&quot;/static/0121db7a399dfba1ad85f6fead54256a/fcda8/3.png&quot;
+        srcset=&quot;/static/0121db7a399dfba1ad85f6fead54256a/12f09/3.png 148w,
+/static/0121db7a399dfba1ad85f6fead54256a/e4a3f/3.png 295w,
+/static/0121db7a399dfba1ad85f6fead54256a/fcda8/3.png 590w,
+/static/0121db7a399dfba1ad85f6fead54256a/efc66/3.png 885w,
+/static/0121db7a399dfba1ad85f6fead54256a/c83ae/3.png 1180w,
+/static/0121db7a399dfba1ad85f6fead54256a/29114/3.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -1939,7 +1939,7 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f082652bbecca7caed4dfe57f2c42410/29114/look.png&quot;
+    href=&quot;/static/f082652bbecca7caed4dfe57f2c42410/29114/look.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -1952,13 +1952,13 @@ asleep and dispenses a sleep-aid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;look&quot;
         title=&quot;look&quot;
-        src=&quot;/blog/static/f082652bbecca7caed4dfe57f2c42410/fcda8/look.png&quot;
-        srcset=&quot;/blog/static/f082652bbecca7caed4dfe57f2c42410/12f09/look.png 148w,
-/blog/static/f082652bbecca7caed4dfe57f2c42410/e4a3f/look.png 295w,
-/blog/static/f082652bbecca7caed4dfe57f2c42410/fcda8/look.png 590w,
-/blog/static/f082652bbecca7caed4dfe57f2c42410/efc66/look.png 885w,
-/blog/static/f082652bbecca7caed4dfe57f2c42410/c83ae/look.png 1180w,
-/blog/static/f082652bbecca7caed4dfe57f2c42410/29114/look.png 1920w&quot;
+        src=&quot;/static/f082652bbecca7caed4dfe57f2c42410/fcda8/look.png&quot;
+        srcset=&quot;/static/f082652bbecca7caed4dfe57f2c42410/12f09/look.png 148w,
+/static/f082652bbecca7caed4dfe57f2c42410/e4a3f/look.png 295w,
+/static/f082652bbecca7caed4dfe57f2c42410/fcda8/look.png 590w,
+/static/f082652bbecca7caed4dfe57f2c42410/efc66/look.png 885w,
+/static/f082652bbecca7caed4dfe57f2c42410/c83ae/look.png 1180w,
+/static/f082652bbecca7caed4dfe57f2c42410/29114/look.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2011,7 +2011,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/5a778a4334a97b4f48f505a2228495b2/29114/unformatted.png&quot;
+    href=&quot;/static/5a778a4334a97b4f48f505a2228495b2/29114/unformatted.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2024,13 +2024,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;unformatted&quot;
         title=&quot;unformatted&quot;
-        src=&quot;/blog/static/5a778a4334a97b4f48f505a2228495b2/fcda8/unformatted.png&quot;
-        srcset=&quot;/blog/static/5a778a4334a97b4f48f505a2228495b2/12f09/unformatted.png 148w,
-/blog/static/5a778a4334a97b4f48f505a2228495b2/e4a3f/unformatted.png 295w,
-/blog/static/5a778a4334a97b4f48f505a2228495b2/fcda8/unformatted.png 590w,
-/blog/static/5a778a4334a97b4f48f505a2228495b2/efc66/unformatted.png 885w,
-/blog/static/5a778a4334a97b4f48f505a2228495b2/c83ae/unformatted.png 1180w,
-/blog/static/5a778a4334a97b4f48f505a2228495b2/29114/unformatted.png 1920w&quot;
+        src=&quot;/static/5a778a4334a97b4f48f505a2228495b2/fcda8/unformatted.png&quot;
+        srcset=&quot;/static/5a778a4334a97b4f48f505a2228495b2/12f09/unformatted.png 148w,
+/static/5a778a4334a97b4f48f505a2228495b2/e4a3f/unformatted.png 295w,
+/static/5a778a4334a97b4f48f505a2228495b2/fcda8/unformatted.png 590w,
+/static/5a778a4334a97b4f48f505a2228495b2/efc66/unformatted.png 885w,
+/static/5a778a4334a97b4f48f505a2228495b2/c83ae/unformatted.png 1180w,
+/static/5a778a4334a97b4f48f505a2228495b2/29114/unformatted.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2048,7 +2048,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/11cff1b4c45085e22eb5b8b35080393a/29114/first.png&quot;
+    href=&quot;/static/11cff1b4c45085e22eb5b8b35080393a/29114/first.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2061,13 +2061,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;first&quot;
         title=&quot;first&quot;
-        src=&quot;/blog/static/11cff1b4c45085e22eb5b8b35080393a/fcda8/first.png&quot;
-        srcset=&quot;/blog/static/11cff1b4c45085e22eb5b8b35080393a/12f09/first.png 148w,
-/blog/static/11cff1b4c45085e22eb5b8b35080393a/e4a3f/first.png 295w,
-/blog/static/11cff1b4c45085e22eb5b8b35080393a/fcda8/first.png 590w,
-/blog/static/11cff1b4c45085e22eb5b8b35080393a/efc66/first.png 885w,
-/blog/static/11cff1b4c45085e22eb5b8b35080393a/c83ae/first.png 1180w,
-/blog/static/11cff1b4c45085e22eb5b8b35080393a/29114/first.png 1920w&quot;
+        src=&quot;/static/11cff1b4c45085e22eb5b8b35080393a/fcda8/first.png&quot;
+        srcset=&quot;/static/11cff1b4c45085e22eb5b8b35080393a/12f09/first.png 148w,
+/static/11cff1b4c45085e22eb5b8b35080393a/e4a3f/first.png 295w,
+/static/11cff1b4c45085e22eb5b8b35080393a/fcda8/first.png 590w,
+/static/11cff1b4c45085e22eb5b8b35080393a/efc66/first.png 885w,
+/static/11cff1b4c45085e22eb5b8b35080393a/c83ae/first.png 1180w,
+/static/11cff1b4c45085e22eb5b8b35080393a/29114/first.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2085,7 +2085,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/29114/readred.png&quot;
+    href=&quot;/static/899ba9d6f5df3e5be273b69c70bf0c6e/29114/readred.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2098,13 +2098,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;readred&quot;
         title=&quot;readred&quot;
-        src=&quot;/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/fcda8/readred.png&quot;
-        srcset=&quot;/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/12f09/readred.png 148w,
-/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/e4a3f/readred.png 295w,
-/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/fcda8/readred.png 590w,
-/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/efc66/readred.png 885w,
-/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/c83ae/readred.png 1180w,
-/blog/static/899ba9d6f5df3e5be273b69c70bf0c6e/29114/readred.png 1920w&quot;
+        src=&quot;/static/899ba9d6f5df3e5be273b69c70bf0c6e/fcda8/readred.png&quot;
+        srcset=&quot;/static/899ba9d6f5df3e5be273b69c70bf0c6e/12f09/readred.png 148w,
+/static/899ba9d6f5df3e5be273b69c70bf0c6e/e4a3f/readred.png 295w,
+/static/899ba9d6f5df3e5be273b69c70bf0c6e/fcda8/readred.png 590w,
+/static/899ba9d6f5df3e5be273b69c70bf0c6e/efc66/readred.png 885w,
+/static/899ba9d6f5df3e5be273b69c70bf0c6e/c83ae/readred.png 1180w,
+/static/899ba9d6f5df3e5be273b69c70bf0c6e/29114/readred.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2120,7 +2120,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png&quot;
+    href=&quot;/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2133,13 +2133,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;normie.png&quot;
         title=&quot;normie.png&quot;
-        src=&quot;/blog/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png&quot;
-        srcset=&quot;/blog/static/6b1798634a6d12d7de7aaf06e536d800/12f09/normie.png 148w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/e4a3f/normie.png 295w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png 590w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/efc66/normie.png 885w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/c83ae/normie.png 1180w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png 1920w&quot;
+        src=&quot;/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png&quot;
+        srcset=&quot;/static/6b1798634a6d12d7de7aaf06e536d800/12f09/normie.png 148w,
+/static/6b1798634a6d12d7de7aaf06e536d800/e4a3f/normie.png 295w,
+/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png 590w,
+/static/6b1798634a6d12d7de7aaf06e536d800/efc66/normie.png 885w,
+/static/6b1798634a6d12d7de7aaf06e536d800/c83ae/normie.png 1180w,
+/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2155,7 +2155,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png&quot;
+    href=&quot;/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2168,13 +2168,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;more_normie.png&quot;
         title=&quot;more_normie.png&quot;
-        src=&quot;/blog/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png&quot;
-        srcset=&quot;/blog/static/6b1798634a6d12d7de7aaf06e536d800/12f09/normie.png 148w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/e4a3f/normie.png 295w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png 590w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/efc66/normie.png 885w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/c83ae/normie.png 1180w,
-/blog/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png 1920w&quot;
+        src=&quot;/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png&quot;
+        srcset=&quot;/static/6b1798634a6d12d7de7aaf06e536d800/12f09/normie.png 148w,
+/static/6b1798634a6d12d7de7aaf06e536d800/e4a3f/normie.png 295w,
+/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png 590w,
+/static/6b1798634a6d12d7de7aaf06e536d800/efc66/normie.png 885w,
+/static/6b1798634a6d12d7de7aaf06e536d800/c83ae/normie.png 1180w,
+/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2192,7 +2192,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f7a24d47f4c0043259e7ae4507b22125/29114/cursed.png&quot;
+    href=&quot;/static/f7a24d47f4c0043259e7ae4507b22125/29114/cursed.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2205,13 +2205,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;cursed&quot;
         title=&quot;cursed&quot;
-        src=&quot;/blog/static/f7a24d47f4c0043259e7ae4507b22125/fcda8/cursed.png&quot;
-        srcset=&quot;/blog/static/f7a24d47f4c0043259e7ae4507b22125/12f09/cursed.png 148w,
-/blog/static/f7a24d47f4c0043259e7ae4507b22125/e4a3f/cursed.png 295w,
-/blog/static/f7a24d47f4c0043259e7ae4507b22125/fcda8/cursed.png 590w,
-/blog/static/f7a24d47f4c0043259e7ae4507b22125/efc66/cursed.png 885w,
-/blog/static/f7a24d47f4c0043259e7ae4507b22125/c83ae/cursed.png 1180w,
-/blog/static/f7a24d47f4c0043259e7ae4507b22125/29114/cursed.png 1920w&quot;
+        src=&quot;/static/f7a24d47f4c0043259e7ae4507b22125/fcda8/cursed.png&quot;
+        srcset=&quot;/static/f7a24d47f4c0043259e7ae4507b22125/12f09/cursed.png 148w,
+/static/f7a24d47f4c0043259e7ae4507b22125/e4a3f/cursed.png 295w,
+/static/f7a24d47f4c0043259e7ae4507b22125/fcda8/cursed.png 590w,
+/static/f7a24d47f4c0043259e7ae4507b22125/efc66/cursed.png 885w,
+/static/f7a24d47f4c0043259e7ae4507b22125/c83ae/cursed.png 1180w,
+/static/f7a24d47f4c0043259e7ae4507b22125/29114/cursed.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2227,7 +2227,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/4769a952f72b5788915abf065629b0c7/29114/cursed2.png&quot;
+    href=&quot;/static/4769a952f72b5788915abf065629b0c7/29114/cursed2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2240,13 +2240,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;cursed2&quot;
         title=&quot;cursed2&quot;
-        src=&quot;/blog/static/4769a952f72b5788915abf065629b0c7/fcda8/cursed2.png&quot;
-        srcset=&quot;/blog/static/4769a952f72b5788915abf065629b0c7/12f09/cursed2.png 148w,
-/blog/static/4769a952f72b5788915abf065629b0c7/e4a3f/cursed2.png 295w,
-/blog/static/4769a952f72b5788915abf065629b0c7/fcda8/cursed2.png 590w,
-/blog/static/4769a952f72b5788915abf065629b0c7/efc66/cursed2.png 885w,
-/blog/static/4769a952f72b5788915abf065629b0c7/c83ae/cursed2.png 1180w,
-/blog/static/4769a952f72b5788915abf065629b0c7/29114/cursed2.png 1920w&quot;
+        src=&quot;/static/4769a952f72b5788915abf065629b0c7/fcda8/cursed2.png&quot;
+        srcset=&quot;/static/4769a952f72b5788915abf065629b0c7/12f09/cursed2.png 148w,
+/static/4769a952f72b5788915abf065629b0c7/e4a3f/cursed2.png 295w,
+/static/4769a952f72b5788915abf065629b0c7/fcda8/cursed2.png 590w,
+/static/4769a952f72b5788915abf065629b0c7/efc66/cursed2.png 885w,
+/static/4769a952f72b5788915abf065629b0c7/c83ae/cursed2.png 1180w,
+/static/4769a952f72b5788915abf065629b0c7/29114/cursed2.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2264,7 +2264,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/fd198e0292930af2c6c8d8df4b3b5223/29114/final.png&quot;
+    href=&quot;/static/fd198e0292930af2c6c8d8df4b3b5223/29114/final.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2277,13 +2277,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;final&quot;
         title=&quot;final&quot;
-        src=&quot;/blog/static/fd198e0292930af2c6c8d8df4b3b5223/fcda8/final.png&quot;
-        srcset=&quot;/blog/static/fd198e0292930af2c6c8d8df4b3b5223/12f09/final.png 148w,
-/blog/static/fd198e0292930af2c6c8d8df4b3b5223/e4a3f/final.png 295w,
-/blog/static/fd198e0292930af2c6c8d8df4b3b5223/fcda8/final.png 590w,
-/blog/static/fd198e0292930af2c6c8d8df4b3b5223/efc66/final.png 885w,
-/blog/static/fd198e0292930af2c6c8d8df4b3b5223/c83ae/final.png 1180w,
-/blog/static/fd198e0292930af2c6c8d8df4b3b5223/29114/final.png 1920w&quot;
+        src=&quot;/static/fd198e0292930af2c6c8d8df4b3b5223/fcda8/final.png&quot;
+        srcset=&quot;/static/fd198e0292930af2c6c8d8df4b3b5223/12f09/final.png 148w,
+/static/fd198e0292930af2c6c8d8df4b3b5223/e4a3f/final.png 295w,
+/static/fd198e0292930af2c6c8d8df4b3b5223/fcda8/final.png 590w,
+/static/fd198e0292930af2c6c8d8df4b3b5223/efc66/final.png 885w,
+/static/fd198e0292930af2c6c8d8df4b3b5223/c83ae/final.png 1180w,
+/static/fd198e0292930af2c6c8d8df4b3b5223/29114/final.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2300,7 +2300,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/83bf6ed742aab0d504badb63ff49503e/29114/final_output.png&quot;
+    href=&quot;/static/83bf6ed742aab0d504badb63ff49503e/29114/final_output.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2313,13 +2313,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;final output&quot;
         title=&quot;final output&quot;
-        src=&quot;/blog/static/83bf6ed742aab0d504badb63ff49503e/fcda8/final_output.png&quot;
-        srcset=&quot;/blog/static/83bf6ed742aab0d504badb63ff49503e/12f09/final_output.png 148w,
-/blog/static/83bf6ed742aab0d504badb63ff49503e/e4a3f/final_output.png 295w,
-/blog/static/83bf6ed742aab0d504badb63ff49503e/fcda8/final_output.png 590w,
-/blog/static/83bf6ed742aab0d504badb63ff49503e/efc66/final_output.png 885w,
-/blog/static/83bf6ed742aab0d504badb63ff49503e/c83ae/final_output.png 1180w,
-/blog/static/83bf6ed742aab0d504badb63ff49503e/29114/final_output.png 1920w&quot;
+        src=&quot;/static/83bf6ed742aab0d504badb63ff49503e/fcda8/final_output.png&quot;
+        srcset=&quot;/static/83bf6ed742aab0d504badb63ff49503e/12f09/final_output.png 148w,
+/static/83bf6ed742aab0d504badb63ff49503e/e4a3f/final_output.png 295w,
+/static/83bf6ed742aab0d504badb63ff49503e/fcda8/final_output.png 590w,
+/static/83bf6ed742aab0d504badb63ff49503e/efc66/final_output.png 885w,
+/static/83bf6ed742aab0d504badb63ff49503e/c83ae/final_output.png 1180w,
+/static/83bf6ed742aab0d504badb63ff49503e/29114/final_output.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2335,7 +2335,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e19e46ce4e2d127885ea419288be461c/29114/progress1.1.png&quot;
+    href=&quot;/static/e19e46ce4e2d127885ea419288be461c/29114/progress1.1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2348,13 +2348,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;progress1 1&quot;
         title=&quot;progress1 1&quot;
-        src=&quot;/blog/static/e19e46ce4e2d127885ea419288be461c/fcda8/progress1.1.png&quot;
-        srcset=&quot;/blog/static/e19e46ce4e2d127885ea419288be461c/12f09/progress1.1.png 148w,
-/blog/static/e19e46ce4e2d127885ea419288be461c/e4a3f/progress1.1.png 295w,
-/blog/static/e19e46ce4e2d127885ea419288be461c/fcda8/progress1.1.png 590w,
-/blog/static/e19e46ce4e2d127885ea419288be461c/efc66/progress1.1.png 885w,
-/blog/static/e19e46ce4e2d127885ea419288be461c/c83ae/progress1.1.png 1180w,
-/blog/static/e19e46ce4e2d127885ea419288be461c/29114/progress1.1.png 1920w&quot;
+        src=&quot;/static/e19e46ce4e2d127885ea419288be461c/fcda8/progress1.1.png&quot;
+        srcset=&quot;/static/e19e46ce4e2d127885ea419288be461c/12f09/progress1.1.png 148w,
+/static/e19e46ce4e2d127885ea419288be461c/e4a3f/progress1.1.png 295w,
+/static/e19e46ce4e2d127885ea419288be461c/fcda8/progress1.1.png 590w,
+/static/e19e46ce4e2d127885ea419288be461c/efc66/progress1.1.png 885w,
+/static/e19e46ce4e2d127885ea419288be461c/c83ae/progress1.1.png 1180w,
+/static/e19e46ce4e2d127885ea419288be461c/29114/progress1.1.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2367,7 +2367,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/4eb0ba40e33501a030bf255e56f84c5c/29114/progress1.png&quot;
+    href=&quot;/static/4eb0ba40e33501a030bf255e56f84c5c/29114/progress1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2380,13 +2380,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;progress1&quot;
         title=&quot;progress1&quot;
-        src=&quot;/blog/static/4eb0ba40e33501a030bf255e56f84c5c/fcda8/progress1.png&quot;
-        srcset=&quot;/blog/static/4eb0ba40e33501a030bf255e56f84c5c/12f09/progress1.png 148w,
-/blog/static/4eb0ba40e33501a030bf255e56f84c5c/e4a3f/progress1.png 295w,
-/blog/static/4eb0ba40e33501a030bf255e56f84c5c/fcda8/progress1.png 590w,
-/blog/static/4eb0ba40e33501a030bf255e56f84c5c/efc66/progress1.png 885w,
-/blog/static/4eb0ba40e33501a030bf255e56f84c5c/c83ae/progress1.png 1180w,
-/blog/static/4eb0ba40e33501a030bf255e56f84c5c/29114/progress1.png 1920w&quot;
+        src=&quot;/static/4eb0ba40e33501a030bf255e56f84c5c/fcda8/progress1.png&quot;
+        srcset=&quot;/static/4eb0ba40e33501a030bf255e56f84c5c/12f09/progress1.png 148w,
+/static/4eb0ba40e33501a030bf255e56f84c5c/e4a3f/progress1.png 295w,
+/static/4eb0ba40e33501a030bf255e56f84c5c/fcda8/progress1.png 590w,
+/static/4eb0ba40e33501a030bf255e56f84c5c/efc66/progress1.png 885w,
+/static/4eb0ba40e33501a030bf255e56f84c5c/c83ae/progress1.png 1180w,
+/static/4eb0ba40e33501a030bf255e56f84c5c/29114/progress1.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2402,7 +2402,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/29114/all.png&quot;
+    href=&quot;/static/f9093e6bd00b1bbf647c9d5863aab6f1/29114/all.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2415,13 +2415,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;all&quot;
         title=&quot;all&quot;
-        src=&quot;/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/fcda8/all.png&quot;
-        srcset=&quot;/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/12f09/all.png 148w,
-/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/e4a3f/all.png 295w,
-/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/fcda8/all.png 590w,
-/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/efc66/all.png 885w,
-/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/c83ae/all.png 1180w,
-/blog/static/f9093e6bd00b1bbf647c9d5863aab6f1/29114/all.png 1920w&quot;
+        src=&quot;/static/f9093e6bd00b1bbf647c9d5863aab6f1/fcda8/all.png&quot;
+        srcset=&quot;/static/f9093e6bd00b1bbf647c9d5863aab6f1/12f09/all.png 148w,
+/static/f9093e6bd00b1bbf647c9d5863aab6f1/e4a3f/all.png 295w,
+/static/f9093e6bd00b1bbf647c9d5863aab6f1/fcda8/all.png 590w,
+/static/f9093e6bd00b1bbf647c9d5863aab6f1/efc66/all.png 885w,
+/static/f9093e6bd00b1bbf647c9d5863aab6f1/c83ae/all.png 1180w,
+/static/f9093e6bd00b1bbf647c9d5863aab6f1/29114/all.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2434,7 +2434,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/14d163f8ae02952862ba827535027837/29114/img1.png&quot;
+    href=&quot;/static/14d163f8ae02952862ba827535027837/29114/img1.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2447,13 +2447,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;img1&quot;
         title=&quot;img1&quot;
-        src=&quot;/blog/static/14d163f8ae02952862ba827535027837/fcda8/img1.png&quot;
-        srcset=&quot;/blog/static/14d163f8ae02952862ba827535027837/12f09/img1.png 148w,
-/blog/static/14d163f8ae02952862ba827535027837/e4a3f/img1.png 295w,
-/blog/static/14d163f8ae02952862ba827535027837/fcda8/img1.png 590w,
-/blog/static/14d163f8ae02952862ba827535027837/efc66/img1.png 885w,
-/blog/static/14d163f8ae02952862ba827535027837/c83ae/img1.png 1180w,
-/blog/static/14d163f8ae02952862ba827535027837/29114/img1.png 1920w&quot;
+        src=&quot;/static/14d163f8ae02952862ba827535027837/fcda8/img1.png&quot;
+        srcset=&quot;/static/14d163f8ae02952862ba827535027837/12f09/img1.png 148w,
+/static/14d163f8ae02952862ba827535027837/e4a3f/img1.png 295w,
+/static/14d163f8ae02952862ba827535027837/fcda8/img1.png 590w,
+/static/14d163f8ae02952862ba827535027837/efc66/img1.png 885w,
+/static/14d163f8ae02952862ba827535027837/c83ae/img1.png 1180w,
+/static/14d163f8ae02952862ba827535027837/29114/img1.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2466,7 +2466,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/29114/img2.png&quot;
+    href=&quot;/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/29114/img2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2479,13 +2479,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;img2&quot;
         title=&quot;img2&quot;
-        src=&quot;/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/fcda8/img2.png&quot;
-        srcset=&quot;/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/12f09/img2.png 148w,
-/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/e4a3f/img2.png 295w,
-/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/fcda8/img2.png 590w,
-/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/efc66/img2.png 885w,
-/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/c83ae/img2.png 1180w,
-/blog/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/29114/img2.png 1920w&quot;
+        src=&quot;/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/fcda8/img2.png&quot;
+        srcset=&quot;/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/12f09/img2.png 148w,
+/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/e4a3f/img2.png 295w,
+/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/fcda8/img2.png 590w,
+/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/efc66/img2.png 885w,
+/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/c83ae/img2.png 1180w,
+/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/29114/img2.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2498,7 +2498,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/29114/fave.png&quot;
+    href=&quot;/static/5ad82aee63684cbeffa79da8ae7e8e35/29114/fave.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2511,13 +2511,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;fave&quot;
         title=&quot;fave&quot;
-        src=&quot;/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/fcda8/fave.png&quot;
-        srcset=&quot;/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/12f09/fave.png 148w,
-/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/e4a3f/fave.png 295w,
-/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/fcda8/fave.png 590w,
-/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/efc66/fave.png 885w,
-/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/c83ae/fave.png 1180w,
-/blog/static/5ad82aee63684cbeffa79da8ae7e8e35/29114/fave.png 1920w&quot;
+        src=&quot;/static/5ad82aee63684cbeffa79da8ae7e8e35/fcda8/fave.png&quot;
+        srcset=&quot;/static/5ad82aee63684cbeffa79da8ae7e8e35/12f09/fave.png 148w,
+/static/5ad82aee63684cbeffa79da8ae7e8e35/e4a3f/fave.png 295w,
+/static/5ad82aee63684cbeffa79da8ae7e8e35/fcda8/fave.png 590w,
+/static/5ad82aee63684cbeffa79da8ae7e8e35/efc66/fave.png 885w,
+/static/5ad82aee63684cbeffa79da8ae7e8e35/c83ae/fave.png 1180w,
+/static/5ad82aee63684cbeffa79da8ae7e8e35/29114/fave.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2532,7 +2532,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/a81f37d8051ae02b199cbfbac632917a/29114/shira.png&quot;
+    href=&quot;/static/a81f37d8051ae02b199cbfbac632917a/29114/shira.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2545,13 +2545,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;shira&quot;
         title=&quot;shira&quot;
-        src=&quot;/blog/static/a81f37d8051ae02b199cbfbac632917a/fcda8/shira.png&quot;
-        srcset=&quot;/blog/static/a81f37d8051ae02b199cbfbac632917a/12f09/shira.png 148w,
-/blog/static/a81f37d8051ae02b199cbfbac632917a/e4a3f/shira.png 295w,
-/blog/static/a81f37d8051ae02b199cbfbac632917a/fcda8/shira.png 590w,
-/blog/static/a81f37d8051ae02b199cbfbac632917a/efc66/shira.png 885w,
-/blog/static/a81f37d8051ae02b199cbfbac632917a/c83ae/shira.png 1180w,
-/blog/static/a81f37d8051ae02b199cbfbac632917a/29114/shira.png 1920w&quot;
+        src=&quot;/static/a81f37d8051ae02b199cbfbac632917a/fcda8/shira.png&quot;
+        srcset=&quot;/static/a81f37d8051ae02b199cbfbac632917a/12f09/shira.png 148w,
+/static/a81f37d8051ae02b199cbfbac632917a/e4a3f/shira.png 295w,
+/static/a81f37d8051ae02b199cbfbac632917a/fcda8/shira.png 590w,
+/static/a81f37d8051ae02b199cbfbac632917a/efc66/shira.png 885w,
+/static/a81f37d8051ae02b199cbfbac632917a/c83ae/shira.png 1180w,
+/static/a81f37d8051ae02b199cbfbac632917a/29114/shira.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2565,7 +2565,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/3c9a3f633b72a99c282a3ce39deeed66/29114/nick.png&quot;
+    href=&quot;/static/3c9a3f633b72a99c282a3ce39deeed66/29114/nick.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2578,13 +2578,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;nick&quot;
         title=&quot;nick&quot;
-        src=&quot;/blog/static/3c9a3f633b72a99c282a3ce39deeed66/fcda8/nick.png&quot;
-        srcset=&quot;/blog/static/3c9a3f633b72a99c282a3ce39deeed66/12f09/nick.png 148w,
-/blog/static/3c9a3f633b72a99c282a3ce39deeed66/e4a3f/nick.png 295w,
-/blog/static/3c9a3f633b72a99c282a3ce39deeed66/fcda8/nick.png 590w,
-/blog/static/3c9a3f633b72a99c282a3ce39deeed66/efc66/nick.png 885w,
-/blog/static/3c9a3f633b72a99c282a3ce39deeed66/c83ae/nick.png 1180w,
-/blog/static/3c9a3f633b72a99c282a3ce39deeed66/29114/nick.png 1920w&quot;
+        src=&quot;/static/3c9a3f633b72a99c282a3ce39deeed66/fcda8/nick.png&quot;
+        srcset=&quot;/static/3c9a3f633b72a99c282a3ce39deeed66/12f09/nick.png 148w,
+/static/3c9a3f633b72a99c282a3ce39deeed66/e4a3f/nick.png 295w,
+/static/3c9a3f633b72a99c282a3ce39deeed66/fcda8/nick.png 590w,
+/static/3c9a3f633b72a99c282a3ce39deeed66/efc66/nick.png 885w,
+/static/3c9a3f633b72a99c282a3ce39deeed66/c83ae/nick.png 1180w,
+/static/3c9a3f633b72a99c282a3ce39deeed66/29114/nick.png 1920w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2605,7 +2605,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/5b4374656b04fdc643fd267cdbfd5439/a847c/concreto61.jpg&quot;
+    href=&quot;/static/5b4374656b04fdc643fd267cdbfd5439/a847c/concreto61.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2618,11 +2618,11 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;concerto 61&quot;
         title=&quot;concerto 61&quot;
-        src=&quot;/blog/static/5b4374656b04fdc643fd267cdbfd5439/1c72d/concreto61.jpg&quot;
-        srcset=&quot;/blog/static/5b4374656b04fdc643fd267cdbfd5439/a80bd/concreto61.jpg 148w,
-/blog/static/5b4374656b04fdc643fd267cdbfd5439/1c91a/concreto61.jpg 295w,
-/blog/static/5b4374656b04fdc643fd267cdbfd5439/1c72d/concreto61.jpg 590w,
-/blog/static/5b4374656b04fdc643fd267cdbfd5439/a847c/concreto61.jpg 846w&quot;
+        src=&quot;/static/5b4374656b04fdc643fd267cdbfd5439/1c72d/concreto61.jpg&quot;
+        srcset=&quot;/static/5b4374656b04fdc643fd267cdbfd5439/a80bd/concreto61.jpg 148w,
+/static/5b4374656b04fdc643fd267cdbfd5439/1c91a/concreto61.jpg 295w,
+/static/5b4374656b04fdc643fd267cdbfd5439/1c72d/concreto61.jpg 590w,
+/static/5b4374656b04fdc643fd267cdbfd5439/a847c/concreto61.jpg 846w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2641,7 +2641,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/9ce223d8da18ca14d89b1c223975f282/30d16/test-angles.png&quot;
+    href=&quot;/static/9ce223d8da18ca14d89b1c223975f282/30d16/test-angles.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2654,11 +2654,11 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;the first test&quot;
         title=&quot;the first test&quot;
-        src=&quot;/blog/static/9ce223d8da18ca14d89b1c223975f282/fcda8/test-angles.png&quot;
-        srcset=&quot;/blog/static/9ce223d8da18ca14d89b1c223975f282/12f09/test-angles.png 148w,
-/blog/static/9ce223d8da18ca14d89b1c223975f282/e4a3f/test-angles.png 295w,
-/blog/static/9ce223d8da18ca14d89b1c223975f282/fcda8/test-angles.png 590w,
-/blog/static/9ce223d8da18ca14d89b1c223975f282/30d16/test-angles.png 672w&quot;
+        src=&quot;/static/9ce223d8da18ca14d89b1c223975f282/fcda8/test-angles.png&quot;
+        srcset=&quot;/static/9ce223d8da18ca14d89b1c223975f282/12f09/test-angles.png 148w,
+/static/9ce223d8da18ca14d89b1c223975f282/e4a3f/test-angles.png 295w,
+/static/9ce223d8da18ca14d89b1c223975f282/fcda8/test-angles.png 590w,
+/static/9ce223d8da18ca14d89b1c223975f282/30d16/test-angles.png 672w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2674,7 +2674,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/d9d54e0d8cc18ada71e45f79e31873bd/0a47e/rotation.png&quot;
+    href=&quot;/static/d9d54e0d8cc18ada71e45f79e31873bd/0a47e/rotation.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2687,11 +2687,11 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;i also tried rotating the letters but did not like the effect since it made the text unreadable&quot;
         title=&quot;i also tried rotating the letters but did not like the effect since it made the text unreadable&quot;
-        src=&quot;/blog/static/d9d54e0d8cc18ada71e45f79e31873bd/fcda8/rotation.png&quot;
-        srcset=&quot;/blog/static/d9d54e0d8cc18ada71e45f79e31873bd/12f09/rotation.png 148w,
-/blog/static/d9d54e0d8cc18ada71e45f79e31873bd/e4a3f/rotation.png 295w,
-/blog/static/d9d54e0d8cc18ada71e45f79e31873bd/fcda8/rotation.png 590w,
-/blog/static/d9d54e0d8cc18ada71e45f79e31873bd/0a47e/rotation.png 600w&quot;
+        src=&quot;/static/d9d54e0d8cc18ada71e45f79e31873bd/fcda8/rotation.png&quot;
+        srcset=&quot;/static/d9d54e0d8cc18ada71e45f79e31873bd/12f09/rotation.png 148w,
+/static/d9d54e0d8cc18ada71e45f79e31873bd/e4a3f/rotation.png 295w,
+/static/d9d54e0d8cc18ada71e45f79e31873bd/fcda8/rotation.png 590w,
+/static/d9d54e0d8cc18ada71e45f79e31873bd/0a47e/rotation.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2707,7 +2707,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e9d292adb3d38b27b1463de188414b38/f680b/test-div-rotation.png&quot;
+    href=&quot;/static/e9d292adb3d38b27b1463de188414b38/f680b/test-div-rotation.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2720,12 +2720,12 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;i was having issues trying to get four quadrants of this rotation working as well, but i think the output was beautiful regardless.&quot;
         title=&quot;i was having issues trying to get four quadrants of this rotation working as well, but i think the output was beautiful regardless.&quot;
-        src=&quot;/blog/static/e9d292adb3d38b27b1463de188414b38/fcda8/test-div-rotation.png&quot;
-        srcset=&quot;/blog/static/e9d292adb3d38b27b1463de188414b38/12f09/test-div-rotation.png 148w,
-/blog/static/e9d292adb3d38b27b1463de188414b38/e4a3f/test-div-rotation.png 295w,
-/blog/static/e9d292adb3d38b27b1463de188414b38/fcda8/test-div-rotation.png 590w,
-/blog/static/e9d292adb3d38b27b1463de188414b38/efc66/test-div-rotation.png 885w,
-/blog/static/e9d292adb3d38b27b1463de188414b38/f680b/test-div-rotation.png 1108w&quot;
+        src=&quot;/static/e9d292adb3d38b27b1463de188414b38/fcda8/test-div-rotation.png&quot;
+        srcset=&quot;/static/e9d292adb3d38b27b1463de188414b38/12f09/test-div-rotation.png 148w,
+/static/e9d292adb3d38b27b1463de188414b38/e4a3f/test-div-rotation.png 295w,
+/static/e9d292adb3d38b27b1463de188414b38/fcda8/test-div-rotation.png 590w,
+/static/e9d292adb3d38b27b1463de188414b38/efc66/test-div-rotation.png 885w,
+/static/e9d292adb3d38b27b1463de188414b38/f680b/test-div-rotation.png 1108w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2740,7 +2740,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/1b480d1d7c3fe1513e621b840171b89d/55681/test-div-rotation2.png&quot;
+    href=&quot;/static/1b480d1d7c3fe1513e621b840171b89d/55681/test-div-rotation2.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2753,13 +2753,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;test div rotation2&quot;
         title=&quot;test div rotation2&quot;
-        src=&quot;/blog/static/1b480d1d7c3fe1513e621b840171b89d/fcda8/test-div-rotation2.png&quot;
-        srcset=&quot;/blog/static/1b480d1d7c3fe1513e621b840171b89d/12f09/test-div-rotation2.png 148w,
-/blog/static/1b480d1d7c3fe1513e621b840171b89d/e4a3f/test-div-rotation2.png 295w,
-/blog/static/1b480d1d7c3fe1513e621b840171b89d/fcda8/test-div-rotation2.png 590w,
-/blog/static/1b480d1d7c3fe1513e621b840171b89d/efc66/test-div-rotation2.png 885w,
-/blog/static/1b480d1d7c3fe1513e621b840171b89d/c83ae/test-div-rotation2.png 1180w,
-/blog/static/1b480d1d7c3fe1513e621b840171b89d/55681/test-div-rotation2.png 2062w&quot;
+        src=&quot;/static/1b480d1d7c3fe1513e621b840171b89d/fcda8/test-div-rotation2.png&quot;
+        srcset=&quot;/static/1b480d1d7c3fe1513e621b840171b89d/12f09/test-div-rotation2.png 148w,
+/static/1b480d1d7c3fe1513e621b840171b89d/e4a3f/test-div-rotation2.png 295w,
+/static/1b480d1d7c3fe1513e621b840171b89d/fcda8/test-div-rotation2.png 590w,
+/static/1b480d1d7c3fe1513e621b840171b89d/efc66/test-div-rotation2.png 885w,
+/static/1b480d1d7c3fe1513e621b840171b89d/c83ae/test-div-rotation2.png 1180w,
+/static/1b480d1d7c3fe1513e621b840171b89d/55681/test-div-rotation2.png 2062w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2775,7 +2775,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/ec09f/final.png&quot;
+    href=&quot;/static/e8ecf95a480234f2ab96ac9d4fa0c23f/ec09f/final.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2788,13 +2788,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;i did ultimately get my desired output&quot;
         title=&quot;i did ultimately get my desired output&quot;
-        src=&quot;/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/fcda8/final.png&quot;
-        srcset=&quot;/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/12f09/final.png 148w,
-/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/e4a3f/final.png 295w,
-/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/fcda8/final.png 590w,
-/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/efc66/final.png 885w,
-/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/c83ae/final.png 1180w,
-/blog/static/e8ecf95a480234f2ab96ac9d4fa0c23f/ec09f/final.png 1916w&quot;
+        src=&quot;/static/e8ecf95a480234f2ab96ac9d4fa0c23f/fcda8/final.png&quot;
+        srcset=&quot;/static/e8ecf95a480234f2ab96ac9d4fa0c23f/12f09/final.png 148w,
+/static/e8ecf95a480234f2ab96ac9d4fa0c23f/e4a3f/final.png 295w,
+/static/e8ecf95a480234f2ab96ac9d4fa0c23f/fcda8/final.png 590w,
+/static/e8ecf95a480234f2ab96ac9d4fa0c23f/efc66/final.png 885w,
+/static/e8ecf95a480234f2ab96ac9d4fa0c23f/c83ae/final.png 1180w,
+/static/e8ecf95a480234f2ab96ac9d4fa0c23f/ec09f/final.png 1916w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2813,7 +2813,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/41099/ever.jpg&quot;
+    href=&quot;/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/41099/ever.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2826,10 +2826,10 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ever&quot;
         title=&quot;ever&quot;
-        src=&quot;/blog/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/41099/ever.jpg&quot;
-        srcset=&quot;/blog/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/a80bd/ever.jpg 148w,
-/blog/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/1c91a/ever.jpg 295w,
-/blog/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/41099/ever.jpg 500w&quot;
+        src=&quot;/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/41099/ever.jpg&quot;
+        srcset=&quot;/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/a80bd/ever.jpg 148w,
+/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/1c91a/ever.jpg 295w,
+/static/f7dbde44d69ac1cdbf84f90cb94a1b3e/41099/ever.jpg 500w&quot;
         sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2844,7 +2844,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/8b13644a37fff020da5c861896d27f5b/96191/basic.png&quot;
+    href=&quot;/static/8b13644a37fff020da5c861896d27f5b/96191/basic.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2857,13 +2857,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;basic&quot;
         title=&quot;basic&quot;
-        src=&quot;/blog/static/8b13644a37fff020da5c861896d27f5b/fcda8/basic.png&quot;
-        srcset=&quot;/blog/static/8b13644a37fff020da5c861896d27f5b/12f09/basic.png 148w,
-/blog/static/8b13644a37fff020da5c861896d27f5b/e4a3f/basic.png 295w,
-/blog/static/8b13644a37fff020da5c861896d27f5b/fcda8/basic.png 590w,
-/blog/static/8b13644a37fff020da5c861896d27f5b/efc66/basic.png 885w,
-/blog/static/8b13644a37fff020da5c861896d27f5b/c83ae/basic.png 1180w,
-/blog/static/8b13644a37fff020da5c861896d27f5b/96191/basic.png 2176w&quot;
+        src=&quot;/static/8b13644a37fff020da5c861896d27f5b/fcda8/basic.png&quot;
+        srcset=&quot;/static/8b13644a37fff020da5c861896d27f5b/12f09/basic.png 148w,
+/static/8b13644a37fff020da5c861896d27f5b/e4a3f/basic.png 295w,
+/static/8b13644a37fff020da5c861896d27f5b/fcda8/basic.png 590w,
+/static/8b13644a37fff020da5c861896d27f5b/efc66/basic.png 885w,
+/static/8b13644a37fff020da5c861896d27f5b/c83ae/basic.png 1180w,
+/static/8b13644a37fff020da5c861896d27f5b/96191/basic.png 2176w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2877,7 +2877,7 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/b5c8e/exp.png&quot;
+    href=&quot;/static/c91fc3ab96cb6a5f55da69c0a2284fdc/b5c8e/exp.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2890,13 +2890,13 @@ with open(lang + &apos;.txt&apos;, &apos;w&apos;, encoding=&apos;utf-8&apos;) as
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;exp&quot;
         title=&quot;exp&quot;
-        src=&quot;/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/fcda8/exp.png&quot;
-        srcset=&quot;/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/12f09/exp.png 148w,
-/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/e4a3f/exp.png 295w,
-/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/fcda8/exp.png 590w,
-/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/efc66/exp.png 885w,
-/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/c83ae/exp.png 1180w,
-/blog/static/c91fc3ab96cb6a5f55da69c0a2284fdc/b5c8e/exp.png 2194w&quot;
+        src=&quot;/static/c91fc3ab96cb6a5f55da69c0a2284fdc/fcda8/exp.png&quot;
+        srcset=&quot;/static/c91fc3ab96cb6a5f55da69c0a2284fdc/12f09/exp.png 148w,
+/static/c91fc3ab96cb6a5f55da69c0a2284fdc/e4a3f/exp.png 295w,
+/static/c91fc3ab96cb6a5f55da69c0a2284fdc/fcda8/exp.png 590w,
+/static/c91fc3ab96cb6a5f55da69c0a2284fdc/efc66/exp.png 885w,
+/static/c91fc3ab96cb6a5f55da69c0a2284fdc/c83ae/exp.png 1180w,
+/static/c91fc3ab96cb6a5f55da69c0a2284fdc/b5c8e/exp.png 2194w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2917,7 +2917,7 @@ r = 118&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/ea7bdded49b3e7951e715753bab680d8/d8fc6/final.png&quot;
+    href=&quot;/static/ea7bdded49b3e7951e715753bab680d8/d8fc6/final.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2930,13 +2930,13 @@ r = 118&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;final&quot;
         title=&quot;final&quot;
-        src=&quot;/blog/static/ea7bdded49b3e7951e715753bab680d8/fcda8/final.png&quot;
-        srcset=&quot;/blog/static/ea7bdded49b3e7951e715753bab680d8/12f09/final.png 148w,
-/blog/static/ea7bdded49b3e7951e715753bab680d8/e4a3f/final.png 295w,
-/blog/static/ea7bdded49b3e7951e715753bab680d8/fcda8/final.png 590w,
-/blog/static/ea7bdded49b3e7951e715753bab680d8/efc66/final.png 885w,
-/blog/static/ea7bdded49b3e7951e715753bab680d8/c83ae/final.png 1180w,
-/blog/static/ea7bdded49b3e7951e715753bab680d8/d8fc6/final.png 2052w&quot;
+        src=&quot;/static/ea7bdded49b3e7951e715753bab680d8/fcda8/final.png&quot;
+        srcset=&quot;/static/ea7bdded49b3e7951e715753bab680d8/12f09/final.png 148w,
+/static/ea7bdded49b3e7951e715753bab680d8/e4a3f/final.png 295w,
+/static/ea7bdded49b3e7951e715753bab680d8/fcda8/final.png 590w,
+/static/ea7bdded49b3e7951e715753bab680d8/efc66/final.png 885w,
+/static/ea7bdded49b3e7951e715753bab680d8/c83ae/final.png 1180w,
+/static/ea7bdded49b3e7951e715753bab680d8/d8fc6/final.png 2052w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -2954,7 +2954,7 @@ r = 118&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/blog/static/e7b1f31c06b9316916ec6f24185d0165/72799/example.png&quot;
+    href=&quot;/static/e7b1f31c06b9316916ec6f24185d0165/72799/example.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -2967,10 +2967,10 @@ r = 118&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;example&quot;
         title=&quot;example&quot;
-        src=&quot;/blog/static/e7b1f31c06b9316916ec6f24185d0165/72799/example.png&quot;
-        srcset=&quot;/blog/static/e7b1f31c06b9316916ec6f24185d0165/12f09/example.png 148w,
-/blog/static/e7b1f31c06b9316916ec6f24185d0165/e4a3f/example.png 295w,
-/blog/static/e7b1f31c06b9316916ec6f24185d0165/72799/example.png 320w&quot;
+        src=&quot;/static/e7b1f31c06b9316916ec6f24185d0165/72799/example.png&quot;
+        srcset=&quot;/static/e7b1f31c06b9316916ec6f24185d0165/12f09/example.png 148w,
+/static/e7b1f31c06b9316916ec6f24185d0165/e4a3f/example.png 295w,
+/static/e7b1f31c06b9316916ec6f24185d0165/72799/example.png 320w&quot;
         sizes=&quot;(max-width: 320px) 100vw, 320px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
