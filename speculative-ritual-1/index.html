@@ -1,0 +1,629 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style data-href="/projects/styles.a7deddbe5bf0f3ecb1fa.css" id="gatsby-global-css">article h1{-webkit-transform:none;transform:none}h1{-webkit-transform:rotate(-7deg);transform:rotate(-7deg);margin-bottom:1.5;margin-top:0;color:#000;font-family:Times New Roman,Times,serif}h1 a{box-shadow:2px 4px 3px grey;font-size:10;padding:3px 20px;border:1px solid #000}h1 a,header h3{color:#000;font-family:Times New Roman,Times,serif;text-decoration:none}header h3{margin-top:2em;-webkit-transform:rotate(-3deg);transform:rotate(-3deg);font-weight:400}article h3{margin-top:.2em;-webkit-transform:rotate(3deg);transform:rotate(3deg);color:#000;font-family:Times New Roman,Times,serif;font-weight:400;text-decoration:none}.blog{padding-left:.5em;padding-right:.5em}small{color:#a9a9a9}.gatsby-resp-image-link{border-style:none;box-shadow:none}figcaption{font-style:italic;text-align:center}a{box-shadow:2px 4px 3px grey;color:#000;font-family:Times New Roman,Times,serif;font-size:10;text-decoration:none;padding:3px 20px;border:1px solid #000;margin:1em .5em;display:inline-block}footer{text-align:right}code{width:100%;display:inline-block;overflow:scroll}</style><meta name="generator" content="Gatsby 2.32.13"/><link rel="alternate" type="application/rss+xml" href="/projects/rss.xml"/><link rel="icon" href="/projects/favicon-32x32.png?v=ccc867e94c0d297ba2da964ff14b189b" type="image/png"/><link rel="manifest" href="/projects/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/projects/icons/icon-48x48.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="72x72" href="/projects/icons/icon-72x72.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="96x96" href="/projects/icons/icon-96x96.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="144x144" href="/projects/icons/icon-144x144.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="192x192" href="/projects/icons/icon-192x192.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="256x256" href="/projects/icons/icon-256x256.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="384x384" href="/projects/icons/icon-384x384.png?v=ccc867e94c0d297ba2da964ff14b189b"/><link rel="apple-touch-icon" sizes="512x512" href="/projects/icons/icon-512x512.png?v=ccc867e94c0d297ba2da964ff14b189b"/><title data-react-helmet="true">speculative ritual | fridge notes</title><meta data-react-helmet="true" name="description" content="the first speculative ritual i ever facilitated using procedurally generated bible verses and an axidraw."/><meta data-react-helmet="true" property="og:title" content="speculative ritual"/><meta data-react-helmet="true" property="og:description" content="the first speculative ritual i ever facilitated using procedurally generated bible verses and an axidraw."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="samheckle"/><meta data-react-helmet="true" name="twitter:title" content="speculative ritual"/><meta data-react-helmet="true" name="twitter:description" content="the first speculative ritual i ever facilitated using procedurally generated bible verses and an axidraw."/><link as="script" rel="preload" href="/projects/webpack-runtime-87bc5a8785087828a3ce.js"/><link as="script" rel="preload" href="/projects/framework-dbb498007a7447f28d8e.js"/><link as="script" rel="preload" href="/projects/app-b5697e909f7020158818.js"/><link as="script" rel="preload" href="/projects/styles-e9d24b1846c7d6eb9685.js"/><link as="script" rel="preload" href="/projects/commons-1af83d72e74598d1da2c.js"/><link as="script" rel="preload" href="/projects/component---src-templates-blog-post-js-f63130200fa67a8a732c.js"/><link as="fetch" rel="preload" href="/projects/page-data/speculative-ritual-1/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/projects/page-data/sq/d/2841359383.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/projects/page-data/sq/d/3257411868.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/projects/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="margin-left:auto;margin-right:auto;max-width:60%;padding:1.5 0.75"><header><h3><a href="/projects/">fridge notes</a></h3></header><main><article><header><h1 style="margin-top:1px;margin-bottom:0">speculative ritual</h1><p style="display:block;margin-bottom:1px">April 29, 2021</p></header><section><h2>Markovify</h2>
+<p>I decided to focus on the technical portion of my proposed robot and dynamically create asemic bible verses to be physically written later. I decided to end up breaking down my project for each class. When designing how the Bible verse data was collected, I initially thought to grab 10 or so verses by hand and putting them in a json file:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">[
+    {
+        "book": "Luke",
+        "chapter": "50,",
+        "verse": "3",
+        "text1": "this is ",
+        "text2": "sample verse"
+    }
+]</code></pre></div>
+<p>But then I realized that if I were to parse this json and randomly select each individual component I would basically be making a worse version of a Markov chain. So I checked if there is a python library to do so! </p>
+<p><a href="https://github.com/jsvine/markovify">https://github.com/jsvine/markovify</a></p>
+<p>Following the readme, I tried installing:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">pip install markovify</code></pre></div>
+<p>HOWEVER this resulted in a terrible error:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">ERROR:root:code for hash md5 was not found.</code></pre></div>
+<h1>Technical Issues</h1>
+<p>I actually ran into some issues with setting my main termianl to use <code class="language-text">zsh</code> instead of <code class="language-text">bash</code>. My jupyter notebook was unable to set the kernal, which took a few hours of debugging. There were two issues here:</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">1) my local python version had been reset to 2.7
+2) my jupyter notebook python virtual environment was having...problems</code></pre></div>
+<p>I required two solutions then. The first was simply upgrading my local python version by ensuring Python 3.9 was installed (it was), and changing the default for the zsh profile to use anaconda settings</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">ln -s -f /usr/local/bin/python3.9 /usr/local/bin/python
+conda init zsh</code></pre></div>
+<p>This ensured that my anaconda settings were reflected in my zsh.</p>
+<p>The second issue took more than an hour to figure out, but on perusing github forums, I found <a href="https://github.com/microsoft/vscode-jupyter/issues/728#issuecomment-684923265">this solution</a> by upgrading my notebook. It took awhile, but ended up being fine.</p>
+<h2>Parsing A Bible Corpus</h2>
+<p>After awhile of copying and pasting was an ineffient use of my time, and finally getting the Markov library to work, I needed to find a source for the actual verses I used. There has been a really big collaborative effort to put the bible online in every language available. But, it is all in xml.</p>
+<p><a href="https://github.com/christos-c/bible-corpus">https://github.com/christos-c/bible-corpus</a></p>
+<p>But! They already account for that and even in the readme, they have instructions to do so.</p>
+<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">import xml.etree.ElementTree as ET
+lang = 'English'
+root = ET.fromstring(open(lang + '.xml').read())
+with open(lang + '.txt', 'w', encoding='utf-8') as out:
+    for n in root.iter('seg'):
+        out.write(n.text.strip() + '\n')</code></pre></div>
+<p>I pulled this into the <a href="https://github.com/samheckle/mol/blob/master/final/corpus.txt">corpus.txt</a>. From there I worked on the actual verse names. I kept with my original json architecture and created my <a href="https://github.com/samheckle/mol/blob/master/final/verses.json">verses.json</a></p>
+<p>This all culminated in randomly generating verses that could be printed. The Markov chain generates the text, and I manually create the seperate verse name by random generation.</p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/5a778a4334a97b4f48f505a2228495b2/29114/unformatted.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsUlEQVQoz61SiwqEMAzb///kEGQiuIdPRMdypLDjbhznBAshdUvTFqdSSrgCI/NVqBpRrZkYnucJIsaInB/H8ebbE87zDGstnHMYxxHee/kmr+v6ZVia/2qiuq6D1hpN08AYg7ZtMQyDgM2maZJG5GVZEEKQcyLnvGfOe8XCvu8FNCezmBMSuYji0qTcQCbc913EBAV5qly0bdvflcu1Vc3T+Dy/0qo777Dqp+DheNzwBbaoYju1gcnRAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="unformatted"
+        title="unformatted"
+        src="/projects/static/5a778a4334a97b4f48f505a2228495b2/fcda8/unformatted.png"
+        srcset="/projects/static/5a778a4334a97b4f48f505a2228495b2/12f09/unformatted.png 148w,
+/projects/static/5a778a4334a97b4f48f505a2228495b2/e4a3f/unformatted.png 295w,
+/projects/static/5a778a4334a97b4f48f505a2228495b2/fcda8/unformatted.png 590w,
+/projects/static/5a778a4334a97b4f48f505a2228495b2/efc66/unformatted.png 885w,
+/projects/static/5a778a4334a97b4f48f505a2228495b2/c83ae/unformatted.png 1180w,
+/projects/static/5a778a4334a97b4f48f505a2228495b2/29114/unformatted.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">unformatted</figcaption>
+  </figure></p>
+<h1>First Attempt at Digital Display</h1>
+<p>My first attempt comprised of layering all of the verses together and the longest one would demonstrate the particular name. I liked this version because it really alluded to biblical text, because otherwise there would be no correlation.</p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/11cff1b4c45085e22eb5b8b35080393a/29114/first.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAwklEQVQoz81RuwqEQAzc/+/1AwTBwtpFBR+/YOf6Qi1ELMRCEUFHkuK44gqFLS4wTNiESTYjoDnEdV04z1MLSEto3/A4DgzDgL7v0XUd2rZl1HWNsiw/TFBKMRdFgTzPUVUV1ylvmgakJcZxhGEYDNM0Yds2HMeBZVlwXRdSSsRxjCRJEIYhoiiC7/sIggBpmnLN8zzmdV0htm1DlmU8gaZN04RlWTDPM/Z957u8+vKTplem/HKZ3r5B8XRT/S7/veANZGRR5Ss/k7EAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="first"
+        title="first"
+        src="/projects/static/11cff1b4c45085e22eb5b8b35080393a/fcda8/first.png"
+        srcset="/projects/static/11cff1b4c45085e22eb5b8b35080393a/12f09/first.png 148w,
+/projects/static/11cff1b4c45085e22eb5b8b35080393a/e4a3f/first.png 295w,
+/projects/static/11cff1b4c45085e22eb5b8b35080393a/fcda8/first.png 590w,
+/projects/static/11cff1b4c45085e22eb5b8b35080393a/efc66/first.png 885w,
+/projects/static/11cff1b4c45085e22eb5b8b35080393a/c83ae/first.png 1180w,
+/projects/static/11cff1b4c45085e22eb5b8b35080393a/29114/first.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">first</figcaption>
+  </figure></p>
+<h1>Second Attempts using Polyline</h1>
+<p>The following attempts were using Polyline to figure out how to get the specific coordinates with each individual glyph. </p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/29114/readred.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACAElEQVQoz51SyXLaQBDV/39PckgqiU1BbHAgrEaIxSC0IWm0jDBCSEYvb1Qc7MolFVVNzXRrpt/SrcnxCPl2i2C/R7LZIHYcSNfBa5bBW6+R6HMEzEvPQyEEUNfA9Yq/PuZrLk0MBjCfn7HqdhH1+3jh7hBkx7Pb/wWv04Y/m0IwF87ncL5/w/bzJ4jFAvLhJ2atFhzWELMZUgJqZVVh0m5D7/XgL5dIHRtZEKCQEifbxmuSoGCujCMUSYxIKXFdvJ1OONsWpO8j4723osBVMbTITgzIZjKGbxgo/EPz2F/oOHluI9NxPSS0RfJ8EiEuBAxpxzlNka1XOLJoSpDr5QLN2+1gUcp+NMTZWMDsdBA/dBoAhzmXUpUdMe9E/L/5+gWb+zvElGiRyDmKCCJQhgFQltBMIjlkcxgO4c/pJS8JehazGYIF7OFvRPRrz4LLpyeY0wleRvSTYFb3ESbvmpMJVgSpyF5TDbJ1HcbdD9h8JMi4oq9HepeHIc7cFXIax5Bko7yTKk/ZFX1WjVA+ByrOc3pI6ofxGG7rHl6viw2L+2TkTtlZeqqkW2QkyTajmojM88MBsWoOd5c5g29zxrXysCb6hd06qo4RTRIpU0VNE9ZqhZxmK8kRZzPiLFbsZjN2nMX6NnvNusUa/uNTD9+fm3WLtQ8o/7g+FHoXq+8PbFs0vqVXLTUAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="readred"
+        title="readred"
+        src="/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/fcda8/readred.png"
+        srcset="/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/12f09/readred.png 148w,
+/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/e4a3f/readred.png 295w,
+/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/fcda8/readred.png 590w,
+/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/efc66/readred.png 885w,
+/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/c83ae/readred.png 1180w,
+/projects/static/899ba9d6f5df3e5be273b69c70bf0c6e/29114/readred.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">readred</figcaption>
+  </figure></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABz0lEQVQoz62S2W8SURTG55/Wd5e4gI20mLhUo0htNdX6YtpgawkgDHTYER0GZK1QaDtthzbQsPw8EILS+KCpJ/lylnvznfPdexT+woYjDAYMh8Np/utwJkOpGAZ6JIKVN7C+ZmlXKxx9L1D9HMDM52k3GrPkE+KR7/d643gw8v3+OFZSK8tE7Da8N64Rn7Oj2e/iv2cndPsWHqmHHffJLTjIrr0j6/NR9vsoqCq70Si779dobG2OYWo7nEpz5Yffz7fVN6gvXehvV0k6F1CFpLn+gbjktU9bJF6vEHS7KXq9WIk4+7qOlcmwp2nUs1nqaojjTJpWrYbS9GyQfbpIcGmJhOs56XkH+rNFNNcLiskkjZxOTbofplPsJRPsx6I0wipGOExZCM14DHMnQlvOu5aFUt9YJyqSQg+clOZs5J48xmu7Q0CIkyLfI0/hvnoF783rfBEVxuZHCtvbGCLbCAZpCdlBwE9Lmp6fnaGYIkFbfkXMOU/q0UOqMn5TJJ3INFYux4H4vKAkEk/kk0oyXUVknpaKNOTeYaXMsUzXkrudbhdl9HPnpknvyKTdatHtdLiMKcMLezRdjT9hsi4z8YXamHCK35d3UvvnCfnP9hMmGiL/b1rbwQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="normie.png"
+        title="normie.png"
+        src="/projects/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png"
+        srcset="/projects/static/6b1798634a6d12d7de7aaf06e536d800/12f09/normie.png 148w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/e4a3f/normie.png 295w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png 590w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/efc66/normie.png 885w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/c83ae/normie.png 1180w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">normie.png</figcaption>
+  </figure></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABz0lEQVQoz62S2W8SURTG55/Wd5e4gI20mLhUo0htNdX6YtpgawkgDHTYER0GZK1QaDtthzbQsPw8EILS+KCpJ/lylnvznfPdexT+woYjDAYMh8Np/utwJkOpGAZ6JIKVN7C+ZmlXKxx9L1D9HMDM52k3GrPkE+KR7/d643gw8v3+OFZSK8tE7Da8N64Rn7Oj2e/iv2cndPsWHqmHHffJLTjIrr0j6/NR9vsoqCq70Si779dobG2OYWo7nEpz5Yffz7fVN6gvXehvV0k6F1CFpLn+gbjktU9bJF6vEHS7KXq9WIk4+7qOlcmwp2nUs1nqaojjTJpWrYbS9GyQfbpIcGmJhOs56XkH+rNFNNcLiskkjZxOTbofplPsJRPsx6I0wipGOExZCM14DHMnQlvOu5aFUt9YJyqSQg+clOZs5J48xmu7Q0CIkyLfI0/hvnoF783rfBEVxuZHCtvbGCLbCAZpCdlBwE9Lmp6fnaGYIkFbfkXMOU/q0UOqMn5TJJ3INFYux4H4vKAkEk/kk0oyXUVknpaKNOTeYaXMsUzXkrudbhdl9HPnpknvyKTdatHtdLiMKcMLezRdjT9hsi4z8YXamHCK35d3UvvnCfnP9hMmGiL/b1rbwQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="more_normie.png"
+        title="more_normie.png"
+        src="/projects/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png"
+        srcset="/projects/static/6b1798634a6d12d7de7aaf06e536d800/12f09/normie.png 148w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/e4a3f/normie.png 295w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/fcda8/normie.png 590w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/efc66/normie.png 885w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/c83ae/normie.png 1180w,
+/projects/static/6b1798634a6d12d7de7aaf06e536d800/29114/normie.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">more_normie.png</figcaption>
+  </figure></p>
+<h1>Cursed Attempts</h1>
+<p>These were messing with the rotation and scale of the Polyline object. </p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/f7a24d47f4c0043259e7ae4507b22125/29114/cursed.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACIklEQVQoz62SaVfaYBCF+f/fe1ql7gvWDXdbq2iqiCKUPQGCISyhbCYBUSoqTwf4Af3inDPJm5nJnbl3Xk8nm8WKRulVKjzL2TZNXMti0G5j53N0NI1WJo1dlXytxv/MY+zuEPVOY1ycU15c4Na/TWxrk8KOH823ivb5EwWpaRwdoJ/+JCM5R2qcyB26ckHi+JjyzQ2V4BV9x8EzQs0K2N3MV05mZ7i/DvKYTFCVqYxQiG46RSt8SyOTwc3n0fd2+XN2Sk+m188DmAKav7zkybF5GwzwmFIUWltDk67m0SGdQgGnWh2DtnSdpkhRU1Xa0uCxVKJbr/MgcUukaIs8xUSCjsR7RQPe3/E07wskBcjyb9E42Cey5uPC60Xd3iK6uTGeqLy6jCG5mLg6N0vKO0XQ7ye1v0dVmrkC+FQuTwBdNYNxeIAqxfrqCoaAxMWrP75TEd0qS4s8HO6jyXdQwArr39Alll1eIrgwT1biiY11lKkv9Hu9iYZ2LEZ4eoqUiG8qCs+uS79k4mQ1HNHqpdvFNgxsodoRyqP4g0jg1izquSydYpFSMjnRsJmIExd6sfk5FNl2VITuiuilwBnW1SVqIEDw+Ihm6JpcOCybVWil01iyrL6mkvulcO7zURFNx5QHLy80cjkast2GTOHIuSQ0TAFryfYrkQjhkxMeY7+px2P8lasxlB/fX1/H/ib+KpON3gyHE8ofZcMR4OjxUT6yfy7QEnxkJtjdAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="cursed"
+        title="cursed"
+        src="/projects/static/f7a24d47f4c0043259e7ae4507b22125/fcda8/cursed.png"
+        srcset="/projects/static/f7a24d47f4c0043259e7ae4507b22125/12f09/cursed.png 148w,
+/projects/static/f7a24d47f4c0043259e7ae4507b22125/e4a3f/cursed.png 295w,
+/projects/static/f7a24d47f4c0043259e7ae4507b22125/fcda8/cursed.png 590w,
+/projects/static/f7a24d47f4c0043259e7ae4507b22125/efc66/cursed.png 885w,
+/projects/static/f7a24d47f4c0043259e7ae4507b22125/c83ae/cursed.png 1180w,
+/projects/static/f7a24d47f4c0043259e7ae4507b22125/29114/cursed.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">cursed</figcaption>
+  </figure></p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/4769a952f72b5788915abf065629b0c7/29114/cursed2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACP0lEQVQoz41SaXPSUBTN/3f8oKMz1rGDtlVatkrp3tqyiLWlAwgJIWENIRlKQqwsBcpyPEE6OnzyzWRy37vJ2d4V5GgUua8JWHIBQz5OQUIzn0e/qSMTj8O+OMd9JgPLMDBgD7MZ3DWbz/G03Gry+IjpZAJB3QtD349A3tqE9sGD4qePqAUD0I4OkdjYQNGzDtG3g3QkgkooCOn1K9z4fMidnqAe9CMb8MPYDUFNJuHYNoQp0W8IVni7BvP4CBVRhEM1dqOBVlFGh7XFd5/7O02Dc32NdqWyODfTaZiSiL5SxGg0ovgZhFIijngggNuDfZRjMRgE7PKRY1HU2WsQzLr4AiubxaikQieYQdCWJMGs1SAnEujw3eV3bhyCxVxEys/QTurkGNLaGxTfe6DTSsu1QiJzawPK5QWkbS/yL19Ao6PmQQSt6CWcchlOrYouFc+nUwgOmYzDAyS9XtQJKEf2oHKvn51CYr415lv/lkQuFELK70eN2f4gmUyyOnt2KID8511k199hPhpCGNO7eX6GzPNnUJhhM5fDtNfDg2nCopWJ42A0GOBBq+NB1zHsdPCrXIKuKPjJXsfNmVHcUyVchSKzUne2USCDEg6jTBsWGRUqUUmkBINQafXu6goGo6kyM5uuJmIebV7GdzrJ8X+DBO5ACS6qzcB1fmTxJgfVKhzOZZs32L5NoV0oQCOpTSU9qpiNx39mj3M4X87kYu/WPBP+juf/rwXYcrBXawFLpqfGfHXv1iv9f4FWz38Dfo4S+jy259EAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="cursed2"
+        title="cursed2"
+        src="/projects/static/4769a952f72b5788915abf065629b0c7/fcda8/cursed2.png"
+        srcset="/projects/static/4769a952f72b5788915abf065629b0c7/12f09/cursed2.png 148w,
+/projects/static/4769a952f72b5788915abf065629b0c7/e4a3f/cursed2.png 295w,
+/projects/static/4769a952f72b5788915abf065629b0c7/fcda8/cursed2.png 590w,
+/projects/static/4769a952f72b5788915abf065629b0c7/efc66/cursed2.png 885w,
+/projects/static/4769a952f72b5788915abf065629b0c7/c83ae/cursed2.png 1180w,
+/projects/static/4769a952f72b5788915abf065629b0c7/29114/cursed2.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">cursed2</figcaption>
+  </figure></p>
+<h1>final digital output</h1>
+<p>This is the final output </p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/fd198e0292930af2c6c8d8df4b3b5223/29114/final.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAy0lEQVQoz52SCQ6FIAxEvf9VXRIXliLQP0Ug0eiP0qQxEfo6U9rxJWKMKSWcMazHkfU0pS/NM9tl4eB9vcv5bonuL9DaBBCw0zqnOgHjFyApxWoY2K4rW6ijbeMdTfy+twGl2GSbCYgGAvWO2oDOmgOI3GE7Zqt1fjfR3f2sQCjSfV/tilJpQJhlm0IUqmlM6jwRB8zOO8cxhDZgQLGolFleC19bPj0KlNF6rI28bDkr59/XBpYJK+OhMNmG4ifQq0eRBY7XJX4AlfgBYgxmWoctG5QAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="final"
+        title="final"
+        src="/projects/static/fd198e0292930af2c6c8d8df4b3b5223/fcda8/final.png"
+        srcset="/projects/static/fd198e0292930af2c6c8d8df4b3b5223/12f09/final.png 148w,
+/projects/static/fd198e0292930af2c6c8d8df4b3b5223/e4a3f/final.png 295w,
+/projects/static/fd198e0292930af2c6c8d8df4b3b5223/fcda8/final.png 590w,
+/projects/static/fd198e0292930af2c6c8d8df4b3b5223/efc66/final.png 885w,
+/projects/static/fd198e0292930af2c6c8d8df4b3b5223/c83ae/final.png 1180w,
+/projects/static/fd198e0292930af2c6c8d8df4b3b5223/29114/final.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">final</figcaption>
+  </figure></p>
+<p>This will be the coordinates used to plot the text using the translations and making the entry above a physical output.</p>
+<p><figure class="gatsby-resp-image-figure" style="">
+    <span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/83bf6ed742aab0d504badb63ff49503e/29114/final_output.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHklEQVQoz52S2YqDQBBF8/+fpKBRXHBDfXGJuAs++CCImgSCd6hmFCfOkklBUQ3VHE519QmfsSwLS4rL5QLf9xEEATzXg2EbyKscdV0jjmNEUYSu67b7a6U4YRdr436/Y55nDMOAMAyhqiqyLEPTNNA0DYZh4Hq9HmAH4POFaZqYKUGyPENZlpBlGZZl4Xa7HSb7Atw31kpA0zTB8zySJGGWoigyKE3wK/A7SwJ6ngeO4xiMDBVFga7rrPfSyM9AGpms0jRFURTMjqxffsNnoG3bkCQJeZ6zPJ/PzPAt4DiOcF0XgiCwbZPly1veL2QPpGXQuxGMDB3HOQD//Idr7ft+MyQYfWgamf7lvwwfj8cGrKqKJZ3btmWLofzJ8ANgY0Tj52nGJgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="final output"
+        title="final output"
+        src="/projects/static/83bf6ed742aab0d504badb63ff49503e/fcda8/final_output.png"
+        srcset="/projects/static/83bf6ed742aab0d504badb63ff49503e/12f09/final_output.png 148w,
+/projects/static/83bf6ed742aab0d504badb63ff49503e/e4a3f/final_output.png 295w,
+/projects/static/83bf6ed742aab0d504badb63ff49503e/fcda8/final_output.png 590w,
+/projects/static/83bf6ed742aab0d504badb63ff49503e/efc66/final_output.png 885w,
+/projects/static/83bf6ed742aab0d504badb63ff49503e/c83ae/final_output.png 1180w,
+/projects/static/83bf6ed742aab0d504badb63ff49503e/29114/final_output.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span>
+    <figcaption class="gatsby-resp-image-figcaption">final output</figcaption>
+  </figure></p>
+<h1>using the axidraw</h1>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/e19e46ce4e2d127885ea419288be461c/29114/progress1.1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWklEQVQoz52T2U6DUBCG+/5eeuGVibFaazcpW9kOULbStPoAGi9bKHR5gcLvcKoJTUykkvw5hzD58s1MaKH2FMcjP+dxhJvrK8jCEzxLxmyqY+YZFBPzwEYcMBz2W15blmUdgVb9pSwLfuabNXSpD0MewjUkTE0FU0uBb2uIfcZz2DUCnj7m6QqeKXE7n6kc6H0DQ9dA4OjY7/LmwC0ZLgMLC0rk6nBNFUwTYU3GMFWBzEfIs7Q5cEfFy5ARkHEbW5egE2QiDqAIPYjDDtJkdTamP4AJXiMHS0pELdqGfAYcD/4BfJu5HFrNzKkBq6jjPrI0uWCGlWFoY0EJaBHV7H7sKphG94tmmKdrxGQWORocWkYFEKlNof/I25VGXWSbCwyzZI2AafAt2i5tdUJmQu8Bg84dht17dNu3+Px4P/0MRdEMGDIdoX0yNGl+CllV0JfnNrfcUM1vhl98YhyzjYdPzQAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="progress1 1"
+        title="progress1 1"
+        src="/projects/static/e19e46ce4e2d127885ea419288be461c/fcda8/progress1.1.png"
+        srcset="/projects/static/e19e46ce4e2d127885ea419288be461c/12f09/progress1.1.png 148w,
+/projects/static/e19e46ce4e2d127885ea419288be461c/e4a3f/progress1.1.png 295w,
+/projects/static/e19e46ce4e2d127885ea419288be461c/fcda8/progress1.1.png 590w,
+/projects/static/e19e46ce4e2d127885ea419288be461c/efc66/progress1.1.png 885w,
+/projects/static/e19e46ce4e2d127885ea419288be461c/c83ae/progress1.1.png 1180w,
+/projects/static/e19e46ce4e2d127885ea419288be461c/29114/progress1.1.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/4eb0ba40e33501a030bf255e56f84c5c/29114/progress1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABr0lEQVQoz5WRTU8TURSG+Rcu9Ke4wMSNiRs3hPjBAlaauBAXalBXBiEkoCYOoFEjBEKAJqSowVBJaGmLbadQKP0YOu20Nh0KmPrFgrbTx0NFQuJHpjd5c27Ovee597ynicNVq9WwLKu+93o+oDzqRnncw/Wr7Zw6eYKzZ05z5XILN29cQ3k6QLVaPao7vpr+Bgwuexh/PcTM9AjDSj+tLRcE3MHcmylePBvAOTNO1bIB/H24V9phO7Fal6768M+/xTkxyuToc+51ddH78AHl/X37wG+7W+SX3eQDS+huF4FZB36ng4mXg1y62MZdgVYqZfvAH7tFCt5FPvnd6EEvqusdKwJ2jL3i/Llm7tzq/KPm/8DPRUzfIoWPHrIhH7GlBdT3s7imxrh/uxPlSV+DQPGwuB6iGAliRsPkJGri5abk9JhKyDsvLVfst/y9tI1pJDBzGvlMnGwqSkZbI5OMYIgKkrMamfJXaTkngKzIkEmn4yukY+F6NJKr8tDm0V1bwC8yFCMhP4pH0DfCpDbUuvR4+BCoNQYs7ZikBXQAO/BNWwtIDJKK/vKwYCT/CfwJnGQf94vmA1wAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="progress1"
+        title="progress1"
+        src="/projects/static/4eb0ba40e33501a030bf255e56f84c5c/fcda8/progress1.png"
+        srcset="/projects/static/4eb0ba40e33501a030bf255e56f84c5c/12f09/progress1.png 148w,
+/projects/static/4eb0ba40e33501a030bf255e56f84c5c/e4a3f/progress1.png 295w,
+/projects/static/4eb0ba40e33501a030bf255e56f84c5c/fcda8/progress1.png 590w,
+/projects/static/4eb0ba40e33501a030bf255e56f84c5c/efc66/progress1.png 885w,
+/projects/static/4eb0ba40e33501a030bf255e56f84c5c/c83ae/progress1.png 1180w,
+/projects/static/4eb0ba40e33501a030bf255e56f84c5c/29114/progress1.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h1>Process</h1>
+<p><div class="gatsby-resp-iframe-wrapper" style="padding-bottom: 50%; position: relative; height: 0; overflow: hidden; " > <div class="embedVideo-container"> <iframe title="" src="https://www.youtube-nocookie.com/embed/uUY_obk7Nzg?rel=0" class="embedVideo-iframe" style="border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; " loading="eager" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe> </div> </div></p>
+<h1>Physical Output</h1>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/29114/all.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABg0lEQVQoz5WR227TQBBA+6dI/AACId4QAvUdIoJScJOGtEW4alLiuKkvieP7OraTVmlDQyj8SXNYG97ogzPSamdXmqMzMzv8i81mU54i7n4sCftdUvucPBiRRw5Z+PeOPAPH+sbNIv2vroidh4C/CuDgjHRsMIsnCNckcobME08Cze2Bv3+uEMGYXHhkEjhLfGZiQiYNY9/EHWlbGq5vEb5NJlwiaefoPQJbJwlsprJ119ZYLS+rA9e314wNTdoUxTr9wxbWmYrwLPlnY1/0tgMWLcdeYeOUAH80LE2FXNC0WIxrsLqZVwferb8TupYsnpStRzIPJTCWC/FG56XhcpFXAN7fl/l1nvCl/o7+URtz0EXvfsWUc3QsDUM/ZaipLC7T6sDMn9B4/ZKjDzXU1h4vHj9i99kTTjoK9rDHxeCEq3lSHZiGAW0JO25+5KBR483zp7zdfUVnv05XPUA9VhDxuPoMp3FEu/mJTktBabynvb9Hp4ArdT436/JdI5AzfQj4B2mMEWQCKMkEAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="all"
+        title="all"
+        src="/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/fcda8/all.png"
+        srcset="/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/12f09/all.png 148w,
+/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/e4a3f/all.png 295w,
+/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/fcda8/all.png 590w,
+/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/efc66/all.png 885w,
+/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/c83ae/all.png 1180w,
+/projects/static/f9093e6bd00b1bbf647c9d5863aab6f1/29114/all.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/14d163f8ae02952862ba827535027837/29114/img1.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABhklEQVQoz5XR70/aUBTGcf//ZC5TJooOAbFAiwVaC0W0yi9bivB+icrUZXHilABur+C7Y7MlmmisN3ly7ovez+05d4Enaz6fB3U6GdPzmvT8VpCTruRxL7XfbeN7DYY318/O/F8Lr4H9ThPfqdDZM/FrlmSX7lGVE8fGr9cYDn+GBx/+gV4pj6speDtZOkUN3yrgl4tykc3tu8CpgNKyZ+ocC+SWS3gVA9c28fbLtA8q3Fz/CA/+nk7ouw3ckkZLz9EUqG4VOZQ4cklZz/L96iL4djabvQ3+eZjSc+u0iyqNbIojdZtadgtbSWKlN9ET61xdDMKDjy13Wgc08wp1AZ1MimrqC1ZyAzOTRBPwcnAWHpyMR7Rk8I1KiUN5hD0jjyVtGjsZDKmF3Nb7/nA8usepmuzbBvauHiC6mkZTEkHU7TiX387Dg6P7O6yCii5zy8nM0psxkhsrJNZXpEaD/eD8NDx49+sWReYUj0WIr0WIff5EdGmR6PIiq5GPrC5/4Oz064vgXxBwGEHFKw5xAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="img1"
+        title="img1"
+        src="/projects/static/14d163f8ae02952862ba827535027837/fcda8/img1.png"
+        srcset="/projects/static/14d163f8ae02952862ba827535027837/12f09/img1.png 148w,
+/projects/static/14d163f8ae02952862ba827535027837/e4a3f/img1.png 295w,
+/projects/static/14d163f8ae02952862ba827535027837/fcda8/img1.png 590w,
+/projects/static/14d163f8ae02952862ba827535027837/efc66/img1.png 885w,
+/projects/static/14d163f8ae02952862ba827535027837/c83ae/img1.png 1180w,
+/projects/static/14d163f8ae02952862ba827535027837/29114/img1.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/29114/img2.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB6klEQVQoz42SiU4aURiFfdwmfYE2Rhv2ZWZghsoAszEsgzjsliiggixCVKyo0BQS2samvgWc/hVok9KW3uTkZm5yvznn3H8LtObzOVb75MMdrs4qqBdNNEoZkonzd1l0T8q4qh/jttfE3WULN+1TPH39vLg3m2G1ttaB97g4zKHg86LAuhfiPKgqIdSiEZylYqgmNbSrh3h6/PQTuGL8Ai4PxsMBOuSsHNlDWQ2jLIdQkoLPkBqpEpVQiytoHRfx7ct0aeQPwNXB+GGAhmnggHXhgJyZjAum14E8z6CiSzhN6TgxdDSPinicTvD7/TXgaNBHNaHBdNmRdjuQE3zICizSFD3t98Lc8yMTCqCS38f042gz8OHmGkWKqe5uQ7W+QZxxwuBZFCh+XhaRpypKWgRHuX1MRvf/AXzfR1YSoTtt0GwEdFgQI7cJPwND4JAkuBHgUKDo4+E/gYunH5BDg2LJll2oTuuzZLsFYfoOWncg0k+iFD1DtQxv+38Hzpaz1L/sQdh5DcfLF+C3XyHkskFhPZCpQ8lth0rjlE3FYSajuO51NgO7nRZ4iinxHKSAH2GSEhGhUa+6EkZCk2DEVCRpfLqtxmZgu3kO1uOE+JaH4GPAc174GTcC5CxI3UmiAP0HnHpu1mtrwO+eUOFsA9HtpgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="img2"
+        title="img2"
+        src="/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/fcda8/img2.png"
+        srcset="/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/12f09/img2.png 148w,
+/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/e4a3f/img2.png 295w,
+/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/fcda8/img2.png 590w,
+/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/efc66/img2.png 885w,
+/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/c83ae/img2.png 1180w,
+/projects/static/1a0ac2b7fbbdd1d23f49608bf9529fb5/29114/img2.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/29114/fave.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACOElEQVQoz22SeU/UUBTF+eBGjUQMDAygLBFQhtm3drq8LtNtOp2WZQZM/A9QEIZVvwNzPK2YKKHJyetb7u+ed9+dmkwekH5X599wOHDw9SDEMOxi6AqMfDPTflfHHucJtetbGMZBplHkMcbDXs/Gz9urjDM1efgDvDw7wZfEhy/aqC7lUJt9C2ljBZ2NVSjrHyAtzEF8XEW3WUHYaeKASQ8TQglMmPQZ4CmOYg+Ro0J6n4ecz0GrFKARoBDUXpyHksJ3tiBtb0BwT91cQyTXM9f3zwFHkYvY1VF48xK13DuotR2Y7SpaywuQCWzTqdGqwhMyPLUNk9BYSIg9E/c3T4AX309wRPuO0kB9aR5GYROWVIPZLEPbXM+kM4H7CIsMBYHawq6tIWJt727GTxwSOGJdEl9AqRdhEuYwwGxVYFcJ6jTgaBJcnUDRgckzemELgdzEwNEJvHwKPMZBz+KmBqn4CV3WxlGb6KYuS5/RSR0SIuol2I0KBNcMAkNVQr+rPgM8O8Z+z8yuXF1fRpOqreRRXV1C8dULlKZfozw3A5kP4zFZQJeexqvbAqGlsYZ/gY99OP5xmgFttYHt3AxKs9OQt9ZgMdholDPptdRhERZf3m7TOddC1jK0VALH/wNvx+dsUIsF1hGYMgauhoQNG4cOBlSfrdH3DPQcgYCN3uNj9Dj2HQOhrfzTh5NJ9nN3fYEkMBH7BiJP8LAKnwd9Bvp04JkKPKMDl0pHn/OA6yk0dfjr7jrj/AYL28wexx92GwAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="fave"
+        title="fave"
+        src="/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/fcda8/fave.png"
+        srcset="/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/12f09/fave.png 148w,
+/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/e4a3f/fave.png 295w,
+/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/fcda8/fave.png 590w,
+/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/efc66/fave.png 885w,
+/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/c83ae/fave.png 1180w,
+/projects/static/5ad82aee63684cbeffa79da8ae7e8e35/29114/fave.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<h1>Playtests</h1>
+<p><div class="gatsby-resp-iframe-wrapper" style="padding-bottom: 50%; position: relative; height: 0; overflow: hidden; " > <div class="embedVideo-container"> <iframe title="" src="https://www.youtube-nocookie.com/embed/g6rXuGAoDhk?rel=0" class="embedVideo-iframe" style="border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; " loading="eager" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe> </div> </div></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/a81f37d8051ae02b199cbfbac632917a/29114/shira.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB3klEQVQoz43SW2/ScBjH8b0kL8xuTHwrXnlhokYTjado5tQYWWJmNhPHBBWBJYO5AatQKEIptDBOG57mpnMXG2eYp0vguz+dMTPLAr152rT99Pc8T0c4dHQ6HbMG/EucPjXK5YtnuXDuDDbrFHHlLatZjc0PWb6vF9n6nOfPr7b5fK/X+2eMHAZ73a5ZW/UK98duMnryBNevnMdhe4YelynlNNbX0my+z7BRMvj9ozkA7B2A9eouyZjMrWuXcDtmkZcXSQkwb8T4WEgJ1OBTIcnPvcYg8OBGu1UnJJAHd28Tj0h43C+RluYJS2/IaBHWROtFI8peszYc2KhVyKU1VvQ4SsjPoseF5PMQFecpNUwho5LVFdrN6nBgvVo2wdW8QTCwgMM+w5zTbiaNhSXxoZiZtNUYEqyJGa4YCXKZJAkxy0goQExsub/pVDyMkVDQRdKmWN5QS6mWdzCSIkVKFS0qAgoSlZdRoyGz5T6qRYPmaIZLWCmT0ROkdVUkjKDIEuFgwKzquxCaAPtwY1DC7t//cOvrBj7vHHLAi8/jxOt+wbzThsdlF9ev8S84cb2aYXdn+7/3jgVLxRyPxm/gmJ3EOm1h+vFDJi1jPJkYxzpl4fnTCe7ducr2ty9HwH22Egqdh3AVeAAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="shira"
+        title="shira"
+        src="/projects/static/a81f37d8051ae02b199cbfbac632917a/fcda8/shira.png"
+        srcset="/projects/static/a81f37d8051ae02b199cbfbac632917a/12f09/shira.png 148w,
+/projects/static/a81f37d8051ae02b199cbfbac632917a/e4a3f/shira.png 295w,
+/projects/static/a81f37d8051ae02b199cbfbac632917a/fcda8/shira.png 590w,
+/projects/static/a81f37d8051ae02b199cbfbac632917a/efc66/shira.png 885w,
+/projects/static/a81f37d8051ae02b199cbfbac632917a/c83ae/shira.png 1180w,
+/projects/static/a81f37d8051ae02b199cbfbac632917a/29114/shira.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<p><div class="gatsby-resp-iframe-wrapper" style="padding-bottom: 50%; position: relative; height: 0; overflow: hidden; " > <div class="embedVideo-container"> <iframe title="" src="https://www.youtube-nocookie.com/embed/4NGbqBkhlF4?rel=0" class="embedVideo-iframe" style="border:0; position: absolute; top: 0; left: 0; width: 100%; height: 100%; " loading="eager" allowfullscreen="" sandbox="allow-same-origin allow-scripts allow-popups"></iframe> </div> </div></p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/projects/static/3c9a3f633b72a99c282a3ce39deeed66/29114/nick.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABcElEQVQoz5XQWU/CQBQFYH68UWzYKlspZSkUwYIgKqJASihrUUBFZFFCVKL+BrbjMPLAgzF0kpv7MvPlzDFg66xWK7oXizm6HQ2dZgWtRhl39RKa1SIZhe66msf358fmzXKbgOFPcD7HQ6uBtqYSUKWIVlHQKBforihZfE3fdgfnG7BWKqCYy9DJXaWRJ3NzmUIhm8b0fULvLpc7gve3dWTPk4iIPsSjYUiigFDACz/vRiIawmQ80ge2tSoukjJ41xFYCwPGuAeryQib6RCRoIDxy1APOCPdVZCUj8E5bHDYzLAwBzAz+/A4WYQEDq/Dgb6EzVoJckSEw2oCa2bgZC3g7CzcdiuCvAujQV9fwpqqkK4kkpCF3+NCgHQX9nshkR4DBBz2e/oSqkoemfQpUnIUsXCQYms06OXgJb32e10d4GyGYv4a6YSME0lEyMfTlALnpHvd4/PT4+7gjICFbAZn8RgFRcFDIR/3+3X+H/AHiVAPOxLRnxsAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="nick"
+        title="nick"
+        src="/projects/static/3c9a3f633b72a99c282a3ce39deeed66/fcda8/nick.png"
+        srcset="/projects/static/3c9a3f633b72a99c282a3ce39deeed66/12f09/nick.png 148w,
+/projects/static/3c9a3f633b72a99c282a3ce39deeed66/e4a3f/nick.png 295w,
+/projects/static/3c9a3f633b72a99c282a3ce39deeed66/fcda8/nick.png 590w,
+/projects/static/3c9a3f633b72a99c282a3ce39deeed66/efc66/nick.png 885w,
+/projects/static/3c9a3f633b72a99c282a3ce39deeed66/c83ae/nick.png 1180w,
+/projects/static/3c9a3f633b72a99c282a3ce39deeed66/29114/nick.png 1920w"
+        sizes="(max-width: 590px) 100vw, 590px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<hr>
+<h2>resources</h2>
+<p><a href="https://github.com/samheckle/mol/blob/master/final/Final%20Project.ipynb">code</a>
+<a href="https://github.com/jsvine/markovify">markovify</a></p></section><hr style="margin-bottom:1px"/><div style="display:flex;margin-bottom:2.5px"><p>a blog by <strong>sam heckle</strong> <!-- -->class of itp 2022. doing shit.<!-- --> <a href="https://twitter.com/samheckle">twitter.</a></p></div></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/projects/rotated-concrete-poetry/">← <!-- -->pinwheel</a></li><li><a rel="next" href="/projects/emotional-scale/">emotional burden scale<!-- --> →</a></li></ul></nav></main></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/speculative-ritual-1/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-57fa76c8ad53bd44c5a1.js"],"app":["/app-b5697e909f7020158818.js"],"component---src-pages-404-js":["/component---src-pages-404-js-c6dd88492b94f90cf31b.js"],"component---src-pages-index-js":["/component---src-pages-index-js-d373c2340483c785fd46.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-f63130200fa67a8a732c.js"]};/*]]>*/</script><script src="/projects/polyfill-57fa76c8ad53bd44c5a1.js" nomodule=""></script><script src="/projects/component---src-templates-blog-post-js-f63130200fa67a8a732c.js" async=""></script><script src="/projects/commons-1af83d72e74598d1da2c.js" async=""></script><script src="/projects/styles-e9d24b1846c7d6eb9685.js" async=""></script><script src="/projects/app-b5697e909f7020158818.js" async=""></script><script src="/projects/framework-dbb498007a7447f28d8e.js" async=""></script><script src="/projects/webpack-runtime-87bc5a8785087828a3ce.js" async=""></script></body></html>
