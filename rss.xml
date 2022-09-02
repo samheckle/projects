@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[sam heckle's project blog.]]></description><link>http://samheckle.com/projects</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 31 Aug 2022 20:38:35 GMT</lastBuildDate><item><title><![CDATA[dont look for the love of god]]></title><description><![CDATA[this page is a work in progress! but you can check out the itp thesis archive here: https://itp.nyu.edu/thesis2022/?sam-heckle you can also…]]></description><link>http://samheckle.com/projects/itp-thesis-2022/</link><guid isPermaLink="false">http://samheckle.com/projects/itp-thesis-2022/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;this page is a work in progress!&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[sam heckle's project blog.]]></description><link>http://samheckle.com/projects</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 02 Sep 2022 14:15:01 GMT</lastBuildDate><item><title><![CDATA[dont look for the love of god]]></title><description><![CDATA[this page is a work in progress! but you can check out the itp thesis archive here: https://itp.nyu.edu/thesis2022/?sam-heckle you can also…]]></description><link>http://samheckle.com/projects/itp-thesis-2022/</link><guid isPermaLink="false">http://samheckle.com/projects/itp-thesis-2022/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/projects/static/a86762342a2f5664feff157d375080b7/b2822/cover.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAAAsTAAALEwEAmpwYAAADO0lEQVQ4y0WS204bVxSG/SKt+ihRVeWiUqpEpVFbhUINhjTgtCE0ocUhbSGkKnJICFhggomNwSdsc/ABH8ZmPJ7xaXwYjAn0oq/ydXtE1Ytf2luz5/vXWv+yJJPHJI8CFPNHKKdpVCWLImcp5BIE/B6CwV1UVUVTFTRNQ6s3URsGWqODpFQIHqfJlWpkCmUSmSKWk0yeUMBH6jhkgkqnOfKZBO83V9nbfI165EVPbgt50FM+9JM9WmqOSq3DlH2M27c+xbvjR9aapPMlLEXhkslKRMK7ZFJxpFyK3fdu4t41tPgmctiFFFgls/uW1M5bDrdfs7/xF0p6n7mnDoaHbzEy8TlHqQKSqNRS0upoVR1Vq5qww2iAfCKOcuBlaHiYbwaH+PreELYJKz88+p67g99y84s7BN1OcgcRRm2j/O6YJZsvUyw3sJQrOi3jguN0njcrawJco1uVkSJbDNyzMjA4wlffjfJgeoLpuYdMOexY7SOsOxdoZ8PIpxX0ziXlapuiIoB6p8deKM6NG5/hfOWk2TFoSIfkRJvWycdYH/7M0IMpfpx9wszCU35dfMKA1caiY4pKeJmcVEJWGyawP0eL0fub58+e88lHH6O363R6HXL7PgohF2P3x7GN2xgfH2Ni8j72SRs/iSDGRqysLUxTjrkJRxP4/fskM6cCLIBV3SB5InHn9pcsrywjV0qExapoBx5qsVVk3wL16ArtEy9GWqR88I4PhSCdxAZu5zwbm37SIpBMXjHhFrXWonN+hSRXmHXMEY5EzZCOAtvkvS85S7i4KuzwTy3JlRKnK4UphtYIrs7zammJmZlnRMTIfL6gyEESwHqbfpVNoyfm18PoXXHWu6QqFjjkcbE1b2dv6TEx12+Eln/B8+IR64szHERj6K1zNtxbvFhcIlsQy183RMrVpgmst7q0zi5odz9c64JG+5xcNktoe513zj/wvPmTWMDPqdz/uUOteSYSvkCptsS5i1IRM1TE2lQabQHsf+yZ0NY1tF+1bvTvl6Ya7R51oYYwb7S75vuaONdEpX2DglLHIqtiset9B0OkLB71Wzf+r9Q0EPpvJPq1zLvRNzinIjqUNZ1MUeNfK7kS2zhBygoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;cover&quot;
+        title=&quot;cover&quot;
+        src=&quot;/projects/static/a86762342a2f5664feff157d375080b7/fcda8/cover.png&quot;
+        srcset=&quot;/projects/static/a86762342a2f5664feff157d375080b7/12f09/cover.png 148w,
+/projects/static/a86762342a2f5664feff157d375080b7/e4a3f/cover.png 295w,
+/projects/static/a86762342a2f5664feff157d375080b7/fcda8/cover.png 590w,
+/projects/static/a86762342a2f5664feff157d375080b7/efc66/cover.png 885w,
+/projects/static/a86762342a2f5664feff157d375080b7/c83ae/cover.png 1180w,
+/projects/static/a86762342a2f5664feff157d375080b7/b2822/cover.png 6720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/projects/static/caed38ef3990cc33844daa84994faee5/b2822/text.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACyklEQVQozy2SyW7TUBSG/SaIN6nYIqh4A4S6YlggBCK0hRaVkkCHKLQ0U1PXSRw3jZPGSRw7jl0P1762r309JSlUIBaw4ikwCOlfnM2n8/06h+BH/fGAVuULQ+NNQwK6qEh9ul5mWpRlmdACENrQxSaKIMJTzWD6A0kzJ7I6EiaEMBHPGVIYMYYm6tp0OumT5XyzvAcGpDcm0ajmDEl33MRAsRz89OGDe3eWqDqlmY4gyYRqAHEism1KElhFGtLkUZf8ZHWrRrsk00XlrKp1T4VWpUftAbG39jxz//7tlce3h2NJ0QABLMeyHQCAMuG4blMasJBnNl4ebq2fkAWv+Nmsn6HXpdqj3A7XKvIdemXlwdv1V5KsqbpFmNANopgb8gefDixoR1DRL+ijmnzCwRH4xlwsmN7idOD2hO89qu6OaU01EZ4D6P+FcZQ0aGZp6VY+v+sHGMk9qVlmmOtj3iM5R4W/BO3nSL0eKr8be5Teyk1lXQO2aSPddIhkfrWWydy8ccMP7CBGMnuqdY4/bB1vZ492d8qFfHnzTXbj9ebHXJ7KZw222O4MGo2zkSjrwCFcD4/48fLd5cLBvmoq50wDcjWrk7882TTbO+6w4g2rNnsYiaTPHVb235WrlMBLoqSes30COl6UzKeKurq2yrId03I5unbZ+DjjS9eXzR8ufw0uZkpH7xTbn7d3c7nMq1X2jK1TzSE/IaDrucj3g9AP4mh2Fc2/QhsxlUJt60l7/wVX2uoU1snss9L7TL/b83BSLJa2szlJ0U3bI9LqqbnnYxzNguTqXxYIxxNh3KoeVnY2avntbquuaqlT6PgxCueG7TteqANIAOg4yEthP5zhOCW/pMHRwo8WOB2Sq/QwKJi7QYKCmRfOHZw4eJ5+26VhEboJoYNS8b/m4cxP98eLMF6kIjhM0i5eEPtB4of/k0pBFBiWm8J/ALOoJLa9TXGAAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;text&quot;
+        title=&quot;text&quot;
+        src=&quot;/projects/static/caed38ef3990cc33844daa84994faee5/fcda8/text.png&quot;
+        srcset=&quot;/projects/static/caed38ef3990cc33844daa84994faee5/12f09/text.png 148w,
+/projects/static/caed38ef3990cc33844daa84994faee5/e4a3f/text.png 295w,
+/projects/static/caed38ef3990cc33844daa84994faee5/fcda8/text.png 590w,
+/projects/static/caed38ef3990cc33844daa84994faee5/efc66/text.png 885w,
+/projects/static/caed38ef3990cc33844daa84994faee5/c83ae/text.png 1180w,
+/projects/static/caed38ef3990cc33844daa84994faee5/b2822/text.png 6720w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/d9ed5/only-text.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.83783783783784%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAADlElEQVQ4y22RW0wbBBSG+2qyxAd9mSQs2wR1iclicJlmAUey4LLpxHCdDLUIc1yFjWtHKZdSoZS2UKBQylhKuIxxaynQFYGig0BZAWHQIW6LboDjNlCGMtxn5XknOQ9/cvLn+/8jGKxOoVsvwXJDymCnitu6NHpqJHTos1C3lNFnbmXebsfYbmTo9gCO3iE07ToGZ61s/bnE2tIcK0vzrK49ZMbZi6AhNQOFXwzj1d/wS085bekZlPpnUH7lJNH3Few8g82nz3iytMH60y1waYWzGd3UTRZ/fczwqJ2h4REe/b7AhP0GgqwvRNiawihR5iLP/J70UAm2WiEyXQIV0zbY2WV1fYW/tjZZW18FXtDU20WyqgC319/C47AXXkd98fnwLJ+fOY9AGx+EXRWFTJqISiNGEReCvVCIVidj9t46Lxuz2YFUfp0P3vMj7XIOCpkajUJLR2M7gp+aUhkwyelolmBtlTLUkMZgcx6VjVImHi/uGTx//i+7u//viz3CftsyKnUXngfe5+vQGGrLdNRVXkctLUbQmpFG4UeRTOljeNBXRdvVdLTf5VCcLWbw5wcvJZyc2kZZ1MXRIx5ERgmJFUkJF8YTFhSBIO8rF5nhEvrybMrEMqSXJJSqG4jNzueHjgUeOf7m3ugW044NftvaYXpsmca2WaoNfbifOsuJkCv4hcQREZlETFQiAoUwlDvKIESpseTmpyGXyLgQGI13sD/Kb+1EeRspMY5RUNVPr3mB/HorQaU5VBlMHDr0MSd9wjjtG0DwuQgCz32JYKAxEZtVg6mnCJtJSqdezfmAGLxDz1BiSabcEEzmtVJ8k04jryxGN1FDvl1ChfYabq+9g+ebxznieRzPw8c4uP+Yq8PLMfRcb9zrZmd7m+2NTRYWF9jYcEV9aKS6+wR5Bg3JFQXk3FRS3t1Cik6NubuH4iI5uYGfEOYbjtDDh6J0fwTSC6mM9ZlZWVvD6XRyd+YuDoeDleUnOMadiDLVFCgqKFLpEUaLSE4txGi1uW7nXN//h5ZsBTXiQizaSDrrlQjEn/pxv7+WP1Y2GR+fwDk3x/z8/B7x2MgkCRezkGWVER+Zxbtep0gOD2dEmkJzgZi61jqS4hKpi/oMsyqAvDyXYa8hkZnJW8zMTTF150eGrRZM5m7soyOIruaw79WD7Hd7m1f2vcEBd3faNRcZtigwtedjqBdj0ScwZJRzq7OEti4l/wG1T+c1pncFywAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;only text&quot;
+        title=&quot;only text&quot;
+        src=&quot;/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/fcda8/only-text.png&quot;
+        srcset=&quot;/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/12f09/only-text.png 148w,
+/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/e4a3f/only-text.png 295w,
+/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/fcda8/only-text.png 590w,
+/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/efc66/only-text.png 885w,
+/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/c83ae/only-text.png 1180w,
+/projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/d9ed5/only-text.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;this page is a work in progress!&lt;/h1&gt;
 &lt;p&gt;but you can check out the itp thesis archive here:&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://itp.nyu.edu/thesis2022/?sam-heckle&quot;&gt;https://itp.nyu.edu/thesis2022/?sam-heckle&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;you can also check out the final thesis presentation below!&lt;/p&gt;
@@ -303,121 +399,7 @@ but i also installed &lt;a href=&quot;https://flask-cors.readthedocs.io/en/lates
 &lt;!-- ## final --&gt;
 &lt;hr&gt;
 &lt;h1&gt;resources&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-5/assignment-5.ipynb&quot;&gt;code&lt;/a&gt; &lt;a href=&quot;https://github.com/aparrish/predictive-text-and-text-generation/blob/master/predictive-text-and-text-generation.ipynb&quot;&gt;in-class tutorial&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[a linear story]]></title><description><![CDATA[look here for the story inspiration something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts…]]></description><link>http://samheckle.com/projects/linear-story/</link><guid isPermaLink="false">http://samheckle.com/projects/linear-story/</guid><pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;inspiration&lt;/h2&gt;
-&lt;p&gt;something i’ve been interested in is rumination and memory. i’ve been trying to expel my own thoughts onto paper. so, i wanted to use inform 7 to actually go physically backwards in a memory, and try and trace the map of how this would be represented with text.&lt;/p&gt;
-&lt;p&gt;i’ve also been reading a lot about memory (cc &lt;em&gt;dirk gently’s holistic detective agency&lt;/em&gt; by douglas adams and &lt;em&gt;mcglue&lt;/em&gt; by ottessa moshfegh) which i would also recommend for no other reason than pleasure.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/projects/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABf0lEQVQoz61S7W7jIBD0+z/iVckl/sIGDBgbp2kST2fXOl3Vu5+1NPIAy+zsLtXr9cJ37Pt+8F34AeH/i/2Oal1XTCFgWRZ475FzVjjnUErBWlYs6wKJ227bP1i3v7yQV4/HB2KMSClRNJMHzHPCMAxM4GCdhTG9rgMT+zARAY7JBTOTB94XU8Krx/OhgX8EPJ05a9F3HcZxQNe2aJoap9MJddPg19ub/s1g0EoMYw3v1nWtlVVPCkYKjupggmWAuPTeksuep7BhC6y6G+yIxApSnukowU1e19qa5YugOBPBlKI6lYwtnfV9h+v1gsvlgp6ln3+fca2vLNfxrKdbxnUtPIXzIfg8SjZGnXVyyGBDoUYFW4qddV/K7LgWYeEDnY903LItA9eZrqsPDmXbCm6ckliWgZTCqRbyLMOa2HTPpjvC6j9EqcbpviAmqSyoIZ2yiN7v73i/31S4bCufSWaCo0/zHFQ4foEIpDno2TxHukuHwx27PuSfQoUf/j4BkTxLCi25QJUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;quotes&quot;
-        title=&quot;quotes&quot;
-        src=&quot;/projects/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png&quot;
-        srcset=&quot;/projects/static/c70fd35d9cce394d83f18043ff542093/12f09/quotes.png 148w,
-/projects/static/c70fd35d9cce394d83f18043ff542093/e4a3f/quotes.png 295w,
-/projects/static/c70fd35d9cce394d83f18043ff542093/fcda8/quotes.png 590w,
-/projects/static/c70fd35d9cce394d83f18043ff542093/efc66/quotes.png 885w,
-/projects/static/c70fd35d9cce394d83f18043ff542093/c83ae/quotes.png 1180w,
-/projects/static/c70fd35d9cce394d83f18043ff542093/29114/quotes.png 1920w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;process&lt;/h2&gt;
-&lt;p&gt;i started with the shape of the map i wanted first. something i’ve noticed when writing these interactive fictions is thinking about the whole story and the shape rather than the individual details. &lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/projects/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB7ElEQVQoz62S2W7bQAxF9f9/lCJFGzfIQwq0bmzJ2pcZbaPNsjY7T7d3BnGAvtcAQXkkHR6Sst7fb7jdrrheN2zbgmWZMM0j5vmCqiqRZQlUU6EoBJIkMtG0FRqe6dx2NbpefYZ1B27XFeu6YNbAacQ4DshzgTSNIWSKWpUGFoQezzMWy02WvCf1/7og3ADvdivtZmN3uZzR9y0ykRhDIbQlgWkE17UJdZEXmYFHccCikSmqra17u8ZunggbcT4PGM4dH+JLgY+ilGjY2omw/f7XJ7CsBEPSTkeOmpYE3mi3sdUZl+mCkXYDgR0NZS6REZoJtlVIeP4Jf95+G6DMaS71OBJep5wx22Zha6Pdsq5sdSJsNLB+6DmP1kTTKtiOjdefr7DtN9pmtEtZJDIhRGxCEqyhH8DlH2BHYN0oGnlwTg5bPZnQZmHk8dxGmn3AmKWxTLikBJaeWdM0HLpiNGxBcKMVgTXykptkq3rbcRwSfsThsIfjHAh14Hk2fOYTz32OQy/PUkohDELe9BGGoTFyXZefSEwrhy/btArMth3niN3uO56evuHl5dlcP//Y4evjI748PHAkR7bMhYzjyM+kp6mivjAftJ6fUjW3V6KkaVkVzAWiKKSNx+IBrSPELKyz7/vsJIeF//z7CwGuLVYmq3o3AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;map&quot;
-        title=&quot;map&quot;
-        src=&quot;/projects/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png&quot;
-        srcset=&quot;/projects/static/f873a0c1e4836a4264728dcd721721d6/12f09/map.png 148w,
-/projects/static/f873a0c1e4836a4264728dcd721721d6/e4a3f/map.png 295w,
-/projects/static/f873a0c1e4836a4264728dcd721721d6/fcda8/map.png 590w,
-/projects/static/f873a0c1e4836a4264728dcd721721d6/efc66/map.png 885w,
-/projects/static/f873a0c1e4836a4264728dcd721721d6/c83ae/map.png 1180w,
-/projects/static/f873a0c1e4836a4264728dcd721721d6/29114/map.png 1920w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;i wanted to have something that was cyclical — the start and the end being the same. &lt;/p&gt;
-&lt;p&gt;each “room” manifested themselves as a part of the thought process. ideas manifest themselves as containers that you can go into. they change each time you enter the idea as well, as demonstrated below.&lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/projects/static/f216aaa984b789efb1524705db3e5706/29114/after.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVQoz42SCU+DQBCF/f//TY1nT0EKFYEtx7LsQaHPma1oq41xkpfZCeHjsW+uDocDuMq6xGa7gRACRZHDuh7KDGjNHsoepd1AfUBHZ+P2vre6x34YPYNZVxNQ1A1mYYKXOEe0zbB8fcf8NcdzmPk+o76IaA7eEecSWaXxtlMQjcEwXgA2BIyiCGmaksMCO3aaZ1CthLMW1miSgdEduWP3PTk8d8f1BZRSIkkSBEHgoa7vMX4++6v4/Ylx5nAk26yu69A0NZ7mS6zC2P9+1Rr/ayX1pnPoyN0lsHd4OnAxsK4qrIIIC7rHdSwQF62/rzehfE9o3n6eWRzQL4eTddY4DtgkKe7mEZJUoFYWUjtyalFKi500vvPMcvvhHHgqrTXKcofZco3n9QbhVlCiHXJKlYPwYZjvUC6uzaksJdpSQIvVCx4XIa1R5oFFrT1I8z76nTzuIp//BDrnIJsG17f3uHmYI4hTH8R/0j5bm9P4pzWq6hpKqeO9/vjwT02MD/DoU8TitB0GAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;after&quot;
-        title=&quot;after&quot;
-        src=&quot;/projects/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png&quot;
-        srcset=&quot;/projects/static/f216aaa984b789efb1524705db3e5706/12f09/after.png 148w,
-/projects/static/f216aaa984b789efb1524705db3e5706/e4a3f/after.png 295w,
-/projects/static/f216aaa984b789efb1524705db3e5706/fcda8/after.png 590w,
-/projects/static/f216aaa984b789efb1524705db3e5706/efc66/after.png 885w,
-/projects/static/f216aaa984b789efb1524705db3e5706/c83ae/after.png 1180w,
-/projects/static/f216aaa984b789efb1524705db3e5706/29114/after.png 1920w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;final&lt;/h2&gt;
-&lt;p&gt;i ended up breaking my story into separate sections, each with their respective room. i didn’t play around too much with items but i might continue to do that later.&lt;/p&gt;
-&lt;p&gt;list of rooms: Death, Revelation, Spiraling, Thoughts, Decision, Naming, Birth&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://samheckle.com/hosted/linear/&quot;&gt;look here for the story again&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;h1&gt;resources&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;http://inform7.com/book/RB_3_2.html&quot;&gt;inform map docs&lt;/a&gt;
-&lt;a href=&quot;http://inform7.com/book/WI_17_1.html&quot;&gt;inform understand docs&lt;/a&gt;
-&lt;a href=&quot;https://intfiction.org/t/multiple-rooms-inside-another/10642&quot;&gt;multiple rooms inside another&lt;/a&gt;
-&lt;a href=&quot;https://www.reddit.com/r/Inform7/comments/lzlj7f/how_to_iterate_through_list_of_values/&quot;&gt;iterating through list&lt;/a&gt;
-&lt;a href=&quot;http://inform7.com/book/RB_11_6.html&quot;&gt;inform end docs&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[blackout poetry]]></title><description><![CDATA[code on blackout poetry some initial outputs my favorite being: “Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl…]]></description><link>http://samheckle.com/projects/generated-twilight/</link><guid isPermaLink="false">http://samheckle.com/projects/generated-twilight/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-4/assignment-4.ipynb&quot;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-5/assignment-5.ipynb&quot;&gt;code&lt;/a&gt; &lt;a href=&quot;https://github.com/aparrish/predictive-text-and-text-generation/blob/master/predictive-text-and-text-generation.ipynb&quot;&gt;in-class tutorial&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[blackout poetry]]></title><description><![CDATA[code on blackout poetry some initial outputs my favorite being: “Whoa ,,,,,,,,,,,,,,,,,,,,,,,,,,, Ow ,,,,,,,,,,,,,,,,,,,,,,,,,,, vampiresl…]]></description><link>http://samheckle.com/projects/generated-twilight/</link><guid isPermaLink="false">http://samheckle.com/projects/generated-twilight/</guid><pubDate>Sun, 27 Mar 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://github.com/samheckle/rwet/blob/master/assignment-4/assignment-4.ipynb&quot;&gt;code&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;on blackout poetry&lt;/h2&gt;
 &lt;p&gt;some initial outputs&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;subtiy ,,,,,,,,,,, oh ,,,,,,,,,,, Immortality ,,,,,,,,,,,
