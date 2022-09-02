@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[sam heckle's project blog.]]></description><link>http://samheckle.com/projects</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 02 Sep 2022 14:15:01 GMT</lastBuildDate><item><title><![CDATA[dont look for the love of god]]></title><description><![CDATA[this page is a work in progress! but you can check out the itp thesis archive here: https://itp.nyu.edu/thesis2022/?sam-heckle you can also…]]></description><link>http://samheckle.com/projects/itp-thesis-2022/</link><guid isPermaLink="false">http://samheckle.com/projects/itp-thesis-2022/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[fridge notes]]></title><description><![CDATA[sam heckle's project blog.]]></description><link>http://samheckle.com/projects</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 02 Sep 2022 14:21:57 GMT</lastBuildDate><item><title><![CDATA[dont look for the love of god]]></title><description><![CDATA[this page is a work in progress! but you can check out the itp thesis archive here: https://itp.nyu.edu/thesis2022/?sam-heckle you can also…]]></description><link>http://samheckle.com/projects/itp-thesis-2022/</link><guid isPermaLink="false">http://samheckle.com/projects/itp-thesis-2022/</guid><pubDate>Wed, 11 May 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
@@ -88,6 +88,70 @@
 /projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/efc66/only-text.png 885w,
 /projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/c83ae/only-text.png 1180w,
 /projects/static/afe9d8cfc4fc56e50dfeabae1f2588ea/d9ed5/only-text.png 2880w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/0f98f/alter.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIFBP/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAAB3rLYO8Siz//EABwQAQACAQUAAAAAAAAAAAAAAAECEwADBBEhIv/aAAgBAQABBQJ1vdjwPVsoJuJrYmf/xAAWEQEBAQAAAAAAAAAAAAAAAAAAERL/2gAIAQMBAT8BjL//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAgEBPwFT/8QAGhAAAwADAQAAAAAAAAAAAAAAAAIRASEyYf/aAAgBAQAGPwJlXFOYvpg1CaIf/8QAGxAAAgMAAwAAAAAAAAAAAAAAAAERITFBYYH/2gAIAQEAAT8hRcHKFPfYdRPkOY22UTZR06EnDD//2gAMAwEAAgADAAAAEGj/AP/EABcRAQEBAQAAAAAAAAAAAAAAAAEAESH/2gAIAQMBAT8Q4clX/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxC5RIf/xAAcEAEBAQACAwEAAAAAAAAAAAABEQAhMUFRcZH/2gAIAQEAAT8QcC62UQlpxgjrnPR88OchEjSqElUWdc6q/ZFn7gSkdXf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;alter&quot;
+        title=&quot;alter&quot;
+        src=&quot;/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/1c72d/alter.jpg&quot;
+        srcset=&quot;/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/a80bd/alter.jpg 148w,
+/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/1c91a/alter.jpg 295w,
+/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/1c72d/alter.jpg 590w,
+/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/a8a14/alter.jpg 885w,
+/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/fbd2c/alter.jpg 1180w,
+/projects/static/b921fa8f683a85e85ad37a9e4f40c8a2/0f98f/alter.jpg 1920w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/projects/static/efab329ffa8adab7bb501dfa34c313f7/d2602/darn.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAIBAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAgAB/9oADAMBAAIQAxAAAAGmFfHyzWR//8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAAxEhMf/aAAgBAQABBQKg4bizM26nh7CZ/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGhAAAQUBAAAAAAAAAAAAAAAAMQABAhARIf/aAAgBAQAGPwLXcLYhCu1//8QAGhABAQEAAwEAAAAAAAAAAAAAAREAITFxUf/aAAgBAQABPyGGt+DrK7niYVqznDejIMHf/9oADAMBAAIAAwAAABDI7//EABcRAQADAAAAAAAAAAAAAAAAAAABETH/2gAIAQMBAT8Q2FP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/ED//xAAbEAEBAQACAwAAAAAAAAAAAAABEQAhMXGBof/aAAgBAQABPxCbOEAvL7gYlR7H06oA+HNJweWY32jqupgBv//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;darn&quot;
+        title=&quot;darn&quot;
+        src=&quot;/projects/static/efab329ffa8adab7bb501dfa34c313f7/1c72d/darn.jpg&quot;
+        srcset=&quot;/projects/static/efab329ffa8adab7bb501dfa34c313f7/a80bd/darn.jpg 148w,
+/projects/static/efab329ffa8adab7bb501dfa34c313f7/1c91a/darn.jpg 295w,
+/projects/static/efab329ffa8adab7bb501dfa34c313f7/1c72d/darn.jpg 590w,
+/projects/static/efab329ffa8adab7bb501dfa34c313f7/a8a14/darn.jpg 885w,
+/projects/static/efab329ffa8adab7bb501dfa34c313f7/fbd2c/darn.jpg 1180w,
+/projects/static/efab329ffa8adab7bb501dfa34c313f7/d2602/darn.jpg 4032w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
